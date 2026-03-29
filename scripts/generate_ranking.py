@@ -38,7 +38,10 @@ def fetch_ranking(keyword="", hits=20, service="digital", floor="videoa"):
         # アフィリエイトURLはAPIレスポンスのものを優先（アニメ・同人対応）
         affiliate_url = item.get("affiliateURL", "")
         if not affiliate_url and content_id:
-            affiliate_url = f"https://www.dmm.co.jp/digital/videoa/-/detail/=/cid={content_id}/?af_id={Config.AFFILIATE_ID}"
+            if service == "mono" and floor == "goods":
+                affiliate_url = f"https://www.dmm.co.jp/mono/goods/-/detail/=/cid={content_id}/?af_id={Config.AFFILIATE_ID}"
+            else:
+                affiliate_url = f"https://www.dmm.co.jp/digital/videoa/-/detail/=/cid={content_id}/?af_id={Config.AFFILIATE_ID}"
 
         prices = item.get("prices", {})
         price = prices.get("price", "") if isinstance(prices.get("price"), str) else ""
@@ -229,6 +232,14 @@ def generate_all_rankings():
         ("ASMR", "ASMR", "doujin", "digital_doujin"),
     ]
     for name, keyword, svc, flr in anime_rankings:
+        generate_ranking_page("daily", name, keyword, service=svc, floor=flr)
+
+    # グッズ系ランキング
+    goods_rankings = [
+        ("オナホ", "オナホ", "mono", "goods"),
+        ("グッズ総合", "", "mono", "goods"),
+    ]
+    for name, keyword, svc, flr in goods_rankings:
         generate_ranking_page("daily", name, keyword, service=svc, floor=flr)
 
 

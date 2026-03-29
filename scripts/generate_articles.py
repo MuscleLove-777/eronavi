@@ -586,6 +586,15 @@ def _build_related_section(current_genre: str = "") -> str:
         "異世界": "/eronavi/categories/isekai/",
         "学園アニメ": "/eronavi/categories/schoolanime/",
         "BL": "/eronavi/categories/bl/",
+        # アダルトグッズ系（8ジャンル）
+        "オナホ": "/eronavi/categories/onahole/",
+        "バイブ": "/eronavi/categories/vibrator/",
+        "TENGA": "/eronavi/categories/tenga/",
+        "ローション": "/eronavi/categories/lotion/",
+        "コスプレ衣装": "/eronavi/categories/cosplaygoods/",
+        "SMグッズ": "/eronavi/categories/smgoods/",
+        "カップル": "/eronavi/categories/couple/",
+        "新商品": "/eronavi/categories/newgoods/",
     }
     # 現在のジャンルを除外してランダム5つ選ぶ
     other = [(k, v) for k, v in genres.items() if k != current_genre]
@@ -619,6 +628,7 @@ def _build_sister_sites():
         "おっぱいパラダイス": "https://musclelove-777.github.io/oppai-paradise/",
         "二次元嫁実写化計画": "https://musclelove-777.github.io/nijigen-realize/",
         "フェチの殿堂": "https://musclelove-777.github.io/fetish-dendo/",
+        "大人のおもちゃ研究所": "https://musclelove-777.github.io/goods-lab/",
     }
     others = [(k, v) for k, v in sites.items() if v != CURRENT_SITE_URL]
     picks = random.sample(others, min(3, len(others)))

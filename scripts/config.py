@@ -1,7 +1,7 @@
 """
 設定管理モジュール
 環境変数または.envファイルから設定を読み込む
-マルチジャンル対応のポータルサイト「エロナビ」用（実写AV + アニメ・同人 37ジャンル統合版）
+マルチジャンル対応のポータルサイト「エロナビ」用（実写AV + アニメ・同人 + グッズ 45ジャンル統合版）
 """
 
 import os
@@ -57,6 +57,15 @@ GENRES = {
     "isekai": {"keywords": ["異世界", "ファンタジー", "転生"], "category": "Isekai", "label": "異世界", "service": "doujin", "floor": "digital_doujin"},
     "school_anime": {"keywords": ["学園", "制服", "学園モノ"], "category": "SchoolAnime", "label": "学園アニメ", "service": "digital", "floor": "anime"},
     "bl": {"keywords": ["BL", "ボーイズラブ", "男の娘"], "category": "BL", "label": "BL", "service": "doujin", "floor": "digital_doujin_bl"},
+    # === アダルトグッズ系（8ジャンル）===
+    "onahole": {"keywords": ["オナホ", "オナホール", "名器"], "category": "Onahole", "label": "オナホ", "service": "mono", "floor": "goods"},
+    "vibrator": {"keywords": ["バイブ", "バイブレーター", "ローター"], "category": "Vibrator", "label": "バイブ", "service": "mono", "floor": "goods"},
+    "tenga": {"keywords": ["TENGA", "テンガ", "EGG"], "category": "TENGA", "label": "TENGA", "service": "mono", "floor": "goods"},
+    "lotion": {"keywords": ["ローション", "潤滑", "オイル"], "category": "Lotion", "label": "ローション", "service": "mono", "floor": "goods"},
+    "cosplay_goods": {"keywords": ["コスプレ衣装", "セクシーランジェリー", "コスチューム"], "category": "CosplayGoods", "label": "コスプレ衣装", "service": "mono", "floor": "goods"},
+    "sm_goods": {"keywords": ["SM", "拘束", "手錠", "目隠し"], "category": "SMGoods", "label": "SMグッズ", "service": "mono", "floor": "goods"},
+    "couple": {"keywords": ["カップル", "ペア", "二人用"], "category": "Couple", "label": "カップル", "service": "mono", "floor": "goods"},
+    "new_goods": {"keywords": ["新商品", "新作", "話題"], "category": "NewGoods", "label": "新商品", "service": "mono", "floor": "goods"},
 }
 
 

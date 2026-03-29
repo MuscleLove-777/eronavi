@@ -1,6 +1,6 @@
 """
 DMM/FANZAアフィリエイトAPIから商品データを取得するモジュール
-マルチジャンル対応版（実写AV + アニメ・同人 37ジャンル統合版）
+マルチジャンル対応版（実写AV + アニメ・同人 + グッズ 45ジャンル統合版）
 ジャンルごとにservice/floorを切り替えてAPIを叩く
 """
 
@@ -51,6 +51,15 @@ GENRE_KEYWORDS = {
     "isekai": ["異世界", "ファンタジー", "転生", "魔法", "冒険", "勇者", "魔王", "エルフ", "ハーレム", "チート"],
     "school_anime": ["学園", "制服", "学校", "教室", "部活", "放課後", "先生", "生徒", "青春", "恋愛"],
     "bl": ["BL", "ボーイズラブ", "男の娘", "ショタ", "男子", "男×男", "腐", "イケメン", "美少年", "やおい"],
+    # === アダルトグッズ系（8ジャンル）===
+    "onahole": ["オナホ", "オナホール", "名器", "ホール", "挿入", "リアル", "二層構造", "吸引", "振動", "非貫通"],
+    "vibrator": ["バイブ", "バイブレーター", "ローター", "電マ", "振動", "リモコン", "防水", "USB充電", "吸引", "クリ"],
+    "tenga": ["TENGA", "テンガ", "EGG", "カップ", "フリップ", "エアテック", "スピナー", "ディープスロート", "使い捨て", "繰り返し"],
+    "lotion": ["ローション", "潤滑", "オイル", "ジェル", "マッサージ", "温感", "冷感", "ぬるぬる", "水溶性", "シリコン"],
+    "cosplay_goods": ["コスプレ", "ランジェリー", "コスチューム", "セクシー", "下着", "ベビードール", "メイド服", "ナース", "制服", "網タイツ"],
+    "sm_goods": ["SM", "拘束", "手錠", "目隠し", "首輪", "鞭", "ロープ", "ボンデージ", "ボールギャグ", "調教"],
+    "couple": ["カップル", "ペア", "二人用", "リモート", "遠隔", "ワイヤレス", "パートナー", "夫婦", "プレゼント", "初心者"],
+    "new_goods": ["新商品", "新作", "話題", "人気", "おすすめ", "ランキング", "売れ筋", "限定", "コラボ", "最新"],
 }
 
 
@@ -151,7 +160,7 @@ def fetch_products(
 
     products = []
     for item in items:
-        product = _parse_item(item)
+        product = _parse_item(item, service, floor)
         if product:
             if relevant_kws:
                 if _is_relevant(product, keyword, relevant_kws):
@@ -183,8 +192,8 @@ def _is_relevant(product: dict, keyword: str, relevant_keywords: list[str]) -> b
     return False
 
 
-def _build_affiliate_url(item: dict, affiliate_id: str) -> str:
-    """商品のアフィリエイトURLを構築する"""
+def _build_affiliate_url(item: dict, affiliate_id: str, service: str = "", floor: str = "") -> str:
+    """商品のアフィリエイトURLを構築する（mono/goods含む全ジャンル対応）"""
     # FANZAのアフィリエイトURLをそのまま使う（アニメ・同人含む全ジャンル対応）
     affiliate_url = item.get("affiliateURL", "")
     if affiliate_url:
@@ -198,13 +207,17 @@ def _build_affiliate_url(item: dict, affiliate_id: str) -> str:
         return f"{direct_url}{separator}af_id={affiliate_id}"
 
     if content_id:
-        base_url = f"https://www.dmm.co.jp/digital/videoa/-/detail/=/cid={content_id}/"
+        # mono/goods（アダルトグッズ）の場合は専用URL
+        if service == "mono" and floor == "goods":
+            base_url = f"https://www.dmm.co.jp/mono/goods/-/detail/=/cid={content_id}/"
+        else:
+            base_url = f"https://www.dmm.co.jp/digital/videoa/-/detail/=/cid={content_id}/"
         return f"{base_url}?af_id={affiliate_id}"
 
     return ""
 
 
-def _parse_item(item: dict) -> Optional[dict]:
+def _parse_item(item: dict, service: str = "", floor: str = "") -> Optional[dict]:
     """APIレスポンスの1商品をパースして整形する"""
     try:
         image_url = ""
@@ -258,7 +271,7 @@ def _parse_item(item: dict) -> Optional[dict]:
             "title": item.get("title", "タイトル不明"),
             "description": item.get("title", ""),
             "image_url": image_url,
-            "affiliate_url": _build_affiliate_url(item, Config.AFFILIATE_ID),
+            "affiliate_url": _build_affiliate_url(item, Config.AFFILIATE_ID, service, floor),
             "price": price,
             "date": item.get("date", ""),
             "content_id": item.get("content_id", ""),
