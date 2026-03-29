@@ -1,0 +1,92 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title entry-hint-parent">
+      {{ .Title }}
+      {{- if .Draft }}
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+      {{- end }}
+    </h1>
+    {{- if .Description }}
+    <div class="post-description">
+      {{ .Description }}
+    </div>
+    {{- end }}
+    {{- if not (.Param "hideMeta") }}
+    <div class="post-meta">
+      {{- partial "post_meta.html" . -}}
+      {{- partial "translation_list.html" . -}}
+      {{- partial "edit_post.html" . -}}
+      {{- partial "post_canonical.html" . -}}
+    </div>
+    {{- end }}
+  </header>
+  {{- $isHidden := (.Param "cover.hiddenInSingle") | default (.Param "cover.hidden") | default false }}
+  {{- partial "cover.html" (dict "cxt" . "IsSingle" true "isHidden" $isHidden) }}
+  {{- if (.Param "ShowToc") }}
+  {{- partial "toc.html" . }}
+  {{- end }}
+
+  {{- if .Content }}
+  <div class="post-content">
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+  </div>
+  {{- end }}
+
+  <footer class="post-footer">
+    {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
+    <ul class="post-tags">
+      {{- range ($.GetTerms $tags) }}
+      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      {{- end }}
+    </ul>
+    {{- if (.Param "ShowPostNavLinks") }}
+    {{- partial "post_nav_links.html" . }}
+    {{- end }}
+    {{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
+    {{- partial "share_icons.html" . -}}
+    {{- end }}
+  </footer>
+
+  {{- if (.Param "comments") }}
+  {{- partial "comments.html" . }}
+  {{- end }}
+</article>
+
+<!-- 関連記事 -->
+{{ if .IsPage }}
+<style>
+  @media (max-width: 600px) {
+    .related-grid { grid-template-columns: repeat(2, 1fr) !important; }
+  }
+</style>
+<div style="max-width: 1200px; margin: 30px auto; padding: 0 16px;">
+  <h3 style="color: #f0f0f0; border-bottom: 2px solid #ff6b6b; padding-bottom: 8px;">関連記事</h3>
+  <div class="related-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;">
+    {{ $related := .Site.RegularPages.Related . | first 6 }}
+    {{ range $related }}
+    <a href="{{ .Permalink }}" style="text-decoration: none; color: inherit;">
+      <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; overflow: hidden;">
+        {{ with .Params.cover }}{{ if .image }}
+        <img src="{{ .image }}" alt="{{ $.Title }}" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" />
+        {{ end }}{{ end }}
+        <div style="padding: 8px 12px;">
+          <p style="font-size: 13px; line-height: 1.4; margin: 0; -webkit-line-clamp: 2; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; color: #f0f0f0;">{{ .Title }}</p>
+        </div>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
+
+{{- end }}{{/* end main */}}

@@ -35,4 +35,44 @@
 <meta property="og:title" content="{{ .Title }}" />
 <meta property="og:description" content="{{ .Description }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ .Title }}" />
+<meta name="twitter:description" content="{{ .Description }}" />
+{{ with .Params.cover }}{{ if .image }}
+<meta name="twitter:image" content="{{ .image }}" />
+{{ end }}{{ end }}
+{{ end }}
+
+<!-- BreadcrumbList -->
+{{ if .IsPage }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "ホーム", "item": "{{ .Site.BaseURL }}"},
+    {{ range $i, $e := .Ancestors.Reverse }}
+    {"@type": "ListItem", "position": {{ add $i 2 }}, "name": "{{ .Title }}", "item": "{{ .Permalink }}"},
+    {{ end }}
+    {"@type": "ListItem", "position": {{ add (len .Ancestors) 2 }}, "name": "{{ .Title }}"}
+  ]
+}
+</script>
+{{ end }}
+
+<!-- WebSite + SearchAction (トップページのみ) -->
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ .Site.Title }}",
+  "url": "{{ .Site.BaseURL }}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ .Site.BaseURL }}search/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
 {{ end }}
