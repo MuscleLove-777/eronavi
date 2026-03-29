@@ -310,3 +310,8 @@ buildExpired = false
   name = "検索"
   url = "/search/"
   weight = 130
+
+[[menus.main]]
+  name = "問い合わせ"
+  url = "/contact/"
+  weight = 140
