@@ -547,6 +547,7 @@ def _build_footer_brand() -> str:
 def _build_related_section(current_genre: str = "") -> str:
     """他ジャンルへの内部リンクでSEOを強化"""
     genres = {
+        # 実写AV系（25ジャンル）
         "NTR": "/eronavi/categories/ntr/",
         "熟女": "/eronavi/categories/jukujo/",
         "VR": "/eronavi/categories/vr/",
@@ -572,6 +573,19 @@ def _build_related_section(current_genre: str = "") -> str:
         "寝取らせ": "/eronavi/categories/cuckold/",
         "新人": "/eronavi/categories/debut/",
         "受賞作": "/eronavi/categories/award/",
+        # アニメ・同人系（12ジャンル）
+        "エロアニメ": "/eronavi/categories/anime/",
+        "同人CG": "/eronavi/categories/doujincg/",
+        "同人漫画": "/eronavi/categories/doujinmanga/",
+        "ASMR": "/eronavi/categories/voice/",
+        "同人ゲーム": "/eronavi/categories/doujingame/",
+        "エロゲ": "/eronavi/categories/pcgame/",
+        "コミック": "/eronavi/categories/comic/",
+        "NTRアニメ": "/eronavi/categories/ntranime/",
+        "触手": "/eronavi/categories/tentacle/",
+        "異世界": "/eronavi/categories/isekai/",
+        "学園アニメ": "/eronavi/categories/schoolanime/",
+        "BL": "/eronavi/categories/bl/",
     }
     # 現在のジャンルを除外してランダム5つ選ぶ
     other = [(k, v) for k, v in genres.items() if k != current_genre]

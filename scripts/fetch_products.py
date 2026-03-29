@@ -1,6 +1,7 @@
 """
 DMM/FANZAアフィリエイトAPIから商品データを取得するモジュール
-マルチジャンル対応版
+マルチジャンル対応版（実写AV + アニメ・同人 37ジャンル統合版）
+ジャンルごとにservice/floorを切り替えてAPIを叩く
 """
 
 import time
@@ -37,6 +38,19 @@ GENRE_KEYWORDS = {
     "cuckold": ["寝取らせ", "旦那公認", "夫の前", "妻貸出", "見せつけ", "他人棒", "夫婦", "共有", "差し出す", "目の前"],
     "debut": ["デビュー", "新人", "初撮り", "初脱ぎ", "初体験", "初出演", "新人AV", "ルーキー", "発掘", "フレッシュ"],
     "award": ["大賞", "ベスト", "ランキング", "殿堂", "受賞", "アワード", "年間", "月間", "TOP", "No.1"],
+    # === アニメ・同人系（12ジャンル）===
+    "anime": ["アニメ", "OVA", "エロアニメ", "アニメーション", "声優", "2Dアニメ", "原作", "コミック原作", "ゲーム原作", "シリーズ"],
+    "doujin_cg": ["CG集", "イラスト", "AI", "画像集", "CG", "フルカラー", "高画質", "立ち絵", "差分", "描き下ろし"],
+    "doujin_manga": ["同人誌", "漫画", "マンガ", "コミック", "成人向け", "薄い本", "二次創作", "オリジナル", "フルカラー", "描き下ろし"],
+    "doujin_voice": ["ASMR", "ボイス", "音声", "バイノーラル", "耳かき", "囁き", "催眠", "シチュエーション", "ドラマCD", "CV"],
+    "doujin_game": ["同人ゲーム", "RPG", "アクション", "ノベル", "シミュレーション", "ドット絵", "ゲーム", "プレイ", "エンディング", "攻略"],
+    "pcgame": ["美少女ゲーム", "エロゲ", "ノベルゲーム", "ギャルゲ", "アドベンチャー", "シミュレーション", "RPG", "Windows", "DL版", "パッケージ"],
+    "comic": ["コミック", "漫画", "エロ漫画", "成人向け", "アダルトコミック", "単行本", "連載", "読み切り", "フルカラー", "オリジナル"],
+    "ntr_anime": ["NTR", "寝取られ", "アニメ", "OVA", "人妻", "不倫", "浮気", "堕ち", "催眠", "洗脳"],
+    "tentacle": ["触手", "異種姦", "モンスター", "魔物", "クリーチャー", "異種", "怪物", "拘束", "産卵", "侵食"],
+    "isekai": ["異世界", "ファンタジー", "転生", "魔法", "冒険", "勇者", "魔王", "エルフ", "ハーレム", "チート"],
+    "school_anime": ["学園", "制服", "学校", "教室", "部活", "放課後", "先生", "生徒", "青春", "恋愛"],
+    "bl": ["BL", "ボーイズラブ", "男の娘", "ショタ", "男子", "男×男", "腐", "イケメン", "美少年", "やおい"],
 }
 
 
@@ -65,6 +79,13 @@ def fetch_products(
     if not Config.validate():
         return []
 
+    # ジャンルからservice/floorを決定（引数での指定を優先）
+    genre_info = GENRES.get(genre, {}) if genre else {}
+    if not service or service == Config.DEFAULT_SERVICE:
+        service = genre_info.get("service", Config.DEFAULT_SERVICE)
+    if not floor:
+        floor = genre_info.get("floor", "videoa")
+
     # キーワード未指定時はジャンルからランダムに選択
     if not keyword:
         if genre and genre in GENRES:
@@ -89,7 +110,7 @@ def fetch_products(
     if floor:
         params["floor"] = floor
 
-    print(f"[取得中] キーワード「{keyword}」で{hits}件の商品を検索...")
+    print(f"[取得中] キーワード「{keyword}」(service={service}, floor={floor}) で{hits}件の商品を検索...")
 
     try:
         response = requests.get(Config.API_BASE_URL, params=params, timeout=30)
@@ -164,18 +185,23 @@ def _is_relevant(product: dict, keyword: str, relevant_keywords: list[str]) -> b
 
 def _build_affiliate_url(item: dict, affiliate_id: str) -> str:
     """商品のアフィリエイトURLを構築する"""
+    # FANZAのアフィリエイトURLをそのまま使う（アニメ・同人含む全ジャンル対応）
+    affiliate_url = item.get("affiliateURL", "")
+    if affiliate_url:
+        return affiliate_url
+
     content_id = item.get("content_id", "")
     direct_url = item.get("URL", "")
-
-    if content_id:
-        base_url = f"https://www.dmm.co.jp/digital/videoa/-/detail/=/cid={content_id}/"
-        return f"{base_url}?af_id={affiliate_id}"
 
     if direct_url:
         separator = "&" if "?" in direct_url else "?"
         return f"{direct_url}{separator}af_id={affiliate_id}"
 
-    return item.get("affiliateURL", "")
+    if content_id:
+        base_url = f"https://www.dmm.co.jp/digital/videoa/-/detail/=/cid={content_id}/"
+        return f"{base_url}?af_id={affiliate_id}"
+
+    return ""
 
 
 def _parse_item(item: dict) -> Optional[dict]:

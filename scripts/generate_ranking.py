@@ -35,11 +35,10 @@ def fetch_ranking(keyword="", hits=20, service="digital", floor="videoa"):
             image_url = img_data.get("large", img_data.get("small", ""))
 
         content_id = item.get("content_id", "")
-        affiliate_url = (
-            f"https://www.dmm.co.jp/digital/videoa/-/detail/=/cid={content_id}/?af_id={Config.AFFILIATE_ID}"
-            if content_id
-            else ""
-        )
+        # アフィリエイトURLはAPIレスポンスのものを優先（アニメ・同人対応）
+        affiliate_url = item.get("affiliateURL", "")
+        if not affiliate_url and content_id:
+            affiliate_url = f"https://www.dmm.co.jp/digital/videoa/-/detail/=/cid={content_id}/?af_id={Config.AFFILIATE_ID}"
 
         prices = item.get("prices", {})
         price = prices.get("price", "") if isinstance(prices.get("price"), str) else ""
@@ -78,7 +77,7 @@ def fetch_ranking(keyword="", hits=20, service="digital", floor="videoa"):
     return results
 
 
-def generate_ranking_page(ranking_type="daily", genre_name="総合", genre_key=""):
+def generate_ranking_page(ranking_type="daily", genre_name="総合", genre_key="", service="digital", floor="videoa"):
     """ランキングページのMarkdownを生成"""
     today = datetime.now()
     date_str = today.strftime("%Y-%m-%d")
@@ -92,7 +91,7 @@ def generate_ranking_page(ranking_type="daily", genre_name="総合", genre_key="
 
     # ジャンルキーワードでランキング取得
     keyword = genre_key if genre_key else ""
-    items = fetch_ranking(keyword=keyword, hits=20)
+    items = fetch_ranking(keyword=keyword, hits=20, service=service, floor=floor)
 
     if not items:
         print(f"[スキップ] {genre_name} {type_label}ランキング: データなし")
@@ -222,6 +221,15 @@ def generate_all_rankings():
     ]
     for name, keyword in genre_rankings:
         generate_ranking_page("daily", name, keyword)
+
+    # アニメ・同人系ランキング
+    anime_rankings = [
+        ("エロアニメ総合", "", "digital", "anime"),
+        ("同人CG", "CG集", "doujin", "digital_doujin"),
+        ("ASMR", "ASMR", "doujin", "digital_doujin"),
+    ]
+    for name, keyword, svc, flr in anime_rankings:
+        generate_ranking_page("daily", name, keyword, service=svc, floor=flr)
 
 
 if __name__ == "__main__":

@@ -133,10 +133,16 @@ def run_genre(genre_key: str, count: int) -> tuple[list[dict], list[str]]:
     all_products = []
     seen_ids = set()
 
+    # ジャンルからservice/floorを取得
+    service = genre_info.get("service", "digital")
+    floor = genre_info.get("floor", "videoa")
+
     for kw in keywords:
         products = fetch_products(
             keyword=kw,
             hits=min(count * 4, 100),
+            service=service,
+            floor=floor,
             genre=genre_key,
         )
         for p in products:
