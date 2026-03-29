@@ -62,31 +62,59 @@
   {{- end }}
 </article>
 
-<!-- 関連記事 -->
+<!-- この作品を見た人はこれも見ています -->
 {{ if .IsPage }}
-<style>
-  @media (max-width: 600px) {
-    .related-grid { grid-template-columns: repeat(2, 1fr) !important; }
-  }
-</style>
-<div style="max-width: 1200px; margin: 30px auto; padding: 0 16px;">
-  <h3 style="color: #f0f0f0; border-bottom: 2px solid #ff6b6b; padding-bottom: 8px;">関連記事</h3>
-  <div class="related-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px;">
-    {{ $related := .Site.RegularPages.Related . | first 6 }}
+{{ $related := .Site.RegularPages.Related . | first 6 }}
+{{ if $related }}
+<div class="related-section">
+  <h3>🔗 この作品を見た人はこれも見ています</h3>
+  <div class="related-grid">
     {{ range $related }}
-    <a href="{{ .Permalink }}" style="text-decoration: none; color: inherit;">
-      <div style="background: #161b22; border: 1px solid #30363d; border-radius: 8px; overflow: hidden;">
-        {{ with .Params.cover }}{{ if .image }}
-        <img src="{{ .image }}" alt="{{ $.Title }}" style="width: 100%; aspect-ratio: 16/9; object-fit: cover;" loading="lazy" />
-        {{ end }}{{ end }}
-        <div style="padding: 8px 12px;">
-          <p style="font-size: 13px; line-height: 1.4; margin: 0; -webkit-line-clamp: 2; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; color: #f0f0f0;">{{ .Title }}</p>
-        </div>
+    <a href="{{ .Permalink }}" class="related-card">
+      {{ with .Params.cover }}{{ if .image }}
+      <img src="{{ .image }}" alt="{{ $.Title }}" loading="lazy" />
+      {{ end }}{{ end }}
+      <div class="related-card-body">
+        <p class="related-card-title">{{ .Title }}</p>
       </div>
     </a>
     {{ end }}
   </div>
 </div>
+{{ end }}
+
+<!-- 同じカテゴリの作品 -->
+{{ $categories := .Params.categories }}
+{{ if $categories }}
+{{ $catName := index $categories 0 }}
+{{ $catPages := where site.RegularPages "Params.categories" "intersect" (slice $catName) }}
+{{ $catPages = $catPages | first 7 }}
+{{ $filtered := slice }}
+{{ range $catPages }}
+  {{ if ne .Permalink $.Permalink }}
+    {{ $filtered = $filtered | append . }}
+  {{ end }}
+{{ end }}
+{{ $filtered = $filtered | first 6 }}
+{{ if $filtered }}
+<div class="related-section">
+  <h3>📂 同じカテゴリの作品</h3>
+  <div class="related-grid">
+    {{ range $filtered }}
+    <a href="{{ .Permalink }}" class="related-card">
+      {{ with .Params.cover }}{{ if .image }}
+      <img src="{{ .image }}" alt="{{ $.Title }}" loading="lazy" />
+      {{ end }}{{ end }}
+      <div class="related-card-body">
+        <p class="related-card-title">{{ .Title }}</p>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
+{{ end }}
+
 {{ end }}
 
 {{- end }}{{/* end main */}}

@@ -36,9 +36,11 @@ buildExpired = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
+  ShowPageNums = true
   ShowToc = false
   TocOpen = false
   comments = false
+  disableSpecial1stPost = true
 
   [params.homeInfoParams]
     Title = "エロナビ"

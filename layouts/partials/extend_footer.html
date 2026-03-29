@@ -1,3 +1,111 @@
+<!-- ===== Age Verification Gate ===== -->
+<div id="age-gate" class="age-gate-overlay" style="display:none;">
+  <div class="age-gate-box">
+    <h2>年齢確認</h2>
+    <p>このサイトはアダルトコンテンツを含みます。<br>あなたは18歳以上ですか？</p>
+    <p class="age-gate-warning">※ 18歳未満の方のアクセスは固くお断りいたします</p>
+    <div class="age-gate-buttons">
+      <button class="age-gate-btn yes" onclick="ageGateAccept()">はい（18歳以上）</button>
+      <button class="age-gate-btn no" onclick="ageGateReject()">いいえ</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function() {
+  var accepted = localStorage.getItem('age-verified');
+  if (!accepted) {
+    document.getElementById('age-gate').style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+  }
+})();
+
+function ageGateAccept() {
+  localStorage.setItem('age-verified', 'true');
+  document.getElementById('age-gate').style.display = 'none';
+  document.body.style.overflow = '';
+}
+
+function ageGateReject() {
+  window.location.href = 'https://www.google.com';
+}
+</script>
+
+<!-- ===== Enhanced Footer ===== -->
+<div class="site-footer-enhanced">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <!-- Column 1: 実写AV -->
+      <div class="footer-col">
+        <h3>実写AV</h3>
+        <ul>
+          <li><a href="/eronavi/categories/ranking/">ランキング</a></li>
+          <li><a href="/eronavi/categories/actress/">女優</a></li>
+          <li><a href="/eronavi/categories/ntr/">NTR</a></li>
+          <li><a href="/eronavi/categories/jukujo/">熟女</a></li>
+          <li><a href="/eronavi/categories/vr/">VR</a></li>
+          <li><a href="/eronavi/categories/oppai/">巨乳</a></li>
+          <li><a href="/eronavi/categories/shiroto/">素人</a></li>
+          <li><a href="/eronavi/categories/cosplay/">コスプレ</a></li>
+          <li><a href="/eronavi/categories/debut/">新人デビュー</a></li>
+        </ul>
+      </div>
+      <!-- Column 2: アニメ・同人 -->
+      <div class="footer-col">
+        <h3>アニメ・同人</h3>
+        <ul>
+          <li><a href="/eronavi/categories/anime/">エロアニメ</a></li>
+          <li><a href="/eronavi/categories/ntranime/">NTRアニメ</a></li>
+          <li><a href="/eronavi/categories/doujin/">同人</a></li>
+          <li><a href="/eronavi/categories/doujincg/">同人CG</a></li>
+          <li><a href="/eronavi/categories/doujingame/">同人ゲーム</a></li>
+          <li><a href="/eronavi/categories/pcgame/">エロゲ</a></li>
+          <li><a href="/eronavi/categories/comic/">コミック</a></li>
+          <li><a href="/eronavi/categories/voice/">ASMR</a></li>
+          <li><a href="/eronavi/categories/bl/">BL</a></li>
+        </ul>
+      </div>
+      <!-- Column 3: グッズ・書籍 & サイト情報 -->
+      <div class="footer-col">
+        <h3>グッズ・書籍</h3>
+        <ul>
+          <li><a href="/eronavi/categories/onahole/">オナホ</a></li>
+          <li><a href="/eronavi/categories/vibrator/">バイブ</a></li>
+          <li><a href="/eronavi/categories/tenga/">TENGA</a></li>
+          <li><a href="/eronavi/categories/lotion/">ローション</a></li>
+          <li><a href="/eronavi/categories/photobook/">写真集</a></li>
+          <li><a href="/eronavi/categories/novel/">官能小説</a></li>
+          <li><a href="/eronavi/categories/tl/">TL</a></li>
+          <li><a href="/eronavi/categories/figure/">フィギュア</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Footer Tags -->
+    <div class="footer-col" style="margin-bottom: 20px;">
+      <h3>人気タグ</h3>
+      <div class="footer-tags">
+        {{ $tags := site.Taxonomies.tags }}
+        {{ range $name, $pages := $tags }}
+          {{ if ge (len $pages) 2 }}
+          <a href="{{ "/eronavi/tags/" | safeURL }}{{ $name | urlize }}/" class="footer-tag">{{ $name }}</a>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; {{ now.Year }} <a href="/eronavi/">エロナビ</a> | Presented by <a href="https://x.com/MuscleGirlLove7" target="_blank" rel="noopener">MuscleLove</a></p>
+      <p style="margin-top: 8px; font-size: 0.75rem;">当サイトはアフィリエイトプログラムに参加しています。18歳未満の閲覧を禁止します。</p>
+      <p style="margin-top: 4px;">
+        <a href="/eronavi/contact/">お問い合わせ</a> ·
+        <a href="/eronavi/search/">検索</a> ·
+        <a href="/eronavi/categories/">全カテゴリ</a>
+      </p>
+    </div>
+  </div>
+</div>
+
 <!-- エロタレスト ブログパーツ -->
 <div style="max-width: 1200px; margin: 20px auto; padding: 0 16px;">
   <div id="eroterest_partsv2" class="eroterest_partsv2"></div>
@@ -57,6 +165,9 @@ if ('serviceWorker' in navigator) {
 
   // 記事内のアフィリエイトリンクを探す
   var affiliateLink = document.querySelector('.post-content a[href*="dmm.co.jp"]');
+  if (!affiliateLink) {
+    affiliateLink = document.querySelector('.post-content a[href*="fanza.co.jp"]');
+  }
   if (affiliateLink) {
     link.href = affiliateLink.href;
   } else {
