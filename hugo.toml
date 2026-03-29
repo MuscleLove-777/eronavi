@@ -21,7 +21,7 @@ buildExpired = false
   description = "NTR・熟女・VR・巨乳・素人・コスプレ…全ジャンルのアダルト動画を毎日40本以上更新。サンプル動画付きレビューサイト"
   author = "エロナビ編集部"
   images = ["https://musclelove-777.github.io/eronavi/favicon.svg"]
-  keywords = ["AV おすすめ", "アダルト動画 ランキング", "FANZA おすすめ", "エロ動画 レビュー", "AV 新作", "NTR AV", "熟女 AV", "VR AV", "巨乳 AV", "素人 AV", "痴女 AV", "中出し AV", "ギャル AV", "レズ AV", "痴漢 AV", "オナホ おすすめ", "同人 FANZA"]
+  keywords = ["AV おすすめ", "アダルト動画 ランキング", "FANZA おすすめ", "エロ動画 レビュー", "AV 新作", "NTR AV", "熟女 AV", "VR AV", "巨乳 AV", "素人 AV", "痴女 AV", "中出し AV", "ギャル AV", "レズ AV", "痴漢 AV", "オナホ おすすめ", "同人 FANZA", "SM AV", "OL AV", "女子校生 AV", "母乳 AV", "マッサージ AV", "乱交 AV", "寝取らせ AV", "新人 AV デビュー", "受賞作 AV", "3P AV"]
   defaultTheme = "dark"
   ShowReadingTime = false
   ShowShareButtons = false
@@ -157,11 +157,61 @@ buildExpired = false
   weight = 87
 
 [[menus.main]]
+  name = "SM"
+  url = "/categories/sm/"
+  weight = 91
+
+[[menus.main]]
+  name = "OL"
+  url = "/categories/ol/"
+  weight = 92
+
+[[menus.main]]
+  name = "女子校生"
+  url = "/categories/joshi/"
+  weight = 93
+
+[[menus.main]]
+  name = "母乳"
+  url = "/categories/milf/"
+  weight = 94
+
+[[menus.main]]
+  name = "マッサージ"
+  url = "/categories/massage/"
+  weight = 95
+
+[[menus.main]]
+  name = "乱交"
+  url = "/categories/swapping/"
+  weight = 96
+
+[[menus.main]]
+  name = "痴漢"
+  url = "/categories/chikan/"
+  weight = 97
+
+[[menus.main]]
+  name = "寝取らせ"
+  url = "/categories/cuckold/"
+  weight = 98
+
+[[menus.main]]
+  name = "新人"
+  url = "/categories/debut/"
+  weight = 99
+
+[[menus.main]]
+  name = "受賞作"
+  url = "/categories/award/"
+  weight = 100
+
+[[menus.main]]
   name = "全カテゴリ"
   url = "/categories/"
-  weight = 90
+  weight = 110
 
 [[menus.main]]
   name = "検索"
   url = "/search/"
-  weight = 100
+  weight = 120

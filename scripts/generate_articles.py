@@ -551,6 +551,16 @@ def _build_related_section(current_genre: str = "") -> str:
         "企画": "/eronavi/categories/kikaku/",
         "グッズ": "/eronavi/categories/goods/",
         "同人": "/eronavi/categories/doujin/",
+        "SM": "/eronavi/categories/sm/",
+        "OL": "/eronavi/categories/ol/",
+        "女子校生": "/eronavi/categories/joshi/",
+        "母乳": "/eronavi/categories/milf/",
+        "マッサージ": "/eronavi/categories/massage/",
+        "乱交": "/eronavi/categories/swapping/",
+        "痴漢": "/eronavi/categories/chikan/",
+        "寝取らせ": "/eronavi/categories/cuckold/",
+        "新人": "/eronavi/categories/debut/",
+        "受賞作": "/eronavi/categories/award/",
     }
     # 現在のジャンルを除外してランダム5つ選ぶ
     other = [(k, v) for k, v in genres.items() if k != current_genre]

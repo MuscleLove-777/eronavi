@@ -31,6 +31,16 @@ GENRES = {
     "kikaku": {"keywords": ["痴漢", "マジックミラー号", "ナンパ", "企画", "モニタリング"], "category": "kikaku", "label": "企画"},
     "goods": {"keywords": ["オナホ", "アダルトグッズ", "バイブ", "ローター", "TENGA"], "category": "goods", "label": "グッズ"},
     "doujin": {"keywords": ["同人", "CG集", "同人誌", "エロ漫画", "ASMR"], "category": "doujin", "label": "同人"},
+    "sm": {"keywords": ["SM", "縛り", "拘束", "調教", "鞭"], "category": "sm", "label": "SM"},
+    "ol": {"keywords": ["OL", "女教師", "秘書", "上司", "オフィス"], "category": "ol", "label": "OL"},
+    "joshi": {"keywords": ["女子校生", "JK", "学園", "制服", "ロリ"], "category": "joshi", "label": "女子校生"},
+    "milf": {"keywords": ["母乳", "授乳", "ママ", "妊婦", "産後"], "category": "milf", "label": "母乳"},
+    "massage": {"keywords": ["マッサージ", "エステ", "オイル", "整体", "リフレ"], "category": "massage", "label": "マッサージ"},
+    "swapping": {"keywords": ["スワッピング", "乱交", "複数プレイ", "3P", "4P"], "category": "swapping", "label": "乱交"},
+    "chikan": {"keywords": ["痴漢", "電車", "満員電車", "バス", "通勤"], "category": "chikan", "label": "痴漢"},
+    "cuckold": {"keywords": ["寝取らせ", "夫婦", "旦那公認", "夫の前", "妻貸出"], "category": "cuckold", "label": "寝取らせ"},
+    "debut": {"keywords": ["デビュー", "新人", "初撮り", "AV女優デビュー", "初脱ぎ"], "category": "debut", "label": "新人"},
+    "award": {"keywords": ["大賞", "ベスト", "ランキング1位", "殿堂入り", "受賞"], "category": "award", "label": "受賞作"},
 }
 
 
