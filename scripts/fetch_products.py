@@ -257,6 +257,10 @@ def _parse_item(item: dict, service: str = "", floor: str = "") -> Optional[dict
         if image_data:
             image_url = image_data.get("large", image_data.get("small", ""))
 
+        # NOW PRINTING画像（仮画像）の商品は除外
+        if not image_url or "nowprinting" in image_url.lower() or "now_printing" in image_url.lower():
+            return None
+
         prices = item.get("prices", {})
         price = ""
         if prices:
