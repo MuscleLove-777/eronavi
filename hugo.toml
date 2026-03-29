@@ -19,7 +19,7 @@ buildExpired = false
   description = "NTR・熟女・VR・巨乳・素人・コスプレ…全ジャンルのアダルト動画を毎日40本以上更新。サンプル動画付きレビューサイト"
   author = "エロナビ編集部"
   images = ["https://musclelove-777.github.io/eronavi/favicon.svg"]
-  keywords = ["AV おすすめ", "アダルト動画 ランキング", "FANZA おすすめ", "エロ動画 レビュー", "AV 新作", "NTR AV", "熟女 AV", "VR AV", "巨乳 AV", "素人 AV"]
+  keywords = ["AV おすすめ", "アダルト動画 ランキング", "FANZA おすすめ", "エロ動画 レビュー", "AV 新作", "NTR AV", "熟女 AV", "VR AV", "巨乳 AV", "素人 AV", "痴女 AV", "中出し AV", "ギャル AV", "レズ AV", "痴漢 AV", "オナホ おすすめ", "同人 FANZA"]
   defaultTheme = "dark"
   ShowReadingTime = false
   ShowShareButtons = false
@@ -118,6 +118,41 @@ buildExpired = false
   name = "フェチ"
   url = "/categories/fetish/"
   weight = 80
+
+[[menus.main]]
+  name = "痴女"
+  url = "/categories/chijo/"
+  weight = 81
+
+[[menus.main]]
+  name = "中出し"
+  url = "/categories/nakadashi/"
+  weight = 82
+
+[[menus.main]]
+  name = "ギャル"
+  url = "/categories/gal/"
+  weight = 83
+
+[[menus.main]]
+  name = "レズ"
+  url = "/categories/lesbian/"
+  weight = 84
+
+[[menus.main]]
+  name = "企画"
+  url = "/categories/kikaku/"
+  weight = 85
+
+[[menus.main]]
+  name = "グッズ"
+  url = "/categories/goods/"
+  weight = 86
+
+[[menus.main]]
+  name = "同人"
+  url = "/categories/doujin/"
+  weight = 87
 
 [[menus.main]]
   name = "全カテゴリ"

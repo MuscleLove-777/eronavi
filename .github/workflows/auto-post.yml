@@ -28,7 +28,7 @@ jobs:
           AFFILIATE_ID: ${{ secrets.AFFILIATE_ID }}
           SITE_NAME: ${{ secrets.SITE_NAME }}
         working-directory: scripts
-        run: python main.py --genre all --count 5
+        run: python main.py --genre all --count 3
 
       - name: Commit and push
         run: |

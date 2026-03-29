@@ -24,6 +24,13 @@ GENRES = {
     "oppai": {"keywords": ["巨乳", "美乳", "爆乳"], "category": "oppai", "label": "巨乳"},
     "cosplay": {"keywords": ["コスプレ", "アニコス", "メイド"], "category": "cosplay", "label": "コスプレ"},
     "fetish": {"keywords": ["乳首", "フェチ", "パンスト"], "category": "fetish", "label": "フェチ"},
+    "chijo": {"keywords": ["痴女", "逆ナン", "M男", "女性主導", "痴女プレイ"], "category": "chijo", "label": "痴女"},
+    "nakadashi": {"keywords": ["中出し", "孕ませ", "大量中出し", "生中出し", "種付け"], "category": "nakadashi", "label": "中出し"},
+    "gal": {"keywords": ["ギャル", "黒ギャル", "日焼け ギャル", "パリピ", "ビッチ"], "category": "gal", "label": "ギャル"},
+    "lesbian": {"keywords": ["レズ", "レズビアン", "百合", "女同士", "レズキス"], "category": "lesbian", "label": "レズ"},
+    "kikaku": {"keywords": ["痴漢", "マジックミラー号", "ナンパ", "企画", "モニタリング"], "category": "kikaku", "label": "企画"},
+    "goods": {"keywords": ["オナホ", "アダルトグッズ", "バイブ", "ローター", "TENGA"], "category": "goods", "label": "グッズ"},
+    "doujin": {"keywords": ["同人", "CG集", "同人誌", "エロ漫画", "ASMR"], "category": "doujin", "label": "同人"},
 }
 
 
