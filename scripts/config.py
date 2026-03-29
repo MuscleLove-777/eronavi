@@ -1,7 +1,7 @@
 """
 設定管理モジュール
 環境変数または.envファイルから設定を読み込む
-マルチジャンル対応のポータルサイト「エロナビ」用（実写AV + アニメ・同人 + グッズ 45ジャンル統合版）
+マルチジャンル対応のポータルサイト「エロナビ」用（実写AV + アニメ・同人 + グッズ + 写真集・小説・物販 57ジャンル統合版）
 """
 
 import os
@@ -66,6 +66,31 @@ GENRES = {
     "sm_goods": {"keywords": ["SM", "拘束", "手錠", "目隠し"], "category": "SMGoods", "label": "SMグッズ", "service": "mono", "floor": "goods"},
     "couple": {"keywords": ["カップル", "ペア", "二人用"], "category": "Couple", "label": "カップル", "service": "mono", "floor": "goods"},
     "new_goods": {"keywords": ["新商品", "新作", "話題"], "category": "NewGoods", "label": "新商品", "service": "mono", "floor": "goods"},
+    # === 新規追加ジャンル（12ジャンル）===
+    # 素人動画（ユーザー投稿系）
+    "amateur_video": {"keywords": ["素人投稿", "個人撮影", "スマホ撮影"], "category": "AmateurVideo", "label": "素人動画", "service": "digital", "floor": "videoc"},
+    # 日活ロマンポルノ（名作AVシネマ）
+    "nikkatsu": {"keywords": ["日活", "ロマンポルノ", "昭和"], "category": "Nikkatsu", "label": "日活ロマンポルノ", "service": "digital", "floor": "nikkatsu"},
+    # 見放題チャンネル（月額サブスク系）
+    "subscription": {"keywords": ["見放題", "月額", "チャンネル"], "category": "Subscription", "label": "見放題", "service": "monthly", "floor": "premium"},
+    # VRチャンネル（月額VR）
+    "vr_channel": {"keywords": ["VRch", "月額VR", "VR見放題"], "category": "VRChannel", "label": "VRチャンネル", "service": "monthly", "floor": "vr"},
+    # DVD・Blu-ray（物販）
+    "dvd": {"keywords": ["DVD", "Blu-ray", "限定版"], "category": "DVD", "label": "DVD", "service": "mono", "floor": "dvd"},
+    # フィギュア・グッズ（物販）
+    "figure": {"keywords": ["フィギュア", "抱き枕", "タペストリー"], "category": "Figure", "label": "フィギュア", "service": "mono", "floor": "figure"},
+    # 官能小説
+    "novel": {"keywords": ["官能小説", "エロ小説", "ノベル"], "category": "Novel", "label": "官能小説", "service": "ebook", "floor": "novel"},
+    # アダルト写真集
+    "photobook": {"keywords": ["写真集", "グラビア", "ヌード"], "category": "Photobook", "label": "写真集", "service": "ebook", "floor": "photo"},
+    # TL（ティーンズラブ・女性向け恋愛）
+    "tl": {"keywords": ["TL", "ティーンズラブ", "女性向け"], "category": "TL", "label": "TL", "service": "ebook", "floor": "tl"},
+    # TL同人
+    "tl_doujin": {"keywords": ["TL同人", "女性向け同人", "乙女"], "category": "TLDoujin", "label": "TL同人", "service": "doujin", "floor": "digital_doujin_tl"},
+    # BL書籍
+    "bl_book": {"keywords": ["BLコミック", "ボーイズラブ漫画", "BL小説"], "category": "BLBook", "label": "BL書籍", "service": "ebook", "floor": "bl"},
+    # アニメDVD通販
+    "anime_dvd": {"keywords": ["アニメDVD", "OVA DVD", "エロアニメBlu-ray"], "category": "AnimeDVD", "label": "アニメDVD", "service": "mono", "floor": "anime"},
 }
 
 

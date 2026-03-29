@@ -1,7 +1,7 @@
 baseURL = "https://musclelove-777.github.io/eronavi/"
 languageCode = "ja"
 defaultContentLanguage = "ja"
-title = "エロナビ | AV・アニメ・同人・グッズ 総合アダルトレビュー"
+title = "エロナビ | AV・アニメ・同人・グッズ・写真集・小説 総合アダルトレビュー"
 theme = "PaperMod"
 paginate = 30
 
@@ -21,7 +21,7 @@ buildExpired = false
   description = "実写AV・エロアニメ・同人・ASMR・アダルトグッズ…全ジャンル網羅のアダルト総合レビューサイト。サンプル付きで毎日更新"
   author = "エロナビ編集部"
   images = ["https://musclelove-777.github.io/eronavi/favicon.svg"]
-  keywords = ["AV おすすめ", "アダルト動画 ランキング", "FANZA おすすめ", "エロ動画 レビュー", "AV 新作", "NTR AV", "熟女 AV", "VR AV", "巨乳 AV", "素人 AV", "痴女 AV", "中出し AV", "ギャル AV", "レズ AV", "痴漢 AV", "オナホ おすすめ", "TENGA ランキング", "アダルトグッズ レビュー", "同人 FANZA", "SM AV", "OL AV", "女子校生 AV", "母乳 AV", "マッサージ AV", "乱交 AV", "寝取らせ AV", "新人 AV デビュー", "受賞作 AV", "3P AV", "エロアニメ おすすめ", "同人CG FANZA", "ASMR おすすめ", "同人ゲーム エロ", "エロゲ おすすめ", "アダルトコミック", "NTR アニメ", "触手 同人", "異世界 エロ", "学園アニメ エロ", "BL 同人", "バイブ おすすめ", "ローション おすすめ"]
+  keywords = ["AV おすすめ", "アダルト動画 ランキング", "FANZA おすすめ", "エロ動画 レビュー", "AV 新作", "NTR AV", "熟女 AV", "VR AV", "巨乳 AV", "素人 AV", "痴女 AV", "中出し AV", "ギャル AV", "レズ AV", "痴漢 AV", "オナホ おすすめ", "TENGA ランキング", "アダルトグッズ レビュー", "同人 FANZA", "SM AV", "OL AV", "女子校生 AV", "母乳 AV", "マッサージ AV", "乱交 AV", "寝取らせ AV", "新人 AV デビュー", "受賞作 AV", "3P AV", "エロアニメ おすすめ", "同人CG FANZA", "ASMR おすすめ", "同人ゲーム エロ", "エロゲ おすすめ", "アダルトコミック", "NTR アニメ", "触手 同人", "異世界 エロ", "学園アニメ エロ", "BL 同人", "バイブ おすすめ", "ローション おすすめ", "写真集 グラビア", "官能小説", "TL おすすめ", "アダルトDVD", "フィギュア エロ"]
   defaultTheme = "dark"
   ShowReadingTime = false
   ShowShareButtons = false
@@ -34,7 +34,7 @@ buildExpired = false
 
   [params.homeInfoParams]
     Title = "エロナビ"
-    Content = "AV・エロアニメ・同人・アダルトグッズ…全45ジャンルを毎日レビュー。サンプル付きで気になる作品をチェック！ Presented by MuscleLove"
+    Content = "AV・エロアニメ・同人・アダルトグッズ・写真集・官能小説…全57ジャンルを毎日レビュー。サンプル付きで気になる作品をチェック！ Presented by MuscleLove"
 
   [[params.socialIcons]]
     name = "x-twitter"
@@ -302,14 +302,39 @@ buildExpired = false
   weight = 117
 
 [[menus.main]]
+  name = "📸 写真集"
+  url = "/categories/photobook/"
+  weight = 118
+
+[[menus.main]]
+  name = "📖 官能小説"
+  url = "/categories/novel/"
+  weight = 119
+
+[[menus.main]]
+  name = "💕 TL"
+  url = "/categories/tl/"
+  weight = 120
+
+[[menus.main]]
+  name = "🎬 DVD"
+  url = "/categories/dvd/"
+  weight = 121
+
+[[menus.main]]
+  name = "🗿 フィギュア"
+  url = "/categories/figure/"
+  weight = 122
+
+[[menus.main]]
   name = "全カテゴリ"
   url = "/categories/"
-  weight = 120
+  weight = 130
 
 [[menus.main]]
   name = "検索"
   url = "/search/"
-  weight = 130
+  weight = 135
 
 [[menus.main]]
   name = "問い合わせ"

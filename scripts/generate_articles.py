@@ -595,6 +595,19 @@ def _build_related_section(current_genre: str = "") -> str:
         "SMグッズ": "/eronavi/categories/smgoods/",
         "カップル": "/eronavi/categories/couple/",
         "新商品": "/eronavi/categories/newgoods/",
+        # 新規追加ジャンル（12ジャンル）
+        "素人動画": "/eronavi/categories/amateurvideo/",
+        "日活ロマンポルノ": "/eronavi/categories/nikkatsu/",
+        "見放題": "/eronavi/categories/subscription/",
+        "VRチャンネル": "/eronavi/categories/vrchannel/",
+        "DVD": "/eronavi/categories/dvd/",
+        "フィギュア": "/eronavi/categories/figure/",
+        "官能小説": "/eronavi/categories/novel/",
+        "写真集": "/eronavi/categories/photobook/",
+        "TL": "/eronavi/categories/tl/",
+        "TL同人": "/eronavi/categories/tldoujin/",
+        "BL書籍": "/eronavi/categories/blbook/",
+        "アニメDVD": "/eronavi/categories/animedvd/",
     }
     # 現在のジャンルを除外してランダム5つ選ぶ
     other = [(k, v) for k, v in genres.items() if k != current_genre]

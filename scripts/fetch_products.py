@@ -1,6 +1,6 @@
 """
 DMM/FANZAアフィリエイトAPIから商品データを取得するモジュール
-マルチジャンル対応版（実写AV + アニメ・同人 + グッズ 45ジャンル統合版）
+マルチジャンル対応版（実写AV + アニメ・同人 + グッズ + 写真集・小説・物販 57ジャンル統合版）
 ジャンルごとにservice/floorを切り替えてAPIを叩く
 """
 
@@ -60,6 +60,19 @@ GENRE_KEYWORDS = {
     "sm_goods": ["SM", "拘束", "手錠", "目隠し", "首輪", "鞭", "ロープ", "ボンデージ", "ボールギャグ", "調教"],
     "couple": ["カップル", "ペア", "二人用", "リモート", "遠隔", "ワイヤレス", "パートナー", "夫婦", "プレゼント", "初心者"],
     "new_goods": ["新商品", "新作", "話題", "人気", "おすすめ", "ランキング", "売れ筋", "限定", "コラボ", "最新"],
+    # === 新規追加ジャンル（12ジャンル）===
+    "amateur_video": ["素人投稿", "個人撮影", "スマホ", "自撮り", "投稿動画", "リアル", "ガチ", "流出", "プライベート", "隠し撮り"],
+    "nikkatsu": ["日活", "ロマンポルノ", "昭和", "名作", "レトロ", "ピンク映画", "にっかつ", "クラシック", "70年代", "80年代"],
+    "subscription": ["見放題", "月額", "チャンネル", "サブスク", "定額", "プレミアム", "デラックス", "unlimited", "配信", "ストリーミング"],
+    "vr_channel": ["VRch", "月額VR", "VR見放題", "VRサブスク", "VR定額", "VRチャンネル", "バーチャル", "没入", "360度", "主観"],
+    "dvd": ["DVD", "Blu-ray", "ブルーレイ", "限定版", "特典", "BOX", "コレクション", "パッケージ", "ディスク", "初回"],
+    "figure": ["フィギュア", "抱き枕", "タペストリー", "ポスター", "キャラグッズ", "アクリル", "等身大", "スケール", "PVC", "造形"],
+    "novel": ["官能小説", "エロ小説", "ノベル", "官能", "小説", "読み物", "文庫", "書き下ろし", "連載", "短編"],
+    "photobook": ["写真集", "グラビア", "ヌード", "セミヌード", "撮り下ろし", "デジタル写真集", "フォトブック", "水着", "ビキニ", "ポートレート"],
+    "tl": ["TL", "ティーンズラブ", "女性向け", "恋愛", "胸キュン", "イケメン", "溺愛", "俺様", "御曹司", "シンデレラ"],
+    "tl_doujin": ["TL同人", "女性向け同人", "乙女", "夢小説", "乙女ゲーム", "恋愛", "女性向け", "BLじゃない", "純愛", "ラブ"],
+    "bl_book": ["BLコミック", "ボーイズラブ漫画", "BL小説", "BL", "ボーイズラブ", "腐女子", "攻め受け", "BL新刊", "商業BL", "BL文庫"],
+    "anime_dvd": ["アニメDVD", "OVA", "エロアニメ", "Blu-ray", "アダルトアニメ", "パッケージ", "限定版", "特装版", "コレクション", "シリーズ"],
 }
 
 
@@ -193,7 +206,18 @@ def _is_relevant(product: dict, keyword: str, relevant_keywords: list[str]) -> b
 
 
 def _build_affiliate_url(item: dict, affiliate_id: str, service: str = "", floor: str = "") -> str:
-    """商品のアフィリエイトURLを構築する（mono/goods含む全ジャンル対応）"""
+    """商品のアフィリエイトURLを構築する（全ジャンル対応）"""
+    # monthly（月額サブスク系）はAPIのaffiliateURLをそのまま使う
+    if service == "monthly":
+        affiliate_url = item.get("affiliateURL", "")
+        if affiliate_url:
+            return affiliate_url
+        direct_url = item.get("URL", "")
+        if direct_url:
+            separator = "&" if "?" in direct_url else "?"
+            return f"{direct_url}{separator}af_id={affiliate_id}"
+        return ""
+
     # FANZAのアフィリエイトURLをそのまま使う（アニメ・同人含む全ジャンル対応）
     affiliate_url = item.get("affiliateURL", "")
     if affiliate_url:
@@ -207,11 +231,19 @@ def _build_affiliate_url(item: dict, affiliate_id: str, service: str = "", floor
         return f"{direct_url}{separator}af_id={affiliate_id}"
 
     if content_id:
-        # mono/goods（アダルトグッズ）の場合は専用URL
-        if service == "mono" and floor == "goods":
-            base_url = f"https://www.dmm.co.jp/mono/goods/-/detail/=/cid={content_id}/"
-        else:
-            base_url = f"https://www.dmm.co.jp/digital/videoa/-/detail/=/cid={content_id}/"
+        # mono系（DVD, フィギュア, アニメDVD, グッズ）
+        if service == "mono":
+            base_url = f"https://www.dmm.co.jp/mono/{floor}/-/detail/=/cid={content_id}/"
+            return f"{base_url}?af_id={affiliate_id}"
+        # ebook系（官能小説, 写真集, TL, BL書籍, コミック）
+        if service == "ebook":
+            return f"https://book.dmm.co.jp/detail/{content_id}/?af_id={affiliate_id}"
+        # digital/videoc（素人動画）
+        if service == "digital" and floor == "videoc":
+            base_url = f"https://www.dmm.co.jp/digital/videoc/-/detail/=/cid={content_id}/"
+            return f"{base_url}?af_id={affiliate_id}"
+        # デフォルト（実写AV等）
+        base_url = f"https://www.dmm.co.jp/digital/videoa/-/detail/=/cid={content_id}/"
         return f"{base_url}?af_id={affiliate_id}"
 
     return ""
