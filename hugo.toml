@@ -1,0 +1,130 @@
+baseURL = "https://musclelove-777.github.io/eronavi/"
+languageCode = "ja"
+defaultContentLanguage = "ja"
+title = "エロナビ | アダルト動画総合レビューサイト"
+theme = "PaperMod"
+paginate = 30
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[sitemap]
+  changefreq = "daily"
+  priority = 0.5
+
+[params]
+  env = "production"
+  description = "NTR・熟女・VR・巨乳・素人・コスプレ…全ジャンルのアダルト動画を毎日40本以上更新。サンプル動画付きレビューサイト"
+  author = "エロナビ編集部"
+  images = ["https://musclelove-777.github.io/eronavi/favicon.svg"]
+  keywords = ["AV おすすめ", "アダルト動画 ランキング", "FANZA おすすめ", "エロ動画 レビュー", "AV 新作", "NTR AV", "熟女 AV", "VR AV", "巨乳 AV", "素人 AV"]
+  defaultTheme = "dark"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = false
+  TocOpen = false
+  comments = false
+
+  [params.homeInfoParams]
+    Title = "エロナビ"
+    Content = "全ジャンルのアダルト動画を毎日40本以上レビュー。サンプル動画付きで気になる作品をチェック！ Presented by MuscleLove"
+
+  [[params.socialIcons]]
+    name = "x-twitter"
+    url = "https://x.com/MuscleGirlLove7"
+
+  [[params.socialIcons]]
+    name = "linktree"
+    url = "https://linktr.ee/ILoveMyCats"
+
+[params.assets]
+  favicon = "favicon.svg"
+  favicon16x16 = "favicon.svg"
+  favicon32x32 = "favicon.svg"
+  apple_touch_icon = "favicon.svg"
+  safari_pinned_tab = "favicon.svg"
+
+[params.cover]
+  hidden = false
+  hiddenInList = false
+  hiddenInSingle = false
+  linkFullImages = true
+
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = ["title", "permalink", "summary", "content"]
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false
+
+[[menus.main]]
+  name = "🔥 新着"
+  url = "/"
+  weight = 1
+
+[[menus.main]]
+  name = "NTR"
+  url = "/categories/ntr/"
+  weight = 10
+
+[[menus.main]]
+  name = "熟女"
+  url = "/categories/jukujo/"
+  weight = 20
+
+[[menus.main]]
+  name = "VR"
+  url = "/categories/vr/"
+  weight = 30
+
+[[menus.main]]
+  name = "巨乳"
+  url = "/categories/oppai/"
+  weight = 40
+
+[[menus.main]]
+  name = "素人"
+  url = "/categories/shiroto/"
+  weight = 50
+
+[[menus.main]]
+  name = "筋肉"
+  url = "/categories/muscle/"
+  weight = 60
+
+[[menus.main]]
+  name = "コスプレ"
+  url = "/categories/cosplay/"
+  weight = 70
+
+[[menus.main]]
+  name = "フェチ"
+  url = "/categories/fetish/"
+  weight = 80
+
+[[menus.main]]
+  name = "全カテゴリ"
+  url = "/categories/"
+  weight = 90
+
+[[menus.main]]
+  name = "検索"
+  url = "/search/"
+  weight = 100
