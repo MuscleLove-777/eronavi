@@ -87,6 +87,11 @@ buildExpired = false
   weight = 2
 
 [[menus.main]]
+  name = "👩 女優"
+  url = "/categories/actress/"
+  weight = 3
+
+[[menus.main]]
   name = "NTR"
   url = "/categories/ntr/"
   weight = 10
