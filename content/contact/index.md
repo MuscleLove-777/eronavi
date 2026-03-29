@@ -8,7 +8,7 @@ layout: "single"
 当サイトへのお問い合わせは、以下の方法でお願いします。
 
 ### メール
-musclegirlove7@gmail.com
+atsushi.tonkou@gmail.com
 
 ### X (Twitter)
 [@MuscleGirlLove7](https://x.com/MuscleGirlLove7) へDMをお送りください。
