@@ -25,3 +25,14 @@
 }
 </script>
 {{ end }}
+
+{{ if .IsPage }}
+{{ with .Params.cover }}{{ if .image }}
+<meta property="og:image" content="{{ .image }}" />
+<meta name="thumbnail" content="{{ .image }}" />
+{{ end }}{{ end }}
+<meta property="og:type" content="article" />
+<meta property="og:title" content="{{ .Title }}" />
+<meta property="og:description" content="{{ .Description }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+{{ end }}
