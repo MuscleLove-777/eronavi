@@ -12,6 +12,9 @@ from pathlib import Path
 from jinja2 import Template
 from config import Config, GENRES
 
+# 自サイトのURL（姉妹サイト相互リンク用）
+CURRENT_SITE_URL = "https://musclelove-777.github.io/eronavi/"
+
 
 # ============================================================
 # 記事テンプレート群（バリエーションで重複コンテンツを回避）
@@ -350,7 +353,7 @@ def _generate_single_article(
     )
     body_text = random.choice(BODY_VARIATIONS)
     hook_title = random.choice(HOOK_TITLES)
-    meta_description = _build_meta_description(title, genre_text, actresses, category_name)
+    meta_description = _build_meta_description(title, genre_text, actresses, category_name, max_len=100)
 
     # 各セクション生成
     cta_section = _build_cta(affiliate_url, title)
@@ -364,9 +367,13 @@ def _generate_single_article(
     # ランダムにテンプレートを選択
     template = random.choice(ARTICLE_TEMPLATES)
 
+    # ジャンルタグをタイトル先頭に（エロタレスト最適化）
+    genre_prefix = f"【{category_name}】" if category_name else ""
+    full_title = f"{genre_prefix}{_truncate(title, 55)}"
+
     # レンダリング
     content = template.render(
-        title=_truncate(title, 60),
+        title=full_title,
         date=article_date,
         tags=tags,
         category=category_slug,
@@ -409,8 +416,8 @@ def _make_slug(content_id: str, index: int) -> str:
     return f"product-{index:03d}"
 
 
-def _build_meta_description(title: str, genre_text: str, actresses: str, category_name: str) -> str:
-    """SEOキーワードを自然に含んだmeta descriptionを生成する"""
+def _build_meta_description(title: str, genre_text: str, actresses: str, category_name: str, max_len: int = 155) -> str:
+    """SEOキーワードを自然に含んだmeta descriptionを生成する（エロタレスト用は100文字以内）"""
     desc_variations = [
         f"{title}のサンプル動画・レビュー。{genre_text}系作品を紹介。",
         f"{category_name}好き必見の「{title}」を徹底レビュー。{genre_text}好きにおすすめ。",
@@ -422,7 +429,7 @@ def _build_meta_description(title: str, genre_text: str, actresses: str, categor
             f"{actresses}出演「{title}」。{genre_text}系{category_name}動画をチェック。"
         )
     desc = random.choice(desc_variations)
-    return _truncate(desc, 155)
+    return _truncate(desc, max_len)
 
 
 def _truncate(text: str, max_len: int) -> str:
@@ -568,13 +575,39 @@ def _build_related_section(current_genre: str = "") -> str:
 
     links = " | ".join([f'[{name}の作品を見る]({url})' for name, url in picks])
 
+    sister = _build_sister_sites()
+
     return f"""
 ### 他のジャンルも見る
 
 {links}
 
 [全カテゴリ一覧](/eronavi/categories/) | [タグ一覧](/eronavi/tags/)
+
+{sister}
 """
+
+
+def _build_sister_sites():
+    """姉妹サイトへの相互リンク（SEOリンクジュース循環）"""
+    sites = {
+        "エロナビ（総合）": "https://musclelove-777.github.io/eronavi/",
+        "アニメエロナビ": "https://musclelove-777.github.io/anime-navi/",
+        "筋肉美女ナビ": "https://musclelove-777.github.io/fitness-affiliate-blog/",
+        "NTRナビ": "https://musclelove-777.github.io/ntr-navi/",
+        "没入エロスVR": "https://musclelove-777.github.io/vr-eros/",
+        "艶妻コレクション": "https://musclelove-777.github.io/entsuma/",
+        "シロウト発掘隊": "https://musclelove-777.github.io/shiroto-squad/",
+        "おっぱいパラダイス": "https://musclelove-777.github.io/oppai-paradise/",
+        "二次元嫁実写化計画": "https://musclelove-777.github.io/nijigen-realize/",
+        "フェチの殿堂": "https://musclelove-777.github.io/fetish-dendo/",
+    }
+    others = [(k, v) for k, v in sites.items() if v != CURRENT_SITE_URL]
+    picks = random.sample(others, min(3, len(others)))
+    links = "\n".join([f'- [{name}]({url})' for name, url in picks])
+    return f"""### 姉妹サイト
+
+{links}"""
 
 
 if __name__ == "__main__":
