@@ -1,0 +1,16 @@
+{
+  "name": "エロナビ - アダルト総合レビュー",
+  "short_name": "エロナビ",
+  "description": "AV・アニメ・同人・グッズ 総合アダルトレビューサイト",
+  "start_url": "/eronavi/",
+  "display": "standalone",
+  "background_color": "#0d1117",
+  "theme_color": "#e63946",
+  "icons": [
+    {
+      "src": "/eronavi/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

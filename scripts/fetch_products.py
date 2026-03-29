@@ -303,6 +303,23 @@ def _parse_item(item: dict, service: str = "", floor: str = "") -> Optional[dict
             if size_560:
                 sample_movie_url = size_560
 
+        # レビュー情報の取得
+        review = item.get("review", {})
+        review_average = review.get("average", 0) if review else 0
+        review_count = review.get("count", 0) if review else 0
+
+        # セール判定
+        list_price = ""
+        sale_price = ""
+        is_on_sale = False
+        if prices:
+            lp = prices.get("list_price", "")
+            sp = prices.get("price", "")
+            if lp and sp and lp != sp:
+                list_price = lp
+                sale_price = sp
+                is_on_sale = True
+
         return {
             "title": item.get("title", "タイトル不明"),
             "description": item.get("title", ""),
@@ -318,6 +335,11 @@ def _parse_item(item: dict, service: str = "", floor: str = "") -> Optional[dict
             "series": item_info.get("series", [{}])[0].get("name", "") if item_info.get("series") else "",
             "sample_images": sample_images,
             "sample_movie_url": sample_movie_url,
+            "review_average": float(review_average) if review_average else 0,
+            "review_count": int(review_count) if review_count else 0,
+            "is_on_sale": is_on_sale,
+            "list_price": list_price,
+            "sale_price": sale_price,
         }
     except (KeyError, IndexError, TypeError) as e:
         print(f"[警告] 商品データのパースに失敗しました: {e}")

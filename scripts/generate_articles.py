@@ -33,7 +33,7 @@ cover:
   image: "{{ image_url }}"
   alt: "{{ alt_text }}"
   hidden: false
----
+{{ rating_frontmatter }}---
 
 
 ## {{ hook_title }}
@@ -60,6 +60,10 @@ cover:
 
 {{ body_text }}
 
+{{ star_rating }}
+
+{{ sale_badge }}
+
 {{ cta_section }}
 
 ---
@@ -83,7 +87,7 @@ cover:
   image: "{{ image_url }}"
   alt: "{{ alt_text }}"
   hidden: false
----
+{{ rating_frontmatter }}---
 
 
 {{ intro_text }}
@@ -110,6 +114,10 @@ cover:
 > **{{ maker }}**からリリースされたこの作品は、{{ category_name }}ジャンルで定評があります。
 {% endif %}
 
+{{ star_rating }}
+
+{{ sale_badge }}
+
 {{ cta_section }}
 
 ---
@@ -133,7 +141,7 @@ cover:
   image: "{{ image_url }}"
   alt: "{{ alt_text }}"
   hidden: false
----
+{{ rating_frontmatter }}---
 
 
 ## 本日の{{ category_name }}ピックアップ
@@ -155,6 +163,10 @@ cover:
 {% if price %}
 **価格: {{ price }}** --- コスパも申し分なし！
 {% endif %}
+
+{{ star_rating }}
+
+{{ sale_badge }}
 
 {{ cta_section }}
 
@@ -179,7 +191,7 @@ cover:
   image: "{{ image_url }}"
   alt: "{{ alt_text }}"
   hidden: false
----
+{{ rating_frontmatter }}---
 
 
 {{ intro_text }}
@@ -205,6 +217,10 @@ cover:
 
 {{ actresses }}さんが出演しています。
 {% endif %}
+
+{{ star_rating }}
+
+{{ sale_badge }}
 
 {{ cta_section }}
 
@@ -261,6 +277,25 @@ HOOK_TITLES = [
     "MuscleLove厳選！今日のおすすめ",
     "MuscleLoveが選ぶ注目作品",
 ]
+
+
+def _build_star_rating(average, count):
+    """★表示を生成"""
+    if not average or average == 0:
+        return ""
+
+    # 星を生成（★と☆の組み合わせ）
+    full_stars = int(average)
+    half = 1 if (average - full_stars) >= 0.5 else 0
+    empty = 5 - full_stars - half
+    stars = "★" * full_stars + ("★" if half else "") + "☆" * empty
+
+    return f"""
+<div style="text-align: center; margin: 1em 0; padding: 12px; background: #1c2333; border-radius: 8px; border: 1px solid #30363d;">
+  <span style="font-size: 24px; color: #ffd700; letter-spacing: 4px;">{stars}</span>
+  <p style="margin: 4px 0 0; color: #8b949e; font-size: 14px;">{average:.1f} / 5.0（{count}件のレビュー）</p>
+</div>
+"""
 
 
 def generate_articles(
@@ -356,6 +391,7 @@ def _generate_single_article(
     meta_description = _build_meta_description(title, genre_text, actresses, category_name, max_len=100)
 
     # 各セクション生成
+    sale_badge = _build_sale_badge(product)
     cta_section = _build_cta(affiliate_url, title)
     sample_gallery = _build_sample_gallery(sample_images, category_name)
     sample_movie = _build_sample_movie(sample_movie_url)
@@ -388,12 +424,15 @@ def _generate_single_article(
         series=series,
         actresses=actresses,
         alt_text=alt_text,
+        sale_badge=sale_badge,
         cta_section=cta_section,
         sample_gallery=sample_gallery,
         sample_movie=sample_movie,
         sns_section=sns_section,
         footer_brand=footer_brand,
         related_section=related_section,
+        star_rating=star_rating,
+        rating_frontmatter=rating_frontmatter,
     )
 
     with open(filepath, "w", encoding="utf-8") as f:
@@ -449,6 +488,37 @@ def _build_alt_text(title: str, actresses: str, genre_text: str, category_name: 
     if actresses:
         alt_variations.append(f"{actresses}出演「{title}」{category_name}作品の画像")
     return _truncate(random.choice(alt_variations), 120)
+
+
+def _build_sale_badge(product: dict) -> str:
+    """セールバッジを生成"""
+    if not product.get("is_on_sale"):
+        return ""
+
+    list_price = product.get("list_price", "")
+    sale_price = product.get("sale_price", "")
+
+    # 割引率を計算（数値抽出）
+    try:
+        lp = int(''.join(filter(str.isdigit, str(list_price))))
+        sp = int(''.join(filter(str.isdigit, str(sale_price))))
+        if lp > 0:
+            discount = int((1 - sp / lp) * 100)
+        else:
+            discount = 0
+    except Exception:
+        discount = 0
+
+    badge = f"{discount}%OFF" if discount > 0 else "SALE"
+
+    return f"""
+<div style="display: inline-block; padding: 6px 16px; background: #e63946; color: #fff; border-radius: 4px; font-weight: bold; font-size: 16px; margin: 8px 0;">
+  🔥 {badge}
+</div>
+<p style="color: #8b949e; font-size: 13px; margin: 4px 0;">
+  <span style="text-decoration: line-through;">{list_price}円</span> → <span style="color: #e63946; font-weight: bold; font-size: 16px;">{sale_price}円</span>
+</p>
+"""
 
 
 def _build_cta(affiliate_url: str, title: str) -> str:
