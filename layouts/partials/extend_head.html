@@ -27,6 +27,13 @@
   {{ with .Params.cover }}{{ if .image }},
   "image": "{{ .image }}"
   {{ end }}{{ end }}
+  {{ with .Params.rating }},
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "{{ .average }}",
+    "reviewCount": "{{ .count }}"
+  }
+  {{ end }}
 }
 </script>
 {{ end }}

@@ -9,3 +9,69 @@ if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/eronavi/sw.js').catch(function() {});
 }
 </script>
+
+<!-- スマホ用フローティングCTA（記事ページのみ） -->
+{{ if .IsPage }}
+<div id="floating-cta" style="
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background: rgba(13, 17, 23, 0.95);
+  padding: 12px 16px;
+  border-top: 2px solid #e63946;
+  backdrop-filter: blur(10px);
+">
+  <div style="max-width: 1200px; margin: auto; display: flex; align-items: center; justify-content: space-between; gap: 12px;">
+    <span style="color: #f0f0f0; font-size: 13px; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">{{ .Title }}</span>
+    <a href="#" id="floating-cta-link" target="_blank" rel="nofollow" style="
+      display: inline-block;
+      padding: 10px 24px;
+      background: #e63946;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 14px;
+      white-space: nowrap;
+      animation: pulse 2s infinite;
+    ">詳細を見る</a>
+  </div>
+</div>
+
+<style>
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(230, 57, 70, 0.4); }
+  50% { box-shadow: 0 0 0 8px rgba(230, 57, 70, 0); }
+}
+</style>
+
+<script>
+// スクロールで表示 + 記事内の最初のアフィリエイトリンクを取得
+(function() {
+  var cta = document.getElementById('floating-cta');
+  var link = document.getElementById('floating-cta-link');
+  if (!cta || !link) return;
+
+  // 記事内のアフィリエイトリンクを探す
+  var affiliateLink = document.querySelector('.post-content a[href*="dmm.co.jp"]');
+  if (affiliateLink) {
+    link.href = affiliateLink.href;
+  } else {
+    cta.style.display = 'none';
+    return;
+  }
+
+  // スクロール200px以上で表示
+  window.addEventListener('scroll', function() {
+    if (window.scrollY > 200) {
+      cta.style.display = 'block';
+    } else {
+      cta.style.display = 'none';
+    }
+  });
+})();
+</script>
+{{ end }}

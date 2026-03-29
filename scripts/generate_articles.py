@@ -400,6 +400,19 @@ def _generate_single_article(
     related_section = _build_related_section(category_name)
     alt_text = _build_alt_text(title, actresses, genre_text, category_name)
 
+    # レビュー星表示
+    review_avg = product.get("review_average", 0)
+    review_cnt = product.get("review_count", 0)
+    star_rating = _build_star_rating(review_avg, review_cnt)
+
+    # front matter に rating を追加
+    rating_frontmatter = ""
+    if review_avg and review_avg > 0:
+        rating_frontmatter = f"""rating:
+  average: {review_avg:.1f}
+  count: {review_cnt}
+"""
+
     # ランダムにテンプレートを選択
     template = random.choice(ARTICLE_TEMPLATES)
 
