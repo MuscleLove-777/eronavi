@@ -21,6 +21,11 @@ main.main .pagination {
   border-radius: 8px;
 }
 
+/* カテゴリ・タグページでもサムネイル画像を表示（PaperModデフォルトを上書き） */
+.tag-entry .entry-cover {
+  display: block !important;
+}
+
 .main .post-entry .entry-cover img {
   aspect-ratio: 16 / 9;
   object-fit: cover;
