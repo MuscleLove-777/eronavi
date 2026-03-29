@@ -12,10 +12,12 @@ buildExpired = false
 
 [sitemap]
   changefreq = "daily"
-  priority = 0.5
+  priority = 0.7
+  filename = "sitemap.xml"
 
 [params]
   env = "production"
+  canonicalURL = true
   description = "NTR・熟女・VR・巨乳・素人・コスプレ…全ジャンルのアダルト動画を毎日40本以上更新。サンプル動画付きレビューサイト"
   author = "エロナビ編集部"
   images = ["https://musclelove-777.github.io/eronavi/favicon.svg"]

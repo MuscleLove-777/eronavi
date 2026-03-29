@@ -533,19 +533,37 @@ def _build_footer_brand() -> str:
 """
 
 
-def _build_related_section(category_name: str = "") -> str:
-    """関連コンテンツセクションを生成する"""
-    suggestions = [
-        f"MuscleLoveでもっと{category_name}系の作品を探す。",
-        f"このジャンルの他の抜ける{category_name}作品もMuscleLoveでチェック！",
-        "関連する作品は、カテゴリーページからご覧いただけます。",
-    ]
+def _build_related_section(current_genre: str = "") -> str:
+    """他ジャンルへの内部リンクでSEOを強化"""
+    genres = {
+        "NTR": "/eronavi/categories/ntr/",
+        "熟女": "/eronavi/categories/jukujo/",
+        "VR": "/eronavi/categories/vr/",
+        "巨乳": "/eronavi/categories/oppai/",
+        "素人": "/eronavi/categories/shiroto/",
+        "筋肉": "/eronavi/categories/muscle/",
+        "コスプレ": "/eronavi/categories/cosplay/",
+        "フェチ": "/eronavi/categories/fetish/",
+        "痴女": "/eronavi/categories/chijo/",
+        "中出し": "/eronavi/categories/nakadashi/",
+        "ギャル": "/eronavi/categories/gal/",
+        "レズ": "/eronavi/categories/lesbian/",
+        "企画": "/eronavi/categories/kikaku/",
+        "グッズ": "/eronavi/categories/goods/",
+        "同人": "/eronavi/categories/doujin/",
+    }
+    # 現在のジャンルを除外してランダム5つ選ぶ
+    other = [(k, v) for k, v in genres.items() if k != current_genre]
+    picks = random.sample(other, min(5, len(other)))
+
+    links = " | ".join([f'[{name}の作品を見る]({url})' for name, url in picks])
+
     return f"""
-### MuscleLoveでもっと見る
+### 他のジャンルも見る
 
-{random.choice(suggestions)}
+{links}
 
-[カテゴリー一覧を見る](/eronavi/categories/) | [検索する](/eronavi/search/)
+[全カテゴリ一覧](/eronavi/categories/) | [タグ一覧](/eronavi/tags/)
 """
 
 
