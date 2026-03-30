@@ -112,6 +112,23 @@ function ageGateReject() {
   <script src="//bpm.eroterest.net/v2/?w=&e=&n=6&rn=2&spn=&sprn=&fc=&ts=&tp=&tbg=&tsz=&tr=&tc=&tmc=&tu=1&is=1&mts=&ds=&dsz=&dr=&dc=&df=&ibg=&ibm=&ids=&ib=&ibc=&ir=&sf="></script>
 </div>
 
+<!-- エロタレスト連動広告（動画iframe直下に自動挿入） -->
+<script>
+(function() {
+  var iframes = document.querySelectorAll('.post-content iframe[src*="dmm.co.jp/litevideo"]');
+  iframes.forEach(function(iframe) {
+    var container = iframe.closest('div');
+    if (container) {
+      var adDiv = document.createElement('div');
+      adDiv.id = 'eroterest_partsv2_inline';
+      adDiv.className = 'eroterest_partsv2';
+      adDiv.style.marginTop = '10px';
+      container.insertAdjacentElement('afterend', adDiv);
+    }
+  });
+})();
+</script>
+
 <script>
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/eronavi/sw.js').catch(function() {});

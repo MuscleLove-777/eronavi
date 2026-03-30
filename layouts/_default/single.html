@@ -36,6 +36,9 @@
 
   {{- if .Content }}
   <div class="post-content">
+    <div style="background: rgba(230,57,70,0.1); border-left: 3px solid #e63946; padding: 8px 12px; margin-bottom: 16px; font-size: 0.8rem; color: #ccc;">
+      ※ 当サイトはアフィリエイトプログラムに参加しています。リンク経由で購入された場合、サイト運営費として報酬を受け取ることがあります。
+    </div>
     {{- if not (.Param "disableAnchoredHeadings") }}
     {{- partial "anchored_headings.html" .Content -}}
     {{- else }}{{ .Content }}{{ end }}

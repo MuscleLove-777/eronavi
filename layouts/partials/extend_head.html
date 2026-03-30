@@ -1,3 +1,4 @@
+<meta name="rating" content="adult" />
 <link rel="manifest" href="/eronavi/manifest.json" />
 <meta name="theme-color" content="#e63946" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -53,6 +54,54 @@
 {{ with .Params.cover }}{{ if .image }}
 <meta name="twitter:image" content="{{ .image }}" />
 {{ end }}{{ end }}
+{{ end }}
+
+<!-- Review + Product 構造化データ -->
+{{ if .IsPage }}
+{{ with .Params.rating }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Product",
+    "name": "{{ $.Title }}"
+    {{ with $.Params.cover }}{{ if .image }},
+    "image": "{{ .image }}"
+    {{ end }}{{ end }}
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "{{ .average }}",
+    "bestRating": "5"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "エロナビ編集部"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "エロナビ"
+  }
+}
+</script>
+{{ end }}
+{{ end }}
+
+<!-- VideoObject 構造化データ -->
+{{ if .IsPage }}
+{{ with .Params.video_url }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "{{ $.Title }}",
+  "description": "{{ $.Description }}",
+  "thumbnailUrl": "{{ with $.Params.cover }}{{ .image }}{{ end }}",
+  "uploadDate": "{{ $.Date.Format "2006-01-02" }}"
+}
+</script>
+{{ end }}
 {{ end }}
 
 <!-- BreadcrumbList -->
