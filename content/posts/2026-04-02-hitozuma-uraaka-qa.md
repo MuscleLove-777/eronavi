@@ -10,7 +10,6 @@ cover:
   alt: "人妻裏垢Q&A"
   hidden: true
 ---
-
 こんばんは、あかりです。35歳、レスの人妻です。
 
 先日ストーリーズで質問箱を設置したら、たくさんDMが届いたので、今日はまとめて回答していきますね。
@@ -34,6 +33,14 @@ cover:
 ---
 
 もっと見たいというリクエストが多かったので、トレーニング後の腹筋を撮った動画を特別に載せておきますね。汗で光る腹筋、自分でもちょっとドキッとしました。
+
+
+### 作品情報
+
+| 項目 | 内容 |
+|------|------|
+| カテゴリ | 人妻裏アカ |
+| タグ | 人妻裏垢 / Q&A / 筋トレ 質問 / 人妻 質問箱 / 裏垢女子 質問 / フィジーク 初心者 |
 
 <div style="text-align: center; margin: 2em 0;">
   <iframe src="https://drive.google.com/file/d/1GVYzOxVmqOd1h52csLQH5Y8tCE3mMT3i/preview" width="640" height="480" allow="autoplay" allowfullscreen style="border-radius: 8px; max-width: 100%;"></iframe>

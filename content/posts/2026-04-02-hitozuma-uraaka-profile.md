@@ -10,7 +10,6 @@ cover:
   alt: "セックスレス人妻のフィジーク挑戦"
   hidden: true
 ---
-
 ## はじめまして、あかりです。
 
 あかり（仮名）、35歳、既婚。結婚8年目の**セックスレス人妻**です。
@@ -30,6 +29,14 @@ cover:
 誰にも言えないこの挑戦を、どこかで発信したかった。だからこの**人妻裏垢**を作りました。ここでは鍛えた体の経過報告や、セックスレスの愚痴、トレーニングの記録を残していきます。
 
 まずは最近撮った腹筋チェック動画を見てください。指で腹筋のラインをなぞってるだけなんですけど、自分でも「これ本当に私？」ってなります。
+
+
+### 作品情報
+
+| 項目 | 内容 |
+|------|------|
+| カテゴリ | 人妻裏アカ |
+| タグ | 人妻裏垢 / 人妻 筋トレ / セックスレス 人妻 / フィジーク 人妻 / 腹筋フェチ / 裏アカ / 筋肉女子 |
 
 <div style="text-align: center; margin: 2em 0;">
   <iframe src="https://drive.google.com/file/d/1kVdRPsjmOHw1B-n4Ch3RkNTngzKwUdCl/preview" width="640" height="480" allow="autoplay" allowfullscreen style="border-radius: 8px; max-width: 100%;"></iframe>

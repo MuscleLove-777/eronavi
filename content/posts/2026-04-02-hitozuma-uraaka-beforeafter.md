@@ -10,7 +10,6 @@ cover:
   alt: "人妻のビフォーアフター"
   hidden: true
 ---
-
 ## 見せたくなかった体、見せたい体に変わるまで
 
 35歳、セックスレス3年目の人妻あかりです。
@@ -28,6 +27,14 @@ cover:
 変わったのは体だけじゃない。自信がついて、下着も攻めたデザインを選ぶようになった。誰に見せるわけでもないのに、鏡の前でポーズを取る自分がいる。
 
 レスの原因は夫だけじゃなかった。自分自身を諦めてたことが、一番の原因だったんだと思う。
+
+
+### 作品情報
+
+| 項目 | 内容 |
+|------|------|
+| カテゴリ | 人妻裏アカ |
+| タグ | 人妻裏垢 / ビフォーアフター / 体 変化 / 筋トレ ビフォーアフター / セックスレス 人妻 / ダイエット 成功 |
 
 <div style="text-align: center; margin: 2em 0;">
   <iframe src="https://drive.google.com/file/d/1YITodICIHeWpAdXmEybxdd4LrzLFgp3_/preview" width="640" height="480" allow="autoplay" allowfullscreen style="border-radius: 8px; max-width: 100%;"></iframe>

@@ -10,7 +10,6 @@ cover:
   alt: "人妻の腹筋フェチ動画"
   hidden: true
 ---
-
 こんばんは、あかりです。35歳、レスの人妻。今日も寝室からこっそり裏垢更新しちゃう。
 
 <!--more-->
@@ -26,6 +25,14 @@ cover:
 ## 指でなぞり動画
 
 リクエスト多かったから、今日は特別に。寝室でオイル塗って、自分の指でゆっくり腹筋の溝をなぞってみました。
+
+
+### 作品情報
+
+| 項目 | 内容 |
+|------|------|
+| カテゴリ | 人妻裏アカ |
+| タグ | 人妻裏垢 / 腹筋フェチ / 腹筋 なぞる / 筋肉 女性 / 腹筋 動画 / 裏垢女子 |
 
 <div style="text-align: center; margin: 2em 0;">
   <iframe src="https://drive.google.com/file/d/1lcvjefGscccVHIz5oR4n6sRU6fqkvAjx/preview" width="640" height="480" allow="autoplay" allowfullscreen style="border-radius: 8px; max-width: 100%;"></iframe>

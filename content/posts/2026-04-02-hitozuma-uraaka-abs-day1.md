@@ -10,7 +10,6 @@ cover:
   alt: "人妻の腹筋トレーニング記録"
   hidden: true
 ---
-
 ## はじめまして、あかりです
 
 35歳、結婚8年目の人妻です。
@@ -24,6 +23,14 @@ cover:
 寝室の鏡を見たとき、うっすら縦線が入ってるのを見つけて、思わず指でなぞっちゃった。ゾクッとした。自分の身体なのに、こんなにドキドキするなんて。
 
 誰にも見せられないから、裏垢で記録することにしました。**人妻裏垢**デビューです。
+
+
+### 作品情報
+
+| 項目 | 内容 |
+|------|------|
+| カテゴリ | 人妻裏アカ |
+| タグ | 人妻裏垢 / 腹筋 トレーニング / 腹筋フェチ / 筋トレ 人妻 / 腹筋 なぞる / 裏垢女子 |
 
 <div style="text-align: center; margin: 2em 0;">
   <iframe src="https://drive.google.com/file/d/1D_6CTMupPxkV3eURW--kkeXsl0E6UWkT/preview" width="640" height="480" allow="autoplay" allowfullscreen style="border-radius: 8px; max-width: 100%;"></iframe>

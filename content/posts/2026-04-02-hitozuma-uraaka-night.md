@@ -10,7 +10,6 @@ cover:
   alt: "人妻の夜の筋トレルーティン"
   hidden: true
 ---
-
 こんばんは、あかりです。35歳、結婚7年目の人妻です。
 
 今夜も旦那が寝落ちしてくれたので、私だけの秘密の時間が始まります。
@@ -30,6 +29,14 @@ cover:
 「すごい腹筋ですね」ってDMが来るたびに、ドキドキが止まらない。誰かに見られてるって意識するだけで、トレーニングのモチベーションが全然違う。
 
 今夜も腹筋チェック、撮っちゃいました。
+
+
+### 作品情報
+
+| 項目 | 内容 |
+|------|------|
+| カテゴリ | 人妻裏アカ |
+| タグ | 人妻裏垢 / 筋トレ ルーティン / 夜 トレーニング / 人妻 秘密 / 裏垢 夜 / 腹筋 ルーティン |
 
 <div style="text-align: center; margin: 2em 0;">
   <iframe src="https://drive.google.com/file/d/16oX7v8HcCbycYqdk1qPo5bpokmXUE3J3/preview" width="640" height="480" allow="autoplay" allowfullscreen style="border-radius: 8px; max-width: 100%;"></iframe>

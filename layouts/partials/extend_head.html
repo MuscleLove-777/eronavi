@@ -4,6 +4,22 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
+{{/* ページネーション2ページ目以降をnoindex */}}
+{{ if and (.IsNode) (not .IsHome) (ne .Kind "taxonomy") (ne .Kind "term") }}
+  {{ $paginator := .Paginate .Pages }}
+  {{ if gt $paginator.PageNumber 1 }}
+<meta name="robots" content="noindex, follow" />
+  {{ end }}
+{{ end }}
+
+{{/* タグページ（taxonomy term）をnoindex。カテゴリページは除外 */}}
+{{ if and (eq .Kind "term") (eq .Data.Singular "tag") }}
+<meta name="robots" content="noindex, follow" />
+{{ end }}
+{{ if eq .Kind "taxonomy" }}
+<meta name="robots" content="noindex, follow" />
+{{ end }}
+
 {{ if .IsPage }}
 <script type="application/ld+json">
 {
@@ -39,20 +55,10 @@
 </script>
 {{ end }}
 
+{{/* OGP/Twitterメタタグは PaperMod の head.html (opengraph.html, twitter_cards.html) が出力するため、ここでは重複を避ける */}}
 {{ if .IsPage }}
 {{ with .Params.cover }}{{ if .image }}
-<meta property="og:image" content="{{ .image }}" />
 <meta name="thumbnail" content="{{ .image }}" />
-{{ end }}{{ end }}
-<meta property="og:type" content="article" />
-<meta property="og:title" content="{{ .Title }}" />
-<meta property="og:description" content="{{ .Description }}" />
-<meta property="og:url" content="{{ .Permalink }}" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="{{ .Title }}" />
-<meta name="twitter:description" content="{{ .Description }}" />
-{{ with .Params.cover }}{{ if .image }}
-<meta name="twitter:image" content="{{ .image }}" />
 {{ end }}{{ end }}
 {{ end }}
 

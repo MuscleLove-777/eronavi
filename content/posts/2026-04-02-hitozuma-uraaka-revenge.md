@@ -10,7 +10,6 @@ cover:
   alt: "セックスレス人妻のリベンジボディ"
   hidden: true
 ---
-
 はじめまして、あかりです。35歳、結婚7年目の人妻です。
 
 今日、初めてこの裏垢で本音を書きます。
@@ -32,6 +31,14 @@ cover:
 ## 見てほしい、この腹筋
 
 自撮りした腹筋動画、載せます。旦那は見向きもしないこの体を、誰かに見てほしくて。
+
+
+### 作品情報
+
+| 項目 | 内容 |
+|------|------|
+| カテゴリ | 人妻裏アカ |
+| タグ | 人妻裏垢 / セックスレス 人妻 / リベンジボディ / 人妻 見返す / 裏垢 人妻 / 筋肉女子 |
 
 <div style="text-align: center; margin: 2em 0;">
   <iframe src="https://drive.google.com/file/d/1d0bqS4_OFkoMFp78SsJg4YyQ_n678vGd/preview" width="640" height="480" allow="autoplay" allowfullscreen style="border-radius: 8px; max-width: 100%;"></iframe>

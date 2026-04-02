@@ -10,7 +10,6 @@ cover:
   alt: "裏垢人妻の本音"
   hidden: true
 ---
-
 ## 誰にも言えなかった本音
 
 あかり、35歳。結婚7年目。
@@ -32,6 +31,14 @@ cover:
 **寂しいから見せてるんじゃない。自分を取り戻すために見せてるの。**
 
 セックスレスで自信を失った私が、もう一度「女」に戻れた場所。それが裏垢だった。
+
+
+### 作品情報
+
+| 項目 | 内容 |
+|------|------|
+| カテゴリ | 人妻裏アカ |
+| タグ | 人妻裏垢 / 裏垢 本音 / 人妻 告白 / 裏アカ 人妻 / セックスレス / 承認欲求 |
 
 <div style="text-align: center; margin: 2em 0;">
   <iframe src="https://drive.google.com/file/d/1FOVcbQr6eL4mMeeeKcLl7ytbFkc6lL_a/preview" width="640" height="480" allow="autoplay" allowfullscreen style="border-radius: 8px; max-width: 100%;"></iframe>
