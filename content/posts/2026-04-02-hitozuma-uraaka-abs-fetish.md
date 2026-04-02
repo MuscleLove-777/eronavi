@@ -6,7 +6,7 @@ categories: ["hitozuma-uraaka"]
 draft: false
 description: "鍛え上げた腹筋を指でなぞる人妻あかり。腹筋フェチ必見の仕上がりチェック動画を公開。シックスパックへの道。"
 cover:
-  image: ""
+  image: "https://lh3.googleusercontent.com/drive-storage/AJQWtBPyi4eELq6trqidTXtk1AB4Ef0Dm9VZgbB-4hIn6iO0SoDigdQjLZQcj8FKf5iKEG9jdYW9pioFEuSdwxJSLEpMHUMv2cE1o9q_MJ-5=s800"
   alt: "人妻の腹筋フェチ動画"
   hidden: true
 ---

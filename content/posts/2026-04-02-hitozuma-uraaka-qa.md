@@ -6,7 +6,7 @@ categories: ["hitozuma-uraaka"]
 draft: false
 description: "裏垢フォロワーさんからの質問に人妻あかりが回答。筋トレメニュー、旦那にバレないか、なぜ裏垢で公開するのか等。"
 cover:
-  image: ""
+  image: "https://lh3.googleusercontent.com/drive-storage/AJQWtBPTH6cz2SK5f0BP6lp8pCkcCyAR92Fp5PcY9iduu7X-V7a2JLtVvohT8pT2n6YzrgxMYTH1_ePMqpR9jMyaBoKcza9184EISmjKOMVa=s800"
   alt: "人妻裏垢Q&A"
   hidden: true
 ---

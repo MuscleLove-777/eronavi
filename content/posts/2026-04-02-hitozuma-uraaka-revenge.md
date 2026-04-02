@@ -6,7 +6,7 @@ categories: ["hitozuma-uraaka"]
 draft: false
 description: "3年間のセックスレスに終止符。人妻あかりが鍛え上げた体で旦那を見返すリベンジボディ計画を告白。腹筋動画あり。"
 cover:
-  image: ""
+  image: "https://lh3.googleusercontent.com/drive-storage/AJQWtBOpUA9iccISQ1NdhQrQ33KmmDjSNJRQa3Nmjhkkqj_AleDPgBwsteiH_Qp4y4aH-Wb_L0AEtdR-9aoQVaCC29mDdwIW3N-NiFjfTLjN=s800"
   alt: "セックスレス人妻のリベンジボディ"
   hidden: true
 ---

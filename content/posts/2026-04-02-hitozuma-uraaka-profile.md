@@ -6,7 +6,7 @@ categories: ["hitozuma-uraaka"]
 draft: false
 description: "30代半ばのセックスレス人妻が、旦那を見返すためにフィジーク大会出場を決意。鍛え上げた腹筋を裏垢で公開中。プロフィールと決意表明。"
 cover:
-  image: ""
+  image: "https://lh3.googleusercontent.com/drive-storage/AJQWtBOh4ziJPoF-M7rgdcdLznRj0RZ1aYj5SYMgJBtoH2bTkJpwfWeZLX61G_8H7rDrf3tiF_q0bLeBfZ1jp489ElOX4yk0CwkCFOPgsZ7q=s800"
   alt: "セックスレス人妻のフィジーク挑戦"
   hidden: true
 ---

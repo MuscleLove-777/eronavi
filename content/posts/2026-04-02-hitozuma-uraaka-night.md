@@ -6,7 +6,7 @@ categories: ["hitozuma-uraaka"]
 draft: false
 description: "旦那が寝た後にこっそり筋トレする人妻あかり。夜の秘密のトレーニングルーティンと腹筋チェック動画を公開。"
 cover:
-  image: ""
+  image: "https://lh3.googleusercontent.com/drive-storage/AJQWtBOiobEDtE7WmNCvwe00Ya9TEx6Tfzom3rYptt2SH6LKNqmNaCJzo0F09cU8kWSvCqzXrKZbSnoLawtc8VYQwDsa6RNpUHYYZT-k5zmK=s800"
   alt: "人妻の夜の筋トレルーティン"
   hidden: true
 ---

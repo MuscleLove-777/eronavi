@@ -6,7 +6,7 @@ categories: ["hitozuma-uraaka"]
 draft: false
 description: "セックスレス人妻あかりの筋トレビフォーアフターを公開。だらしなかった体が鍛え上げられた腹筋に変わるまでの記録。"
 cover:
-  image: ""
+  image: "https://lh3.googleusercontent.com/drive-storage/AJQWtBPy5Y-0izGNmBW7D3ReWA1nMUG8UX_xs-Fs5Ixk2hs8sLJOTeiRoNr69v9WrQiDUvsXxUCuu3Eg_nxJfLPTVWY_wCrbeNf_cbfcP6b7=s800"
   alt: "人妻のビフォーアフター"
   hidden: true
 ---

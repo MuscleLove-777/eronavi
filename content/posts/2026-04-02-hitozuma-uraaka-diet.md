@@ -6,7 +6,7 @@ categories: ["hitozuma-uraaka"]
 draft: false
 description: "フィジーク大会を目指す人妻あかりの減量期の食事管理を公開。鍛え上げた腹筋とともに体の仕上がりをチェック。"
 cover:
-  image: ""
+  image: "https://lh3.googleusercontent.com/drive-storage/AJQWtBMW2pSo9Hf66T5_HJXY6LrG0ZELdo1zWu3bMhPF9dCj5tSM9wG7T7q36AxE3aUYPsIqIh1bBDwg6GZth_Tg_Vk0YOxTPPztQBl6ayI7=s800"
   alt: "フィジーク人妻の食事管理"
   hidden: true
 ---

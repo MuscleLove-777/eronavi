@@ -6,7 +6,7 @@ categories: ["hitozuma-uraaka"]
 draft: false
 description: "フィジーク大会まであと3ヶ月。人妻あかりの体の仕上がり経過を動画で報告。腹筋のカットが深くなってきた。"
 cover:
-  image: ""
+  image: "https://lh3.googleusercontent.com/drive-storage/AJQWtBOXXaqJ0vG33nJWBRTX58tY27qDmRH4AeRM3K7to386DqwzeIPPBjXfRm2b2XRg0p7FeZfInHnMJESlJXETH34zIU9sN0Uv6Tw08lVW=s800"
   alt: "フィジーク大会準備中の人妻"
   hidden: true
 ---
