@@ -11,7 +11,7 @@ cover:
   hidden: true
 ---
 
-こんばんは、あかりです。35歳、レスの人妻。今日もジム帰りに裏垢更新しちゃう。
+こんばんは、あかりです。35歳、レスの人妻。今日も寝室からこっそり裏垢更新しちゃう。
 
 <!--more-->
 
@@ -25,7 +25,7 @@ cover:
 
 ## 指でなぞり動画
 
-リクエスト多かったから、今日は特別に。お風呂上がりにオイル塗って、自分の指でゆっくり腹筋の溝をなぞってみました。
+リクエスト多かったから、今日は特別に。寝室でオイル塗って、自分の指でゆっくり腹筋の溝をなぞってみました。
 
 <div style="text-align: center; margin: 2em 0;">
   <iframe src="https://drive.google.com/file/d/1lcvjefGscccVHIz5oR4n6sRU6fqkvAjx/preview" width="640" height="480" allow="autoplay" allowfullscreen style="border-radius: 8px; max-width: 100%;"></iframe>

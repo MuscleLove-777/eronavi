@@ -21,7 +21,7 @@ cover:
 
 でもね、鏡を見ると確実に変わってきてるの。腹筋のラインがくっきり浮き出て、腹斜筋も見えてきた。自分の体に見惚れるって初めての感覚。誰かに見てもらいたくて、裏垢を作っちゃった。
 
-体脂肪が落ちてくると、体のラインがどんどんエロくなっていく。筋肉のついた体って、服を着ても脱いでも色気が出るんだよね。ジムで思わず動画を撮っちゃった。
+体脂肪が落ちてくると、体のラインがどんどんエロくなっていく。筋肉のついた体って、服を着ても脱いでも色気が出るんだよね。寝室で思わず動画を撮っちゃった。
 
 <div style="text-align: center; margin: 2em 0;">
   <iframe src="https://drive.google.com/file/d/1B02XY49xJ5zKsBe5DEl_096JzWjmBgwN/preview" width="640" height="480" allow="autoplay" allowfullscreen style="border-radius: 8px; max-width: 100%;"></iframe>
