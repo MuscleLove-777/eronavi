@@ -52,274 +52,59 @@
 
 {{- $paginator := .Paginate $pages }}
 
-{{/* ===== HOME PAGE 1st PAGE ONLY: Hero + Category Sections + Tag Cloud ===== */}}
+{{/* ===== HOME PAGE 1st PAGE ONLY ===== */}}
 {{- if and .IsHome (eq $paginator.PageNumber 1) }}
 
-<!-- Hero Section -->
-<div class="hero-section">
-  <div class="hero-inner">
-    <h1 class="hero-title">エロナビ</h1>
-    <p class="hero-subtitle">AV・エロアニメ・同人・グッズ・写真集・官能小説 — 全57ジャンル毎日更新</p>
-    <div class="hero-stats">
-      <div class="hero-stat">
-        <span class="hero-stat-num">{{ len (where site.RegularPages "Type" "in" site.Params.mainSections) }}</span>
-        <span class="hero-stat-label">作品レビュー</span>
-      </div>
-      <div class="hero-stat">
-        <span class="hero-stat-num">57</span>
-        <span class="hero-stat-label">ジャンル</span>
-      </div>
-      <div class="hero-stat">
-        <span class="hero-stat-num">毎日</span>
-        <span class="hero-stat-label">更新中</span>
-      </div>
-    </div>
-    <a href="/eronavi/search/" class="hero-search-btn">
-      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-      作品を検索する
-    </a>
-  </div>
+<!-- Mini Hero Banner (1行だけ) -->
+<div class="hero-mini">
+  <span class="hero-mini-title">エロナビ</span>
+  <span class="hero-mini-stats">{{ len (where site.RegularPages "Type" "in" site.Params.mainSections) }}作品 / 57ジャンル / 毎日更新</span>
+  <a href="/eronavi/search/" class="hero-mini-search">🔍 検索</a>
 </div>
-
-<!-- Category Group: 実写AV -->
-<section class="category-group">
-  <h2 class="category-group-title">
-    <span class="category-group-icon">🎬</span> 実写AV
-  </h2>
-  <div class="category-chips">
-    <a href="/eronavi/categories/ranking/" class="category-chip chip-hot">🏆 ランキング</a>
-    <a href="/eronavi/categories/actress/" class="category-chip">👩 女優</a>
-    <a href="/eronavi/categories/ntr/" class="category-chip">NTR</a>
-    <a href="/eronavi/categories/jukujo/" class="category-chip">熟女</a>
-    <a href="/eronavi/categories/vr/" class="category-chip">VR</a>
-    <a href="/eronavi/categories/oppai/" class="category-chip">巨乳</a>
-    <a href="/eronavi/categories/shiroto/" class="category-chip">素人</a>
-    <a href="/eronavi/categories/muscle/" class="category-chip">筋肉</a>
-    <a href="/eronavi/categories/cosplay/" class="category-chip">コスプレ</a>
-    <a href="/eronavi/categories/fetish/" class="category-chip">フェチ</a>
-    <a href="/eronavi/categories/chijo/" class="category-chip">痴女</a>
-    <a href="/eronavi/categories/nakadashi/" class="category-chip">中出し</a>
-    <a href="/eronavi/categories/gal/" class="category-chip">ギャル</a>
-    <a href="/eronavi/categories/lesbian/" class="category-chip">レズ</a>
-    <a href="/eronavi/categories/kikaku/" class="category-chip">企画</a>
-    <a href="/eronavi/categories/sm/" class="category-chip">SM</a>
-    <a href="/eronavi/categories/ol/" class="category-chip">OL</a>
-    <a href="/eronavi/categories/joshi/" class="category-chip">女子校生</a>
-    <a href="/eronavi/categories/milf/" class="category-chip">母乳</a>
-    <a href="/eronavi/categories/massage/" class="category-chip">マッサージ</a>
-    <a href="/eronavi/categories/swapping/" class="category-chip">乱交</a>
-    <a href="/eronavi/categories/chikan/" class="category-chip">痴漢</a>
-    <a href="/eronavi/categories/cuckold/" class="category-chip">寝取らせ</a>
-    <a href="/eronavi/categories/debut/" class="category-chip chip-new">新人</a>
-    <a href="/eronavi/categories/award/" class="category-chip chip-hot">受賞作</a>
-  </div>
-</section>
-
-<!-- Category Group: アニメ・同人 -->
-<section class="category-group">
-  <h2 class="category-group-title">
-    <span class="category-group-icon">🎌</span> アニメ・同人
-  </h2>
-  <div class="category-chips">
-    <a href="/eronavi/categories/anime/" class="category-chip">エロアニメ</a>
-    <a href="/eronavi/categories/ntranime/" class="category-chip">NTRアニメ</a>
-    <a href="/eronavi/categories/schoolanime/" class="category-chip">学園アニメ</a>
-    <a href="/eronavi/categories/doujin/" class="category-chip">同人</a>
-    <a href="/eronavi/categories/doujincg/" class="category-chip">同人CG</a>
-    <a href="/eronavi/categories/doujinmanga/" class="category-chip">同人漫画</a>
-    <a href="/eronavi/categories/doujingame/" class="category-chip">同人ゲーム</a>
-    <a href="/eronavi/categories/pcgame/" class="category-chip">エロゲ</a>
-    <a href="/eronavi/categories/comic/" class="category-chip">コミック</a>
-    <a href="/eronavi/categories/tentacle/" class="category-chip">触手</a>
-    <a href="/eronavi/categories/isekai/" class="category-chip">異世界</a>
-    <a href="/eronavi/categories/bl/" class="category-chip">BL</a>
-    <a href="/eronavi/categories/voice/" class="category-chip">ASMR</a>
-  </div>
-</section>
-
-<!-- Category Group: グッズ・書籍 -->
-<section class="category-group">
-  <h2 class="category-group-title">
-    <span class="category-group-icon">🛒</span> グッズ・書籍
-  </h2>
-  <div class="category-chips">
-    <a href="/eronavi/categories/goods/" class="category-chip">グッズ</a>
-    <a href="/eronavi/categories/onahole/" class="category-chip">オナホ</a>
-    <a href="/eronavi/categories/vibrator/" class="category-chip">バイブ</a>
-    <a href="/eronavi/categories/tenga/" class="category-chip">TENGA</a>
-    <a href="/eronavi/categories/lotion/" class="category-chip">ローション</a>
-    <a href="/eronavi/categories/newgoods/" class="category-chip">グッズ全般</a>
-    <a href="/eronavi/categories/photobook/" class="category-chip">📸 写真集</a>
-    <a href="/eronavi/categories/novel/" class="category-chip">📖 官能小説</a>
-    <a href="/eronavi/categories/tl/" class="category-chip">💕 TL</a>
-    <a href="/eronavi/categories/dvd/" class="category-chip">🎬 DVD</a>
-    <a href="/eronavi/categories/figure/" class="category-chip">🗿 フィギュア</a>
-  </div>
-</section>
-
-<!-- Tag Cloud -->
-<section class="tag-cloud-section">
-  <h2 class="category-group-title">
-    <span class="category-group-icon">🏷️</span> 人気タグ
-  </h2>
-  <div class="tag-cloud">
-    {{ $tags := site.Taxonomies.tags }}
-    {{ $max := 0 }}
-    {{ range $tags }}
-      {{ if gt (len .Pages) $max }}
-        {{ $max = len .Pages }}
-      {{ end }}
-    {{ end }}
-    {{ range $name, $pages := $tags }}
-      {{ $count := len $pages }}
-      {{ if ge $count 1 }}
-      <a href="{{ "/eronavi/tags/" | safeURL }}{{ $name | urlize }}/" class="tag-cloud-item" data-count="{{ $count }}">
-        {{ $name }}
-        <span class="tag-count">{{ $count }}</span>
-      </a>
-      {{ end }}
-    {{ end }}
-  </div>
-</section>
-
-<!-- Today's Picks -->
-<section class="picks-section">
-  <h2 class="section-title"><span class="section-title-icon">⚡</span> 今日のピックアップ</h2>
-  <div class="picks-scroll">
-    {{- $pickPages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-    {{- $pickPages = where $pickPages "Params.categories" "not intersect" (slice "ranking") }}
-    {{- $pickPages = first 8 $pickPages }}
-    {{- range $pickPages }}
-    <a href="{{ .Permalink }}" class="pick-card">
-      <div class="pick-card-img">
-        {{- with .Params.cover.image }}
-        <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy" />
-        {{- end }}
-        <div class="pick-card-overlay"></div>
-      </div>
-      <div class="pick-card-info">
-        {{- with .Params.categories }}
-        <span class="pick-card-cat">{{ index . 0 }}</span>
-        {{- end }}
-        <p class="pick-card-title">{{ .Title }}</p>
-      </div>
-    </a>
-    {{- end }}
-  </div>
-</section>
 
 <style>
-.picks-section {
+.hero-mini {
   grid-column: 1 / -1;
-  margin: 2rem 0 1.5rem;
-}
-.picks-scroll {
   display: flex;
-  flex-wrap: nowrap;
-  gap: 16px;
-  overflow-x: auto;
-  padding-bottom: 12px;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #1a1020 0%, #0d1117 100%);
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
 }
-.picks-scroll::-webkit-scrollbar {
-  height: 6px;
+.hero-mini-title {
+  font-size: 1.3rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #ff6b6b, #ff8e8e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
-.picks-scroll::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 3px;
+.hero-mini-stats {
+  font-size: 0.8rem;
+  color: #8b949e;
+  flex: 1;
 }
-.picks-scroll::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.15);
-  border-radius: 3px;
-}
-.picks-scroll::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.25);
-}
-.pick-card {
-  flex: 0 0 200px;
-  height: 280px;
-  border-radius: 12px;
-  overflow: hidden;
-  position: relative;
-  scroll-snap-align: start;
-  text-decoration: none;
-  color: #fff;
-  display: block;
-}
-.pick-card-img {
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-.pick-card-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease;
-}
-.pick-card:hover .pick-card-img img {
-  transform: scale(1.08);
-}
-.pick-card-overlay {
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.3) 40%, transparent 70%);
-  pointer-events: none;
-}
-.pick-card-info {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 14px;
-  z-index: 1;
-}
-.pick-card-cat {
-  display: inline-block;
-  font-size: 0.65rem;
-  background: rgba(255,255,255,0.15);
-  backdrop-filter: blur(4px);
-  padding: 2px 8px;
-  border-radius: 4px;
-  margin-bottom: 6px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-.pick-card-title {
-  margin: 0;
-  font-size: 0.85rem;
+.hero-mini-search {
+  padding: 6px 16px;
+  background: #e63946;
+  color: #fff !important;
+  text-decoration: none !important;
+  border-radius: 6px;
+  font-size: 0.8rem;
   font-weight: 600;
-  line-height: 1.3;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  transition: background 0.2s;
 }
-@media (max-width: 768px) {
-  .pick-card {
-    flex: 0 0 160px;
-    height: 220px;
-  }
-  .pick-card-info {
-    padding: 10px;
-  }
-  .pick-card-title {
-    font-size: 0.78rem;
-  }
-  .pick-card-cat {
-    font-size: 0.6rem;
-  }
+.hero-mini-search:hover { background: #d62839; }
+@media (max-width: 600px) {
+  .hero-mini { padding: 8px 12px; gap: 8px; }
+  .hero-mini-title { font-size: 1.1rem; }
+  .hero-mini-stats { font-size: 0.7rem; }
 }
 </style>
-
-<!-- Section title for latest posts -->
-<div class="section-divider">
-  <h2 class="section-title">
-    <span class="section-title-icon">🔥</span> 最新レビュー
-  </h2>
-</div>
 
 {{- end }}{{/* end home page 1 special sections */}}
 
@@ -602,6 +387,92 @@
     {{- end }}
   </nav>
 </footer>
+{{- end }}
+
+{{/* ===== HOME 1ページ目: ページ下部にカテゴリ・タグクラウド ===== */}}
+{{- if and .IsHome (eq $paginator.PageNumber 1) }}
+
+<section class="category-group">
+  <h2 class="category-group-title"><span class="category-group-icon">🎬</span> 実写AV</h2>
+  <div class="category-chips">
+    <a href="/eronavi/categories/ranking/" class="category-chip chip-hot">🏆 ランキング</a>
+    <a href="/eronavi/categories/actress/" class="category-chip">👩 女優</a>
+    <a href="/eronavi/categories/ntr/" class="category-chip">NTR</a>
+    <a href="/eronavi/categories/jukujo/" class="category-chip">熟女</a>
+    <a href="/eronavi/categories/vr/" class="category-chip">VR</a>
+    <a href="/eronavi/categories/oppai/" class="category-chip">巨乳</a>
+    <a href="/eronavi/categories/shiroto/" class="category-chip">素人</a>
+    <a href="/eronavi/categories/muscle/" class="category-chip">筋肉</a>
+    <a href="/eronavi/categories/cosplay/" class="category-chip">コスプレ</a>
+    <a href="/eronavi/categories/fetish/" class="category-chip">フェチ</a>
+    <a href="/eronavi/categories/chijo/" class="category-chip">痴女</a>
+    <a href="/eronavi/categories/nakadashi/" class="category-chip">中出し</a>
+    <a href="/eronavi/categories/gal/" class="category-chip">ギャル</a>
+    <a href="/eronavi/categories/lesbian/" class="category-chip">レズ</a>
+    <a href="/eronavi/categories/kikaku/" class="category-chip">企画</a>
+    <a href="/eronavi/categories/sm/" class="category-chip">SM</a>
+    <a href="/eronavi/categories/ol/" class="category-chip">OL</a>
+    <a href="/eronavi/categories/joshi/" class="category-chip">女子校生</a>
+    <a href="/eronavi/categories/milf/" class="category-chip">母乳</a>
+    <a href="/eronavi/categories/massage/" class="category-chip">マッサージ</a>
+    <a href="/eronavi/categories/swapping/" class="category-chip">乱交</a>
+    <a href="/eronavi/categories/chikan/" class="category-chip">痴漢</a>
+    <a href="/eronavi/categories/cuckold/" class="category-chip">寝取らせ</a>
+    <a href="/eronavi/categories/debut/" class="category-chip chip-new">新人</a>
+    <a href="/eronavi/categories/award/" class="category-chip chip-hot">受賞作</a>
+  </div>
+</section>
+
+<section class="category-group">
+  <h2 class="category-group-title"><span class="category-group-icon">🎌</span> アニメ・同人</h2>
+  <div class="category-chips">
+    <a href="/eronavi/categories/anime/" class="category-chip">エロアニメ</a>
+    <a href="/eronavi/categories/ntranime/" class="category-chip">NTRアニメ</a>
+    <a href="/eronavi/categories/schoolanime/" class="category-chip">学園アニメ</a>
+    <a href="/eronavi/categories/doujin/" class="category-chip">同人</a>
+    <a href="/eronavi/categories/doujincg/" class="category-chip">同人CG</a>
+    <a href="/eronavi/categories/doujinmanga/" class="category-chip">同人漫画</a>
+    <a href="/eronavi/categories/doujingame/" class="category-chip">同人ゲーム</a>
+    <a href="/eronavi/categories/pcgame/" class="category-chip">エロゲ</a>
+    <a href="/eronavi/categories/comic/" class="category-chip">コミック</a>
+    <a href="/eronavi/categories/tentacle/" class="category-chip">触手</a>
+    <a href="/eronavi/categories/isekai/" class="category-chip">異世界</a>
+    <a href="/eronavi/categories/bl/" class="category-chip">BL</a>
+    <a href="/eronavi/categories/voice/" class="category-chip">ASMR</a>
+  </div>
+</section>
+
+<section class="category-group">
+  <h2 class="category-group-title"><span class="category-group-icon">🛒</span> グッズ・書籍</h2>
+  <div class="category-chips">
+    <a href="/eronavi/categories/goods/" class="category-chip">グッズ</a>
+    <a href="/eronavi/categories/onahole/" class="category-chip">オナホ</a>
+    <a href="/eronavi/categories/vibrator/" class="category-chip">バイブ</a>
+    <a href="/eronavi/categories/tenga/" class="category-chip">TENGA</a>
+    <a href="/eronavi/categories/lotion/" class="category-chip">ローション</a>
+    <a href="/eronavi/categories/newgoods/" class="category-chip">グッズ全般</a>
+    <a href="/eronavi/categories/photobook/" class="category-chip">📸 写真集</a>
+    <a href="/eronavi/categories/novel/" class="category-chip">📖 官能小説</a>
+    <a href="/eronavi/categories/tl/" class="category-chip">💕 TL</a>
+    <a href="/eronavi/categories/dvd/" class="category-chip">🎬 DVD</a>
+    <a href="/eronavi/categories/figure/" class="category-chip">🗿 フィギュア</a>
+  </div>
+</section>
+
+<section class="tag-cloud-section">
+  <h2 class="category-group-title"><span class="category-group-icon">🏷️</span> 人気タグ</h2>
+  <div class="tag-cloud">
+    {{ $tags := site.Taxonomies.tags }}
+    {{ range $name, $pages := $tags }}
+      {{ $count := len $pages }}
+      {{ if ge $count 1 }}
+      <a href="{{ "/eronavi/tags/" | safeURL }}{{ $name | urlize }}/" class="tag-cloud-item" data-count="{{ $count }}">
+        {{ $name }} <span class="tag-count">{{ $count }}</span>
+      </a>
+      {{ end }}
+    {{ end }}
+  </div>
+</section>
 {{- end }}
 
 {{- end }}{{/* end profileMode */}}
