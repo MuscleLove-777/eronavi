@@ -117,9 +117,24 @@
 {{/* ===== HOME 1ページ目: 画像全面カード (featured / medium / normal) ===== */}}
 {{- if and .IsHome (eq $paginator.PageNumber 1) }}
 
-{{/* --- Featured card: 1件目 (全幅特大) --- */}}
+{{/* --- グッズ・ランキング系を除外した「映える」記事リスト --- */}}
+{{ $skipCats := slice "ranking" "goods" "onahole" "vibrator" "tenga" "lotion" "newgoods" "figure" "novel" "tl" "dvd" }}
+{{ $eyeCatchPages := slice }}
+{{ range $paginator.Pages }}
+  {{ $cats := .Params.categories | default slice }}
+  {{ $skip := false }}
+  {{ range $cats }}
+    {{ if in $skipCats . }}{{ $skip = true }}{{ end }}
+  {{ end }}
+  {{ if not $skip }}
+    {{ $eyeCatchPages = $eyeCatchPages | append . }}
+  {{ end }}
+{{ end }}
+
+{{/* --- Featured card: 映える記事の1件目 (全幅特大) --- */}}
+{{ if gt (len $eyeCatchPages) 0 }}
 <div class="cards-grid cards-grid--featured">
-{{- with index $paginator.Pages 0 }}
+{{- with index $eyeCatchPages 0 }}
 <article class="image-card featured-card">
   <div class="image-card__img-wrap">
     {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
@@ -140,9 +155,10 @@
 </article>
 {{- end }}
 </div>
+{{ end }}
 
-{{/* --- Medium cards: 2~7件目 (2列) --- */}}
-{{ $mediumPages := after 1 $paginator.Pages }}
+{{/* --- Medium cards: 映える記事の2~7件目 --- */}}
+{{ $mediumPages := after 1 $eyeCatchPages }}
 {{ if gt (len $mediumPages) 6 }}
   {{ $mediumPages = first 6 $mediumPages }}
 {{ end }}
@@ -168,7 +184,7 @@
 </div>
 {{ end }}
 
-{{/* --- Normal cards: 8件目以降 (3列) --- */}}
+{{/* --- Normal cards: 全記事（グッズ含む）8件目以降 --- */}}
 {{ $normalPages := after 7 $paginator.Pages }}
 {{ if gt (len $normalPages) 0 }}
 <div class="cards-grid cards-grid--normal">
