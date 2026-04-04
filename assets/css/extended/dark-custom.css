@@ -19,8 +19,136 @@
   border-radius: 8px;
 }
 
+/* --- 1. 記事カードのホバー強化 --- */
+:root[data-theme="dark"] .post-entry {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  overflow: hidden;
+  position: relative;
+}
+
 :root[data-theme="dark"] .post-entry:hover {
   border-color: #ff6b6b;
+  box-shadow: 0 0 15px rgba(255, 107, 107, 0.3);
+  transform: translateY(-3px);
+}
+
+:root[data-theme="dark"] .post-entry .entry-cover img,
+:root[data-theme="dark"] .post-entry .post-thumb img {
+  transition: transform 0.4s ease;
+}
+
+:root[data-theme="dark"] .post-entry:hover .entry-cover img,
+:root[data-theme="dark"] .post-entry:hover .post-thumb img {
+  transform: scale(1.08);
+}
+
+:root[data-theme="dark"] .post-entry .entry-cover,
+:root[data-theme="dark"] .post-entry .post-thumb {
+  overflow: hidden;
+}
+
+/* --- 2. 遅延読み込み画像のフェードイン --- */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+:root[data-theme="dark"] img[loading="lazy"] {
+  opacity: 0;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+/* --- 3. カテゴリチップのホバー --- */
+:root[data-theme="dark"] .post-tags a,
+:root[data-theme="dark"] .terms-tags a {
+  display: inline-block;
+  transition: transform 0.2s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+:root[data-theme="dark"] .post-tags a:hover,
+:root[data-theme="dark"] .terms-tags a:hover {
+  transform: scale(1.05);
+  background-color: #ff6b6b;
+  color: #0d1117;
+}
+
+/* --- 4. スクロールフェードイン（stagger animation） --- */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+:root[data-theme="dark"] .post-entry:nth-child(1) { animation: slideUp 0.4s ease 0.00s both; }
+:root[data-theme="dark"] .post-entry:nth-child(2) { animation: slideUp 0.4s ease 0.06s both; }
+:root[data-theme="dark"] .post-entry:nth-child(3) { animation: slideUp 0.4s ease 0.12s both; }
+:root[data-theme="dark"] .post-entry:nth-child(4) { animation: slideUp 0.4s ease 0.18s both; }
+:root[data-theme="dark"] .post-entry:nth-child(5) { animation: slideUp 0.4s ease 0.24s both; }
+:root[data-theme="dark"] .post-entry:nth-child(6) { animation: slideUp 0.4s ease 0.30s both; }
+:root[data-theme="dark"] .post-entry:nth-child(7) { animation: slideUp 0.4s ease 0.36s both; }
+:root[data-theme="dark"] .post-entry:nth-child(8) { animation: slideUp 0.4s ease 0.42s both; }
+:root[data-theme="dark"] .post-entry:nth-child(9) { animation: slideUp 0.4s ease 0.48s both; }
+
+/* --- 5. 画像シャイニングエフェクト --- */
+:root[data-theme="dark"] .post-entry .entry-cover,
+:root[data-theme="dark"] .post-entry .post-thumb {
+  position: relative;
+}
+
+:root[data-theme="dark"] .post-entry .entry-cover::after,
+:root[data-theme="dark"] .post-entry .post-thumb::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: translateX(-100%) translateY(-100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+:root[data-theme="dark"] .post-entry:hover .entry-cover::after,
+:root[data-theme="dark"] .post-entry:hover .post-thumb::after {
+  animation: shine 0.6s ease 1;
+}
+
+@keyframes shine {
+  to {
+    transform: translateX(100%) translateY(100%);
+  }
+}
+
+/* --- 6. NEWバッジ --- */
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50%      { transform: scale(1.1); opacity: 0.85; }
+}
+
+:root[data-theme="dark"] .new-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 2;
+  background: #ff6b6b;
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 3px 8px;
+  border-radius: 4px;
+  line-height: 1;
+  animation: pulse 1.8s ease-in-out infinite;
+  pointer-events: none;
+  box-shadow: 0 0 8px rgba(255, 107, 107, 0.5);
 }
 
 /* 個別記事ページの背景 */
