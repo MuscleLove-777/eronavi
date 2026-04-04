@@ -232,6 +232,94 @@
 </article>
 {{- end }}
 
+{{/* ===== CATEGORY/TERM PAGE: Related Categories Section ===== */}}
+{{- if eq .Kind "term" }}
+<div class="related-categories-section">
+  <h3 class="category-group-title"><span class="category-group-icon">📂</span> 関連ジャンル</h3>
+
+  {{ $currentSlug := .Data.Term }}
+
+  <!-- 実写AV -->
+  <h4 class="related-sub-title">🎬 実写AV</h4>
+  <div class="category-chips">
+    {{ $avItems := slice
+      (dict "slug" "ranking" "label" "🏆 ランキング" "extra" "chip-hot")
+      (dict "slug" "actress" "label" "👩 女優" "extra" "")
+      (dict "slug" "ntr" "label" "NTR" "extra" "")
+      (dict "slug" "jukujo" "label" "熟女" "extra" "")
+      (dict "slug" "vr" "label" "VR" "extra" "")
+      (dict "slug" "oppai" "label" "巨乳" "extra" "")
+      (dict "slug" "shiroto" "label" "素人" "extra" "")
+      (dict "slug" "muscle" "label" "筋肉" "extra" "")
+      (dict "slug" "cosplay" "label" "コスプレ" "extra" "")
+      (dict "slug" "fetish" "label" "フェチ" "extra" "")
+      (dict "slug" "chijo" "label" "痴女" "extra" "")
+      (dict "slug" "nakadashi" "label" "中出し" "extra" "")
+      (dict "slug" "gal" "label" "ギャル" "extra" "")
+      (dict "slug" "lesbian" "label" "レズ" "extra" "")
+      (dict "slug" "kikaku" "label" "企画" "extra" "")
+      (dict "slug" "sm" "label" "SM" "extra" "")
+      (dict "slug" "ol" "label" "OL" "extra" "")
+      (dict "slug" "joshi" "label" "女子校生" "extra" "")
+      (dict "slug" "milf" "label" "母乳" "extra" "")
+      (dict "slug" "massage" "label" "マッサージ" "extra" "")
+      (dict "slug" "swapping" "label" "乱交" "extra" "")
+      (dict "slug" "chikan" "label" "痴漢" "extra" "")
+      (dict "slug" "cuckold" "label" "寝取らせ" "extra" "")
+      (dict "slug" "debut" "label" "新人" "extra" "chip-new")
+      (dict "slug" "award" "label" "受賞作" "extra" "chip-hot")
+    }}
+    {{ range $avItems }}
+      <a href="/eronavi/categories/{{ .slug }}/" class="category-chip {{ .extra }}{{ if eq .slug $currentSlug }} chip-current{{ end }}">{{ .label }}</a>
+    {{ end }}
+  </div>
+
+  <!-- アニメ・同人 -->
+  <h4 class="related-sub-title">🎌 アニメ・同人</h4>
+  <div class="category-chips">
+    {{ $animeItems := slice
+      (dict "slug" "anime" "label" "エロアニメ")
+      (dict "slug" "ntranime" "label" "NTRアニメ")
+      (dict "slug" "schoolanime" "label" "学園アニメ")
+      (dict "slug" "doujin" "label" "同人")
+      (dict "slug" "doujincg" "label" "同人CG")
+      (dict "slug" "doujinmanga" "label" "同人漫画")
+      (dict "slug" "doujingame" "label" "同人ゲーム")
+      (dict "slug" "pcgame" "label" "エロゲ")
+      (dict "slug" "comic" "label" "コミック")
+      (dict "slug" "tentacle" "label" "触手")
+      (dict "slug" "isekai" "label" "異世界")
+      (dict "slug" "bl" "label" "BL")
+      (dict "slug" "voice" "label" "ASMR")
+    }}
+    {{ range $animeItems }}
+      <a href="/eronavi/categories/{{ .slug }}/" class="category-chip{{ if eq .slug $currentSlug }} chip-current{{ end }}">{{ .label }}</a>
+    {{ end }}
+  </div>
+
+  <!-- グッズ・書籍 -->
+  <h4 class="related-sub-title">🛒 グッズ・書籍</h4>
+  <div class="category-chips">
+    {{ $goodsItems := slice
+      (dict "slug" "goods" "label" "グッズ")
+      (dict "slug" "onahole" "label" "オナホ")
+      (dict "slug" "vibrator" "label" "バイブ")
+      (dict "slug" "tenga" "label" "TENGA")
+      (dict "slug" "lotion" "label" "ローション")
+      (dict "slug" "newgoods" "label" "グッズ全般")
+      (dict "slug" "photobook" "label" "📸 写真集")
+      (dict "slug" "novel" "label" "📖 官能小説")
+      (dict "slug" "tl" "label" "💕 TL")
+      (dict "slug" "dvd" "label" "🎬 DVD")
+      (dict "slug" "figure" "label" "🗿 フィギュア")
+    }}
+    {{ range $goodsItems }}
+      <a href="/eronavi/categories/{{ .slug }}/" class="category-chip{{ if eq .slug $currentSlug }} chip-current{{ end }}">{{ .label }}</a>
+    {{ end }}
+  </div>
+</div>
+{{- end }}{{/* end term page related categories */}}
+
 {{- if gt $paginator.TotalPages 1 }}
 <footer class="page-footer">
   <nav class="pagination">

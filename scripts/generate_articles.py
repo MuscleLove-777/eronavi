@@ -12,8 +12,21 @@ from pathlib import Path
 from jinja2 import Template
 from config import Config, GENRES
 
-# 自サイトのURL（姉妹サイト相互リンク用）
-CURRENT_SITE_URL = "https://musclelove-777.github.io/eronavi/"
+# ジャンル間の関連マップ（内部リンク強化用）
+RELATED_GENRES = {
+    "NTR": ["寝取らせ", "熟女", "痴女", "人妻裏垢"],
+    "熟女": ["NTR", "寝取らせ", "巨乳", "母乳"],
+    "VR": ["巨乳", "素人", "コスプレ", "筋肉"],
+    "巨乳": ["熟女", "素人", "VR", "母乳"],
+    "素人": ["巨乳", "新人", "中出し", "ギャル"],
+    "コスプレ": ["エロアニメ", "フェチ", "VR", "企画"],
+    "フェチ": ["SM", "痴女", "コスプレ", "レズ"],
+    "筋肉": ["フェチ", "巨乳", "新人", "企画"],
+    "痴女": ["NTR", "フェチ", "レズ", "SM"],
+    "中出し": ["素人", "熟女", "NTR", "新人"],
+    "エロアニメ": ["同人CG", "同人漫画", "NTRアニメ", "学園アニメ"],
+    "同人": ["同人CG", "同人漫画", "同人ゲーム", "エロゲ"],
+}
 
 
 # ============================================================
@@ -59,6 +72,8 @@ cover:
 {% endif %}
 
 {{ body_text }}
+
+{{ cross_link }}
 
 {{ star_rating }}
 
@@ -398,6 +413,7 @@ def _generate_single_article(
     sns_section = _build_sns_section()
     footer_brand = _build_footer_brand()
     related_section = _build_related_section(category_name)
+    cross_link = f"\U0001F449 [もっと{category_name}の作品を見る](/eronavi/categories/{category_slug}/)"
     alt_text = _build_alt_text(title, actresses, genre_text, category_name)
 
     # レビュー星表示
@@ -432,6 +448,7 @@ def _generate_single_article(
         intro_text=intro_text,
         image_url=image_url,
         body_text=body_text,
+        cross_link=cross_link,
         price=price,
         maker=maker,
         series=series,
@@ -628,7 +645,7 @@ def _build_footer_brand() -> str:
 
 
 def _build_related_section(current_genre: str = "") -> str:
-    """他ジャンルへの内部リンクでSEOを強化"""
+    """他ジャンルへの内部リンクでSEOを強化（関連マップベース）"""
     genres = {
         # 実写AV系（25ジャンル）
         "NTR": "/eronavi/categories/ntr/",
@@ -692,13 +709,28 @@ def _build_related_section(current_genre: str = "") -> str:
         "BL書籍": "/eronavi/categories/blbook/",
         "アニメDVD": "/eronavi/categories/animedvd/",
     }
-    # 現在のジャンルを除外してランダム5つ選ぶ
-    other = [(k, v) for k, v in genres.items() if k != current_genre]
-    picks = random.sample(other, min(5, len(other)))
+
+    # 関連マップにあるジャンルは関連順、なければランダム5個
+    if current_genre in RELATED_GENRES:
+        related_names = [
+            name for name in RELATED_GENRES[current_genre] if name in genres
+        ]
+        # 関連マップに足りない場合は残りからランダム補充して計5個にする
+        if len(related_names) < 5:
+            remaining = [
+                k for k in genres if k != current_genre and k not in related_names
+            ]
+            related_names += random.sample(
+                remaining, min(5 - len(related_names), len(remaining))
+            )
+        picks = [(name, genres[name]) for name in related_names[:5]]
+    else:
+        other = [(k, v) for k, v in genres.items() if k != current_genre]
+        picks = random.sample(other, min(5, len(other)))
 
     links = " | ".join([f'[{name}の作品を見る]({url})' for name, url in picks])
 
-    sister = _build_sister_sites()
+    popular = _build_popular_categories()
 
     return f"""
 ### 他のジャンルも見る
@@ -707,31 +739,19 @@ def _build_related_section(current_genre: str = "") -> str:
 
 [全カテゴリ一覧](/eronavi/categories/) | [タグ一覧](/eronavi/tags/)
 
-{sister}
+{popular}
 """
 
 
-def _build_sister_sites():
-    """姉妹サイトへの相互リンク（SEOリンクジュース循環）"""
-    sites = {
-        "エロナビ（総合）": "https://musclelove-777.github.io/eronavi/",
-        "アニメエロナビ": "https://musclelove-777.github.io/anime-navi/",
-        "筋肉美女ナビ": "https://musclelove-777.github.io/fitness-affiliate-blog/",
-        "NTRナビ": "https://musclelove-777.github.io/ntr-navi/",
-        "没入エロスVR": "https://musclelove-777.github.io/vr-eros/",
-        "艶妻コレクション": "https://musclelove-777.github.io/entsuma/",
-        "シロウト発掘隊": "https://musclelove-777.github.io/shiroto-squad/",
-        "おっぱいパラダイス": "https://musclelove-777.github.io/oppai-paradise/",
-        "二次元嫁実写化計画": "https://musclelove-777.github.io/nijigen-realize/",
-        "フェチの殿堂": "https://musclelove-777.github.io/fetish-dendo/",
-        "大人のおもちゃ研究所": "https://musclelove-777.github.io/goods-lab/",
-    }
-    others = [(k, v) for k, v in sites.items() if v != CURRENT_SITE_URL]
-    picks = random.sample(others, min(3, len(others)))
-    links = "\n".join([f'- [{name}]({url})' for name, url in picks])
-    return f"""### 姉妹サイト
+def _build_popular_categories() -> str:
+    """エロナビの人気カテゴリを3グループで表示"""
+    return """### エロナビの人気カテゴリ
 
-{links}"""
+**実写AV** : [NTR](/eronavi/categories/ntr/) | [熟女](/eronavi/categories/jukujo/) | [VR](/eronavi/categories/vr/) | [巨乳](/eronavi/categories/oppai/) | [素人](/eronavi/categories/shiroto/)
+
+**アニメ・同人** : [エロアニメ](/eronavi/categories/anime/) | [同人CG](/eronavi/categories/doujincg/) | [同人漫画](/eronavi/categories/doujinmanga/) | [ASMR](/eronavi/categories/voice/) | [エロゲ](/eronavi/categories/pcgame/)
+
+**グッズ** : [オナホ](/eronavi/categories/onahole/) | [バイブ](/eronavi/categories/vibrator/) | [TENGA](/eronavi/categories/tenga/) | [ローション](/eronavi/categories/lotion/) | [新商品](/eronavi/categories/newgoods/)"""
 
 
 if __name__ == "__main__":

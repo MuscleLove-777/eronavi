@@ -3,6 +3,60 @@
 <article class="post-single">
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
+
+    {{/* === 同カテゴリ前後ナビゲーション === */}}
+    {{ if .IsPage }}
+    {{ $categories := .Params.categories }}
+    {{ if $categories }}
+    {{ $catName := index $categories 0 }}
+    {{ if ne $catName "Ranking" }}
+    {{ $catPages := where site.RegularPages "Params.categories" "intersect" (slice $catName) }}
+    {{ $catPages = sort $catPages "Date" "desc" }}
+    {{ $navScratch := newScratch }}
+    {{ $navScratch.Set "found" false }}
+    {{ range $p := $catPages }}
+      {{ if ($navScratch.Get "found") }}
+        {{ if not ($navScratch.Get "nextPage") }}
+          {{ $navScratch.Set "nextPage" $p }}
+        {{ end }}
+      {{ end }}
+      {{ if eq $p.Permalink $.Permalink }}
+        {{ $navScratch.Set "found" true }}
+      {{ else }}
+        {{ if not ($navScratch.Get "found") }}
+          {{ $navScratch.Set "prevPage" $p }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ $prevPage := $navScratch.Get "prevPage" }}
+    {{ $nextPage := $navScratch.Get "nextPage" }}
+    {{ if or $prevPage $nextPage }}
+    <nav class="cat-prev-next">
+      <div class="cat-prev-next-inner">
+        {{ if $prevPage }}
+        <a href="{{ $prevPage.Permalink }}" class="cat-nav-link cat-nav-prev" title="{{ $prevPage.Title }}">
+          <span class="cat-nav-arrow">&#8592;</span>
+          <span class="cat-nav-label">前の{{ $catName }}作品</span>
+        </a>
+        {{ else }}
+        <span class="cat-nav-link cat-nav-disabled"></span>
+        {{ end }}
+        <a href="{{ (site.GetPage (printf "categories/%s" ($catName | urlize))).Permalink | default "#" }}" class="cat-nav-center">📂 {{ $catName }}</a>
+        {{ if $nextPage }}
+        <a href="{{ $nextPage.Permalink }}" class="cat-nav-link cat-nav-next" title="{{ $nextPage.Title }}">
+          <span class="cat-nav-label">次の{{ $catName }}作品</span>
+          <span class="cat-nav-arrow">&#8594;</span>
+        </a>
+        {{ else }}
+        <span class="cat-nav-link cat-nav-disabled"></span>
+        {{ end }}
+      </div>
+    </nav>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+    {{ end }}
+
     <h1 class="post-title entry-hint-parent">
       {{ .Title }}
       {{- if .Draft }}
@@ -116,6 +170,92 @@
   </div>
 </div>
 {{ end }}
+{{ end }}
+
+<!-- クロスカテゴリおすすめ -->
+{{ if $categories }}
+{{ $catName := index $categories 0 }}
+{{/* カテゴリ関連マップ */}}
+{{ $relatedCats := slice }}
+{{ if eq $catName "ntr" }}{{ $relatedCats = slice "cuckold" "jukujo" "chijo" }}
+{{ else if eq $catName "jukujo" }}{{ $relatedCats = slice "ntr" "cuckold" "oppai" "milf" }}
+{{ else if eq $catName "vr" }}{{ $relatedCats = slice "oppai" "shiroto" "cosplay" }}
+{{ else if eq $catName "oppai" }}{{ $relatedCats = slice "jukujo" "shiroto" "vr" }}
+{{ else if eq $catName "shiroto" }}{{ $relatedCats = slice "oppai" "debut" "nakadashi" }}
+{{ else if eq $catName "cosplay" }}{{ $relatedCats = slice "Anime" "fetish" "vr" }}
+{{ else if eq $catName "fetish" }}{{ $relatedCats = slice "sm" "chijo" "cosplay" }}
+{{ else if eq $catName "muscle" }}{{ $relatedCats = slice "fetish" "oppai" "debut" }}
+{{ else if eq $catName "Anime" }}{{ $relatedCats = slice "DoujinCG" "DoujinManga" "NTRAnime" "SchoolAnime" }}
+{{ else if eq $catName "cuckold" }}{{ $relatedCats = slice "ntr" "jukujo" "swapping" }}
+{{ else if eq $catName "milf" }}{{ $relatedCats = slice "jukujo" "oppai" "ntr" }}
+{{ else if eq $catName "chijo" }}{{ $relatedCats = slice "ntr" "fetish" "jukujo" }}
+{{ else if eq $catName "sm" }}{{ $relatedCats = slice "fetish" "chijo" "cosplay" }}
+{{ else if eq $catName "debut" }}{{ $relatedCats = slice "shiroto" "oppai" "muscle" }}
+{{ else if eq $catName "swapping" }}{{ $relatedCats = slice "ntr" "cuckold" "jukujo" }}
+{{ else if eq $catName "NTRAnime" }}{{ $relatedCats = slice "Anime" "SchoolAnime" "DoujinManga" }}
+{{ else if eq $catName "SchoolAnime" }}{{ $relatedCats = slice "Anime" "NTRAnime" "DoujinCG" }}
+{{ else if eq $catName "DoujinCG" }}{{ $relatedCats = slice "DoujinManga" "Anime" "DoujinGame" }}
+{{ else if eq $catName "DoujinManga" }}{{ $relatedCats = slice "DoujinCG" "Anime" "DoujinGame" }}
+{{ else if eq $catName "DoujinGame" }}{{ $relatedCats = slice "DoujinCG" "DoujinManga" "PCGame" }}
+{{ else if eq $catName "goods" }}{{ $relatedCats = slice "onahole" "vibrator" "tenga" }}
+{{ else if eq $catName "onahole" }}{{ $relatedCats = slice "goods" "vibrator" "tenga" }}
+{{ else if eq $catName "vibrator" }}{{ $relatedCats = slice "goods" "onahole" "lotion" }}
+{{ else if eq $catName "tenga" }}{{ $relatedCats = slice "goods" "onahole" "vibrator" }}
+{{ else if eq $catName "lotion" }}{{ $relatedCats = slice "goods" "onahole" "vibrator" }}
+{{ else if eq $catName "newgoods" }}{{ $relatedCats = slice "goods" "onahole" "vibrator" "tenga" }}
+{{ end }}
+{{ if $relatedCats }}
+{{ $scratch := newScratch }}
+{{ $scratch.Set "crossPosts" slice }}
+{{ range $rc := $relatedCats }}
+  {{ $rcPages := where site.RegularPages "Params.categories" "intersect" (slice $rc) }}
+  {{ range $rcPages | first 2 }}
+    {{ $scratch.Add "crossPosts" (slice .) }}
+  {{ end }}
+{{ end }}
+{{ $crossPosts := first 4 ($scratch.Get "crossPosts") }}
+{{ if $crossPosts }}
+<div class="related-section">
+  <h3>&#x1f500; こんなジャンルもおすすめ</h3>
+  <div class="related-grid cross-category-grid">
+    {{ range $crossPosts }}
+    <a href="{{ .Permalink }}" class="related-card">
+      {{ with .Params.cover }}{{ if .image }}
+      <img src="{{ .image }}" alt="{{ $.Title }}" loading="lazy" />
+      {{ end }}{{ end }}
+      <div class="related-card-body">
+        <span class="cross-cat-badge">{{ with .Params.categories }}{{ index . 0 }}{{ end }}</span>
+        <p class="related-card-title">{{ .Title }}</p>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
+{{ end }}
+{{ end }}
+
+<!-- 人気ランキングへの誘導 -->
+{{ $rankPages := where site.RegularPages "Params.categories" "intersect" (slice "Ranking") }}
+{{ $rankPages = sort $rankPages "Date" "desc" | first 3 }}
+{{ if $rankPages }}
+<div class="related-section ranking-section">
+  <h3>&#x1f3c6; 今日の人気ランキング</h3>
+  <div class="ranking-list">
+    {{ range $i, $rp := $rankPages }}
+    <a href="{{ $rp.Permalink }}" class="ranking-item">
+      <span class="ranking-number">{{ add $i 1 }}</span>
+      {{ with $rp.Params.cover }}{{ if .image }}
+      <img src="{{ .image }}" alt="{{ $rp.Title }}" loading="lazy" class="ranking-thumb" />
+      {{ end }}{{ end }}
+      <div class="ranking-info">
+        <p class="ranking-title">{{ $rp.Title }}</p>
+        <span class="ranking-date">{{ $rp.Date.Format "2006/01/02" }}</span>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+</div>
 {{ end }}
 
 {{ end }}
