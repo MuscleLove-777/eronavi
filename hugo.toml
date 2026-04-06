@@ -44,7 +44,7 @@ buildExpired = false
   disableSpecial1stPost = true
 
   # Google Analytics
-  googleAnalyticsID = "G-CSFVD34MKK"
+  googleAnalyticsID = "G-YRT6J0RWKT"
 
   [params.analytics.google]
     SiteVerificationTag = ""
