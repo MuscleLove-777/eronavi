@@ -7,6 +7,10 @@ paginate = 30
 
 enableRobotsTXT = true
 
+[services]
+  [services.googleAnalytics]
+    ID = "G-YRT6J0RWKT"
+
 [minify]
   disableCSS = false
   disableHTML = false
@@ -353,7 +357,6 @@ buildExpired = false
   url = "/categories/"
   weight = 130
 
-[services]
   [services.rss]
     limit = 30
 
