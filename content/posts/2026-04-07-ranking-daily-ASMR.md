@@ -34,9 +34,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://doujin-assets.dmm.co.jp/digital/comic/d_708748/d_708748jp-001.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_708748/d_708748jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/comic/d_708748/d_708748jp-002.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_708748/d_708748jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/comic/d_708748/d_708748jp-003.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_708748/d_708748jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_708748%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_708748/d_708748jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_708748%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_708748/d_708748jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_708748%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_708748/d_708748jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -60,9 +60,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_619221/d_619221jp-001.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_619221/d_619221jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_619221/d_619221jp-002.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_619221/d_619221jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_619221/d_619221jp-003.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_619221/d_619221jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_619221%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_619221/d_619221jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_619221%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_619221/d_619221jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_619221%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_619221/d_619221jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -86,9 +86,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_707051/d_707051jp-001.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_707051/d_707051jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_707051/d_707051jp-002.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_707051/d_707051jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_707051/d_707051jp-003.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_707051/d_707051jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_707051%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_707051/d_707051jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_707051%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_707051/d_707051jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_707051%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_707051/d_707051jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -112,9 +112,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_491026/d_491026jp-001.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_491026/d_491026jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_491026/d_491026jp-002.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_491026/d_491026jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_491026/d_491026jp-003.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_491026/d_491026jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_491026%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_491026/d_491026jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_491026%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_491026/d_491026jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_491026%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_491026/d_491026jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -138,9 +138,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_491022/d_491022jp-001.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_491022/d_491022jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_491022/d_491022jp-002.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_491022/d_491022jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_491022/d_491022jp-003.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_491022/d_491022jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_491022%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_491022/d_491022jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_491022%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_491022/d_491022jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_491022%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_491022/d_491022jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -164,9 +164,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://doujin-assets.dmm.co.jp/digital/voice/d_743272/d_743272jp-001.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_743272/d_743272jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/voice/d_743272/d_743272jp-002.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_743272/d_743272jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/voice/d_743272/d_743272jp-003.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_743272/d_743272jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_743272%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_743272/d_743272jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_743272%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_743272/d_743272jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_743272%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_743272/d_743272jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -190,9 +190,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_701526/d_701526jp-001.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_701526/d_701526jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_701526/d_701526jp-002.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_701526/d_701526jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_701526/d_701526jp-003.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_701526/d_701526jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_701526%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_701526/d_701526jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_701526%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_701526/d_701526jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_701526%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_701526/d_701526jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -216,9 +216,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://doujin-assets.dmm.co.jp/digital/comic/d_726660/d_726660jp-001.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_726660/d_726660jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/comic/d_726660/d_726660jp-002.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_726660/d_726660jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/comic/d_726660/d_726660jp-003.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_726660/d_726660jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_726660%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_726660/d_726660jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_726660%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_726660/d_726660jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_726660%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_726660/d_726660jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -242,9 +242,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_735976/d_735976jp-001.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_735976/d_735976jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_735976/d_735976jp-002.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_735976/d_735976jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_735976/d_735976jp-003.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_735976/d_735976jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_735976%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_735976/d_735976jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_735976%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_735976/d_735976jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_735976%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_735976/d_735976jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -268,9 +268,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://doujin-assets.dmm.co.jp/digital/comic/d_534466/d_534466jp-001.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_534466/d_534466jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/comic/d_534466/d_534466jp-002.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_534466/d_534466jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/comic/d_534466/d_534466jp-003.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_534466/d_534466jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_534466%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_534466/d_534466jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_534466%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_534466/d_534466jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_534466%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_534466/d_534466jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -294,9 +294,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://doujin-assets.dmm.co.jp/digital/voice/d_735609/d_735609jp-001.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_735609/d_735609jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/voice/d_735609/d_735609jp-002.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_735609/d_735609jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/voice/d_735609/d_735609jp-003.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_735609/d_735609jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_735609%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_735609/d_735609jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_735609%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_735609/d_735609jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_735609%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_735609/d_735609jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -320,9 +320,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_383680/d_383680jp-001.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_383680/d_383680jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_383680/d_383680jp-002.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_383680/d_383680jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_383680/d_383680jp-003.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_383680/d_383680jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_383680%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_383680/d_383680jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_383680%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_383680/d_383680jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_383680%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_383680/d_383680jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -346,9 +346,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_438204/d_438204jp-001.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_438204/d_438204jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_438204/d_438204jp-002.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_438204/d_438204jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_438204/d_438204jp-003.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_438204/d_438204jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_438204%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_438204/d_438204jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_438204%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_438204/d_438204jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_438204%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_438204/d_438204jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -372,9 +372,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_327679/d_327679jp-001.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_327679/d_327679jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_327679/d_327679jp-002.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_327679/d_327679jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_327679/d_327679jp-003.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_327679/d_327679jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_327679%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_327679/d_327679jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_327679%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_327679/d_327679jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_327679%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_327679/d_327679jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -398,9 +398,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://doujin-assets.dmm.co.jp/digital/cg/d_742061/d_742061jp-001.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/cg/d_742061/d_742061jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/cg/d_742061/d_742061jp-002.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/cg/d_742061/d_742061jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/cg/d_742061/d_742061jp-003.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/cg/d_742061/d_742061jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_742061%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/cg/d_742061/d_742061jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_742061%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/cg/d_742061/d_742061jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_742061%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/cg/d_742061/d_742061jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -424,9 +424,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://doujin-assets.dmm.co.jp/digital/comic/d_716998/d_716998jp-001.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_716998/d_716998jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/comic/d_716998/d_716998jp-002.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_716998/d_716998jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/comic/d_716998/d_716998jp-003.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_716998/d_716998jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_716998%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_716998/d_716998jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_716998%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_716998/d_716998jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_716998%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_716998/d_716998jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -450,9 +450,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://doujin-assets.dmm.co.jp/digital/voice/d_723687/d_723687jp-001.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_723687/d_723687jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/voice/d_723687/d_723687jp-002.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_723687/d_723687jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/voice/d_723687/d_723687jp-003.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_723687/d_723687jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_723687%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_723687/d_723687jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_723687%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_723687/d_723687jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_723687%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_723687/d_723687jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -476,9 +476,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://doujin-assets.dmm.co.jp/digital/cg/d_735344/d_735344jp-001.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/cg/d_735344/d_735344jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/cg/d_735344/d_735344jp-002.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/cg/d_735344/d_735344jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/cg/d_735344/d_735344jp-003.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/cg/d_735344/d_735344jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_735344%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/cg/d_735344/d_735344jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_735344%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/cg/d_735344/d_735344jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_735344%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/cg/d_735344/d_735344jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -502,9 +502,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_127439/d_127439jp-001.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_127439/d_127439jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_127439/d_127439jp-002.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_127439/d_127439jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/game/d_127439/d_127439jp-003.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_127439/d_127439jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_127439%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_127439/d_127439jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_127439%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_127439/d_127439jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_127439%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_127439/d_127439jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -528,9 +528,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://doujin-assets.dmm.co.jp/digital/voice/d_703166/d_703166jp-001.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_703166/d_703166jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/voice/d_703166/d_703166jp-002.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_703166/d_703166jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://doujin-assets.dmm.co.jp/digital/voice/d_703166/d_703166jp-003.jpg" target="_blank"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_703166/d_703166jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_703166%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_703166/d_703166jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_703166%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_703166/d_703166jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_703166%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_703166/d_703166jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---

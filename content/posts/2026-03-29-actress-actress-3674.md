@@ -34,9 +34,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://pics.dmm.co.jp/digital/video/ipzz00597/ipzz00597jp-1.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipzz00597/ipzz00597jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/ipzz00597/ipzz00597jp-2.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipzz00597/ipzz00597jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/ipzz00597/ipzz00597jp-3.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipzz00597/ipzz00597jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipzz00597/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipzz00597/ipzz00597jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipzz00597/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipzz00597/ipzz00597jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipzz00597/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipzz00597/ipzz00597jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -60,9 +60,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://pics.dmm.co.jp/digital/video/ipx00565/ipx00565jp-1.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipx00565/ipx00565jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/ipx00565/ipx00565jp-2.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipx00565/ipx00565jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/ipx00565/ipx00565jp-3.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipx00565/ipx00565jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipx00565/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipx00565/ipx00565jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipx00565/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipx00565/ipx00565jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipx00565/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipx00565/ipx00565jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -86,9 +86,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://pics.dmm.co.jp/digital/video/ipok00006/ipok00006jp-1.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipok00006/ipok00006jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/ipok00006/ipok00006jp-2.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipok00006/ipok00006jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/ipok00006/ipok00006jp-3.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipok00006/ipok00006jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipok00006/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipok00006/ipok00006jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipok00006/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipok00006/ipok00006jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipok00006/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipok00006/ipok00006jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -132,9 +132,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://pics.dmm.co.jp/digital/video/ipok00009/ipok00009jp-1.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipok00009/ipok00009jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/ipok00009/ipok00009jp-2.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipok00009/ipok00009jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/ipok00009/ipok00009jp-3.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipok00009/ipok00009jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipok00009/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipok00009/ipok00009jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipok00009/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipok00009/ipok00009jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipok00009/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipok00009/ipok00009jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -158,9 +158,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://pics.dmm.co.jp/digital/video/ipok00001/ipok00001jp-1.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipok00001/ipok00001jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/ipok00001/ipok00001jp-2.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipok00001/ipok00001jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/ipok00001/ipok00001jp-3.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipok00001/ipok00001jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipok00001/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipok00001/ipok00001jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipok00001/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipok00001/ipok00001jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipok00001/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipok00001/ipok00001jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -184,9 +184,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://pics.dmm.co.jp/digital/video/ipok00013/ipok00013jp-1.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipok00013/ipok00013jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/ipok00013/ipok00013jp-2.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipok00013/ipok00013jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/ipok00013/ipok00013jp-3.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipok00013/ipok00013jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipok00013/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipok00013/ipok00013jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipok00013/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipok00013/ipok00013jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipok00013/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipok00013/ipok00013jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -210,9 +210,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://pics.dmm.co.jp/digital/video/idbd00998/idbd00998jp-1.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/idbd00998/idbd00998jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/idbd00998/idbd00998jp-2.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/idbd00998/idbd00998jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/idbd00998/idbd00998jp-3.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/idbd00998/idbd00998jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=idbd00998/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/idbd00998/idbd00998jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=idbd00998/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/idbd00998/idbd00998jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=idbd00998/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/idbd00998/idbd00998jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -236,9 +236,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://pics.dmm.co.jp/digital/video/ipok00015/ipok00015jp-1.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipok00015/ipok00015jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/ipok00015/ipok00015jp-2.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipok00015/ipok00015jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/ipok00015/ipok00015jp-3.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipok00015/ipok00015jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipok00015/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipok00015/ipok00015jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipok00015/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipok00015/ipok00015jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipok00015/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipok00015/ipok00015jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -262,9 +262,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://pics.dmm.co.jp/digital/video/ofje00609/ofje00609jp-1.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ofje00609/ofje00609jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/ofje00609/ofje00609jp-2.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ofje00609/ofje00609jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/ofje00609/ofje00609jp-3.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ofje00609/ofje00609jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ofje00609/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ofje00609/ofje00609jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ofje00609/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ofje00609/ofje00609jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ofje00609/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ofje00609/ofje00609jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -288,9 +288,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://pics.dmm.co.jp/digital/video/ipok00016/ipok00016jp-1.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipok00016/ipok00016jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/ipok00016/ipok00016jp-2.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipok00016/ipok00016jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/ipok00016/ipok00016jp-3.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipok00016/ipok00016jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipok00016/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipok00016/ipok00016jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipok00016/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipok00016/ipok00016jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipok00016/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipok00016/ipok00016jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -314,9 +314,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://pics.dmm.co.jp/digital/video/ipvr00341/ipvr00341jp-1.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipvr00341/ipvr00341jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/ipvr00341/ipvr00341jp-2.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipvr00341/ipvr00341jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/ipvr00341/ipvr00341jp-3.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipvr00341/ipvr00341jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipvr00341/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipvr00341/ipvr00341jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipvr00341/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipvr00341/ipvr00341jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipvr00341/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipvr00341/ipvr00341jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -340,9 +340,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://pics.dmm.co.jp/digital/video/ofje00608/ofje00608jp-1.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ofje00608/ofje00608jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/ofje00608/ofje00608jp-2.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ofje00608/ofje00608jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/ofje00608/ofje00608jp-3.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ofje00608/ofje00608jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ofje00608/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ofje00608/ofje00608jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ofje00608/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ofje00608/ofje00608jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ofje00608/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ofje00608/ofje00608jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -366,9 +366,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://pics.dmm.co.jp/digital/video/ipok00005/ipok00005jp-1.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipok00005/ipok00005jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/ipok00005/ipok00005jp-2.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipok00005/ipok00005jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/ipok00005/ipok00005jp-3.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/ipok00005/ipok00005jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipok00005/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipok00005/ipok00005jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipok00005/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipok00005/ipok00005jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=ipok00005/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/ipok00005/ipok00005jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
@@ -392,9 +392,9 @@ cover:
 </div>
 
 <div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
-  <a href="https://pics.dmm.co.jp/digital/video/idbd00997/idbd00997jp-1.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/idbd00997/idbd00997jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/idbd00997/idbd00997jp-2.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/idbd00997/idbd00997jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
-  <a href="https://pics.dmm.co.jp/digital/video/idbd00997/idbd00997jp-3.jpg" target="_blank"><img src="https://pics.dmm.co.jp/digital/video/idbd00997/idbd00997jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=idbd00997/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/idbd00997/idbd00997jp-1.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=idbd00997/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/idbd00997/idbd00997jp-2.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=idbd00997/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored"><img src="https://pics.dmm.co.jp/digital/video/idbd00997/idbd00997jp-3.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
 </div>
 
 ---
