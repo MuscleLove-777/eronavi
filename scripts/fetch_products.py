@@ -205,13 +205,29 @@ def _is_relevant(product: dict, keyword: str, relevant_keywords: list[str]) -> b
     return False
 
 
+def _patch_af_id(url: str, affiliate_id: str) -> str:
+    """URL内の空af_idやaf_id欠落をaffiliate_idで補う（収益保護）"""
+    if not url or not affiliate_id:
+        return url
+    import re
+    if re.search(r"af_id=([&#]|$)", url):
+        url = re.sub(r"af_id=([&#]|$)", f"af_id={affiliate_id}\\1", url)
+    elif "af_id=" not in url:
+        sep = "&" if "?" in url else "?"
+        url = f"{url}{sep}af_id={affiliate_id}"
+    return url
+
+
 def _build_affiliate_url(item: dict, affiliate_id: str, service: str = "", floor: str = "") -> str:
     """商品のアフィリエイトURLを構築する（全ジャンル対応）"""
+    if not affiliate_id:
+        raise RuntimeError("AFFILIATE_ID が空です。環境変数を設定してください（収益ゼロ防止）")
+
     # monthly（月額サブスク系）はAPIのaffiliateURLをそのまま使う
     if service == "monthly":
         affiliate_url = item.get("affiliateURL", "")
         if affiliate_url:
-            return affiliate_url
+            return _patch_af_id(affiliate_url, affiliate_id)
         direct_url = item.get("URL", "")
         if direct_url:
             separator = "&" if "?" in direct_url else "?"
@@ -221,7 +237,7 @@ def _build_affiliate_url(item: dict, affiliate_id: str, service: str = "", floor
     # FANZAのアフィリエイトURLをそのまま使う（アニメ・同人含む全ジャンル対応）
     affiliate_url = item.get("affiliateURL", "")
     if affiliate_url:
-        return affiliate_url
+        return _patch_af_id(affiliate_url, affiliate_id)
 
     content_id = item.get("content_id", "")
     direct_url = item.get("URL", "")
