@@ -9,6 +9,7 @@ cover:
   image: "https://pics.dmm.co.jp/digital/video/dazd00272/dazd00272pl.jpg"
   alt: "永瀬ゆいのおすすめAV作品"
   hidden: false
+noindex: true
 ---
 
 ## 永瀬ゆい おすすめ作品一覧

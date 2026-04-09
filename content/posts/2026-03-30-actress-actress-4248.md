@@ -9,6 +9,7 @@ cover:
   image: "https://pics.dmm.co.jp/digital/video/bbss00084/bbss00084pl.jpg"
   alt: "月乃さくらのおすすめAV作品"
   hidden: false
+noindex: true
 ---
 
 ## 月乃さくら おすすめ作品一覧

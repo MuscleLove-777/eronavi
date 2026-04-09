@@ -9,6 +9,7 @@ cover:
   image: "https://pics.dmm.co.jp/digital/video/hyas00141/hyas00141pl.jpg"
   alt: "有村のぞみのおすすめAV作品"
   hidden: false
+noindex: true
 ---
 
 ## 有村のぞみ おすすめ作品一覧

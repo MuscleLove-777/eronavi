@@ -9,6 +9,7 @@ cover:
   image: "https://pics.dmm.co.jp/digital/video/ofje00445/ofje00445pl.jpg"
   alt: "葵つかさのおすすめAV作品"
   hidden: false
+noindex: true
 ---
 
 ## 葵つかさ おすすめ作品一覧

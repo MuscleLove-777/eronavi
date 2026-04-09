@@ -9,6 +9,7 @@ cover:
   image: "https://pics.dmm.co.jp/digital/video/snos00168/snos00168pl.jpg"
   alt: "河北彩花のおすすめAV作品"
   hidden: false
+noindex: true
 ---
 
 ## 河北彩花 おすすめ作品一覧

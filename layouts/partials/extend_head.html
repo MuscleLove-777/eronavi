@@ -1,4 +1,9 @@
 <meta name="rating" content="adult" />
+
+{{/* 個別記事の noindex 制御 */}}
+{{ if and .IsPage (eq .Params.noindex true) }}
+<meta name="robots" content="noindex, follow" />
+{{ end }}
 <link rel="manifest" href="/eronavi/manifest.json" />
 <meta name="theme-color" content="#e63946" />
 <meta name="apple-mobile-web-app-capable" content="yes" />

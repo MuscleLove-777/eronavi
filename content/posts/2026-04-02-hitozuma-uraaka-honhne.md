@@ -9,6 +9,7 @@ cover:
   image: "https://lh3.googleusercontent.com/drive-storage/AJQWtBMDHP73R6m_zK_SipKlkfLI0BOdbqlSpGAfBWOCzM154zO4HmpLCMt1x61vQhnsTPmaEUzHsOC9aBj2dNErmP-YZmJblzJibd6VsSWp=s800"
   alt: "裏垢人妻の本音"
   hidden: true
+noindex: true
 ---
 ## 誰にも言えなかった本音
 

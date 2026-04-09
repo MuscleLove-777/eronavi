@@ -9,6 +9,7 @@ cover:
   image: "https://pics.dmm.co.jp/digital/video/ofje00588/ofje00588pl.jpg"
   alt: "架乃ゆらのおすすめAV作品"
   hidden: false
+noindex: true
 ---
 
 ## 架乃ゆら おすすめ作品一覧

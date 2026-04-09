@@ -9,6 +9,7 @@ cover:
   image: "https://pics.dmm.co.jp/digital/video/cawd00940/cawd00940pl.jpg"
   alt: "伊藤舞雪のおすすめAV作品"
   hidden: false
+noindex: true
 ---
 
 ## 伊藤舞雪 おすすめ作品一覧

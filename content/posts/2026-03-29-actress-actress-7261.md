@@ -9,6 +9,7 @@ cover:
   image: "https://pics.dmm.co.jp/digital/video/jums00108/jums00108pl.jpg"
   alt: "小花のんのおすすめAV作品"
   hidden: false
+noindex: true
 ---
 
 ## 小花のん おすすめ作品一覧

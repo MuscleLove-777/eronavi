@@ -9,6 +9,7 @@ cover:
   image: "https://pics.dmm.co.jp/digital/video/ofje00489/ofje00489pl.jpg"
   alt: "三上悠亜のおすすめAV作品"
   hidden: false
+noindex: true
 ---
 
 ## 三上悠亜 おすすめ作品一覧

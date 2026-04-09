@@ -9,6 +9,7 @@ cover:
   image: "https://pics.dmm.co.jp/digital/video/mird00239/mird00239pl.jpg"
   alt: "石原希望のおすすめAV作品"
   hidden: false
+noindex: true
 ---
 
 ## 石原希望 おすすめ作品一覧

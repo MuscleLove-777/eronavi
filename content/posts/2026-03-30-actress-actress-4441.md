@@ -9,6 +9,7 @@ cover:
   image: "https://pics.dmm.co.jp/digital/video/mida00366/mida00366pl.jpg"
   alt: "七沢みあのおすすめAV作品"
   hidden: false
+noindex: true
 ---
 
 ## 七沢みあ おすすめ作品一覧

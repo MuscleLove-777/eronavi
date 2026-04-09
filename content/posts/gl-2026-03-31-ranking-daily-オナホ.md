@@ -9,6 +9,7 @@ cover:
   image: "https://pics.dmm.co.jp/mono/goods/lo0744/lo0744ps.jpg"
   alt: "オナホデイリーランキング1位"
   hidden: false
+noindex: true
 ---
 
 ## オナホ アダルトグッズ デイリーランキング TOP20

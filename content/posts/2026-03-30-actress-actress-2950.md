@@ -9,6 +9,7 @@ cover:
   image: "https://pics.dmm.co.jp/digital/video/ipzz00172/ipzz00172pl.jpg"
   alt: "楓カレンのおすすめAV作品"
   hidden: false
+noindex: true
 ---
 
 ## 楓カレン おすすめ作品一覧

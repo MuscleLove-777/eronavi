@@ -9,6 +9,7 @@ cover:
   image: "https://pics.dmm.co.jp/mono/goods/ho8310/ho8310ps.jpg"
   alt: "TENGAデイリーランキング1位"
   hidden: false
+noindex: true
 ---
 
 ## TENGA アダルトグッズ デイリーランキング TOP20

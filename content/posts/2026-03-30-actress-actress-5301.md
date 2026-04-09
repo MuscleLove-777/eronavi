@@ -9,6 +9,7 @@ cover:
   image: "https://pics.dmm.co.jp/digital/video/ipzz00597/ipzz00597pl.jpg"
   alt: "桃乃木かなのおすすめAV作品"
   hidden: false
+noindex: true
 ---
 
 ## 桃乃木かな おすすめ作品一覧

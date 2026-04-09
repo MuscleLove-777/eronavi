@@ -9,6 +9,7 @@ cover:
   image: "https://pics.dmm.co.jp/digital/video/mdvr00388/mdvr00388pl.jpg"
   alt: "松本いちかのおすすめAV作品"
   hidden: false
+noindex: true
 ---
 
 ## 松本いちか おすすめ作品一覧

@@ -9,6 +9,7 @@ cover:
   image: "https://pics.dmm.co.jp/digital/video/1dldss00466/1dldss00466pl.jpg"
   alt: "美乃すずめのおすすめAV作品"
   hidden: false
+noindex: true
 ---
 
 ## 美乃すずめ おすすめ作品一覧

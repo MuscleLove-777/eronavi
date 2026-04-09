@@ -9,6 +9,7 @@ cover:
   image: "https://pics.dmm.co.jp/digital/video/mird00255/mird00255pl.jpg"
   alt: "有村のぞみのおすすめAV作品"
   hidden: false
+noindex: true
 ---
 
 ## 有村のぞみ おすすめ作品一覧

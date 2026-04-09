@@ -9,6 +9,7 @@ cover:
   image: "https://pics.dmm.co.jp/mono/goods/vi4640/vi4640ps.jpg"
   alt: "バイブデイリーランキング1位"
   hidden: false
+noindex: true
 ---
 
 ## バイブ アダルトグッズ デイリーランキング TOP20

@@ -9,6 +9,7 @@ cover:
   image: "https://pics.dmm.co.jp/digital/video/ipvr00341/ipvr00341pl.jpg"
   alt: "桃乃木かなのおすすめAV作品"
   hidden: false
+noindex: true
 ---
 
 ## 桃乃木かな おすすめ作品一覧

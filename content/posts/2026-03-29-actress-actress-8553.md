@@ -9,6 +9,7 @@ cover:
   image: "https://pics.dmm.co.jp/digital/video/mird00239/mird00239pl.jpg"
   alt: "松本いちかのおすすめAV作品"
   hidden: false
+noindex: true
 ---
 
 ## 松本いちか おすすめ作品一覧

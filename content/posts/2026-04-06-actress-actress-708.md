@@ -9,6 +9,7 @@ cover:
   image: "https://pics.dmm.co.jp/digital/video/ofje00215/ofje00215pl.jpg"
   alt: "明日花キララのおすすめAV作品"
   hidden: false
+noindex: true
 ---
 
 ## 明日花キララ おすすめ作品一覧

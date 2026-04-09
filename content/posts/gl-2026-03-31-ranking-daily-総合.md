@@ -9,6 +9,7 @@ cover:
   image: "https://pics.dmm.co.jp/mono/goods/lo0744/lo0744ps.jpg"
   alt: "総合デイリーランキング1位"
   hidden: false
+noindex: true
 ---
 
 ## 総合 アダルトグッズ デイリーランキング TOP20

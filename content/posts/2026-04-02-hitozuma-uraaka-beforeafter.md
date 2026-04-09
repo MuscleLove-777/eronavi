@@ -9,6 +9,7 @@ cover:
   image: "https://lh3.googleusercontent.com/drive-storage/AJQWtBPy5Y-0izGNmBW7D3ReWA1nMUG8UX_xs-Fs5Ixk2hs8sLJOTeiRoNr69v9WrQiDUvsXxUCuu3Eg_nxJfLPTVWY_wCrbeNf_cbfcP6b7=s800"
   alt: "人妻のビフォーアフター"
   hidden: true
+noindex: true
 ---
 ## 見せたくなかった体、見せたい体に変わるまで
 

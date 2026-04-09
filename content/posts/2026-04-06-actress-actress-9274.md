@@ -9,6 +9,7 @@ cover:
   image: "https://pics.dmm.co.jp/digital/video/h_1664cou00014/h_1664cou00014pl.jpg"
   alt: "日向うみのおすすめAV作品"
   hidden: false
+noindex: true
 ---
 
 ## 日向うみ おすすめ作品一覧

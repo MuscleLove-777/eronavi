@@ -9,6 +9,7 @@ cover:
   image: "https://pics.dmm.co.jp/digital/video/ofje00307/ofje00307pl.jpg"
   alt: "天使もえのおすすめAV作品"
   hidden: false
+noindex: true
 ---
 
 ## 天使もえ おすすめ作品一覧
