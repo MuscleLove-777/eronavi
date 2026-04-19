@@ -1,4 +1,5 @@
 name: Weekly Actress Pages
+# 2026-04-11 質転換のためscheduleトリガ停止。手動起動のみ残す。
 on:
   workflow_dispatch:
 permissions:
