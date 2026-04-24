@@ -9,6 +9,11 @@
 {{ partial "faq_jsonld.html" . }}
 {{/* __REVIEW_FAQ_JSONLD__END__ */}}
 
+{{/* __PRODUCT_BREADCRUMB_JSONLD__START__ */}}
+{{ partial "breadcrumb_jsonld.html" . }}
+{{ partial "product_jsonld.html" . }}
+{{/* __PRODUCT_BREADCRUMB_JSONLD__END__ */}}
+
 <article class="post-single">
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}

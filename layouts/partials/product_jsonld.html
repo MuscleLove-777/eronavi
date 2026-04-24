@@ -1,0 +1,81 @@
+{{/*
+  Product JSON-LD
+  ---------------
+  Emits a schema.org Product structured-data block for single pages that
+  front-matter opt in with either `sku:` (FANZA 品番 e.g. SONE-614) or
+  `product: true`.
+
+  Coexists with the BlogPosting / Review / FAQPage / BreadcrumbList / WebSite
+  JSON-LD blocks from other partials. Rendered only on .Kind == "page".
+
+  Front matter examples:
+    sku: "SONE-614"
+    rating: 4.8
+  or
+    product: true
+*/}}
+{{- if eq .Kind "page" -}}
+{{- if or .Params.sku .Params.product -}}
+{{- $desc := "" -}}
+{{- with .Description -}}
+  {{- $desc = . -}}
+{{- else -}}
+  {{- $desc = .Summary | plainify -}}
+  {{- if gt (len $desc) 160 -}}
+    {{- $desc = substr $desc 0 160 -}}
+  {{- end -}}
+{{- end -}}
+{{- $img := "" -}}
+{{- with .Params.cover -}}{{- with .image -}}{{- $img = . -}}{{- end -}}{{- end -}}
+{{- $absImg := "" -}}
+{{- if $img -}}
+  {{- if or (hasPrefix $img "http://") (hasPrefix $img "https://") -}}
+    {{- $absImg = $img -}}
+  {{- else -}}
+    {{- $absImg = printf "%s%s" (.Site.BaseURL | strings.TrimRight "/") (printf "/%s" ($img | strings.TrimLeft "/")) -}}
+  {{- end -}}
+{{- end -}}
+{{- $sku := .Params.sku | default .Params.product_code | default "" -}}
+{{- $hasScalarRating := false -}}
+{{- $ratingValue := 0.0 -}}
+{{- with .Params.rating -}}
+  {{- if not (reflect.IsMap .) -}}
+    {{- $hasScalarRating = true -}}
+    {{- $ratingValue = . -}}
+  {{- end -}}
+{{- end -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": {{ .Title | jsonify | safeJS }},{{ if $sku }}
+  "sku": {{ $sku | jsonify | safeJS }},
+  "mpn": {{ $sku | jsonify | safeJS }},{{ end }}
+  "description": {{ $desc | jsonify | safeJS }}{{ if $absImg }},
+  "image": [{{ $absImg | jsonify | safeJS }}]{{ end }},
+  "brand": {
+    "@type": "Brand",
+    "name": "FANZA"
+  },
+  "offers": {
+    "@type": "Offer",
+    "url": {{ .Permalink | jsonify | safeJS }},
+    "priceCurrency": "JPY",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Organization",
+      "name": "FANZA"
+    }
+  }{{ if $hasScalarRating }},
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": {{ $ratingValue }},
+    "bestRating": 5,
+    "worstRating": 1,
+    "ratingCount": 1,
+    "reviewCount": 1
+  }{{ end }}
+}
+</script>
+{{- end -}}
+{{- end -}}
