@@ -1,0 +1,55 @@
+{{/*
+  related_posts_sidebar.html
+  ---------------------------
+  記事末尾に表示する「こちらもおすすめ」コンパクトブロック。
+  既存の related-section(サムネ付き大判)とは別枠で、日付メタ+タイトル構成。
+  タグ/カテゴリ重複を避けて Related API から最大6件を選び、足りなければ同カテゴリから補充。
+  失敗しても致命的にならないよう、候補が空ならこのブロック自体を表示しない。
+*/}}
+{{ if .IsPage }}
+  {{ $ctx := . }}
+  {{ $related := .Site.RegularPages.Related . | first 12 }}
+  {{/* 既存「この作品を見た人は...」が先頭6件を使うため、7..12件目を使って重複回避 */}}
+  {{ $sidebarItems := slice }}
+  {{ range $i, $p := $related }}
+    {{ if ge $i 6 }}
+      {{ $sidebarItems = $sidebarItems | append $p }}
+    {{ end }}
+  {{ end }}
+  {{/* 不足時は同カテゴリから補充 */}}
+  {{ if lt (len $sidebarItems) 3 }}
+    {{ $categories := $ctx.Params.categories }}
+    {{ if $categories }}
+      {{ $catName := index $categories 0 }}
+      {{ $catPages := where site.RegularPages "Params.categories" "intersect" (slice $catName) }}
+      {{ $catPages = sort $catPages "Date" "desc" }}
+      {{ range $cp := $catPages }}
+        {{ if and (ne $cp.Permalink $ctx.Permalink) (lt (len $sidebarItems) 6) }}
+          {{/* 既に含まれているかチェック（scratchで判定） */}}
+          {{ $s := newScratch }}
+          {{ $s.Set "dup" false }}
+          {{ range $si := $sidebarItems }}
+            {{ if eq $si.Permalink $cp.Permalink }}{{ $s.Set "dup" true }}{{ end }}
+          {{ end }}
+          {{ if not ($s.Get "dup") }}
+            {{ $sidebarItems = $sidebarItems | append $cp }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ $sidebarItems = $sidebarItems | first 6 }}
+  {{ with $sidebarItems }}
+  <section class="related-posts" style="margin:40px 0;padding:20px;background:#1a1d24;border-left:4px solid #e63946;border-radius:6px;">
+    <h3 style="margin:0 0 16px 0;color:#f0f0f0;font-size:1.1rem;">&#128064; こちらもおすすめ</h3>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;">
+      {{ range . }}
+      <a href="{{ .RelPermalink }}" style="display:block;padding:12px;background:#0d1117;border:1px solid #30363d;border-radius:4px;text-decoration:none;color:#c9d1d9;">
+        <strong style="display:block;margin-bottom:6px;color:#e63946;font-size:0.92rem;line-height:1.35;">{{ .Title }}</strong>
+        <span style="font-size:0.75rem;color:#8b949e;">{{ .Date.Format "2006-01-02" }}{{ with .Params.categories }} &middot; {{ index . 0 }}{{ end }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+{{ end }}

@@ -97,6 +97,22 @@ buildExpired = false
   [markup.highlight]
     noClasses = false
 
+# 関連記事(.Site.RegularPages.Related)用インデックス設定
+# tags/categories が一致するほど近いと判定。date も考慮してフレッシュな記事を優先。
+[related]
+  includeNewer = true
+  threshold = 50
+  toLower = true
+  [[related.indices]]
+    name = "tags"
+    weight = 80
+  [[related.indices]]
+    name = "categories"
+    weight = 60
+  [[related.indices]]
+    name = "date"
+    weight = 10
+
 [[menus.main]]
   name = "🔥 新着"
   url = "/"
