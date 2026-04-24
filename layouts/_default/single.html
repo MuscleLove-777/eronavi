@@ -14,6 +14,10 @@
 {{ partial "product_jsonld.html" . }}
 {{/* __PRODUCT_BREADCRUMB_JSONLD__END__ */}}
 
+{{/* __AUTO_INTERNAL_LINKS__START__ */}}
+{{ if eq .Kind "page" }}{{ partial "auto_internal_links.html" . }}{{ end }}
+{{/* __AUTO_INTERNAL_LINKS__END__ */}}
+
 <article class="post-single">
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
