@@ -203,3 +203,7 @@ if ('serviceWorker' in navigator) {
 })();
 </script>
 {{ end }}
+
+{{/* __FANZA_TRACKING__CALL__START__ */}}
+{{ partial "fanza_tracking.html" . }}
+{{/* __FANZA_TRACKING__CALL__END__ */}}
