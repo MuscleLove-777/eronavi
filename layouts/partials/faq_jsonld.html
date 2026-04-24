@@ -1,0 +1,41 @@
+{{/*
+  FAQPage JSON-LD
+  ---------------
+  Emits a schema.org FAQPage structured-data block for single pages that
+  define a `faq:` list in front matter.
+
+  Front matter example:
+    faq:
+      - q: "SONE-614はどこで買えますか？"
+        a: "FANZAで購入できます。..."
+      - q: "瀬戸環奈の他のおすすめ作品は？"
+        a: "SONE-615とSONE-638が..."
+
+  Only fires when `.Params.faq` is a non-empty slice/array.
+*/}}
+{{- if eq .Kind "page" -}}
+{{- with .Params.faq -}}
+{{- if reflect.IsSlice . -}}
+{{- if gt (len .) 0 -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{- range $i, $qa := . }}{{ if $i }},{{ end }}
+    {
+      "@type": "Question",
+      "name": {{ (index $qa "q") | jsonify | safeJS }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ (index $qa "a") | jsonify | safeJS }}
+      }
+    }
+    {{- end }}
+  ]
+}
+</script>
+{{- end -}}
+{{- end -}}
+{{- end -}}
+{{- end -}}

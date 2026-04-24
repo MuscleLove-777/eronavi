@@ -49,13 +49,13 @@
   {{ with .Params.cover }}{{ if .image }},
   "image": "{{ .image }}"
   {{ end }}{{ end }}
-  {{ with .Params.rating }},
+  {{ with .Params.rating }}{{ if reflect.IsMap . }},
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "{{ .average }}",
     "reviewCount": "{{ .count }}"
   }
-  {{ end }}
+  {{ end }}{{ end }}
 }
 </script>
 {{ end }}
@@ -67,9 +67,10 @@
 {{ end }}{{ end }}
 {{ end }}
 
-<!-- Review + Product 構造化データ -->
+<!-- Review + Product 構造化データ (legacy: rating as map with .average/.count) -->
 {{ if .IsPage }}
 {{ with .Params.rating }}
+{{ if reflect.IsMap . }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -96,6 +97,7 @@
   }
 }
 </script>
+{{ end }}
 {{ end }}
 {{ end }}
 

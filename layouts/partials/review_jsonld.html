@@ -1,0 +1,74 @@
+{{/*
+  Review JSON-LD
+  --------------
+  Emits a schema.org Review structured-data block for single pages that
+  front-matter opt in with either `review: true` or `review_target:`.
+
+  Coexists with the legacy Review block in partials/extend_head.html which
+  fires only when `.Params.rating` is a MAP (dict with `.average`). This
+  partial only fires when `.Params.rating` is EMPTY or a scalar, so the
+  two never duplicate.
+
+  Front matter examples:
+    review_target: "SONE-614 瀬戸環奈デビュー作"
+    rating: 4.8
+  or
+    review: true
+*/}}
+{{- if eq .Kind "page" -}}
+{{- $hasLegacyRating := false -}}
+{{- with .Params.rating -}}
+  {{- if reflect.IsMap . -}}
+    {{- $hasLegacyRating = true -}}
+  {{- end -}}
+{{- end -}}
+{{- if and (not $hasLegacyRating) (or (eq .Params.review true) .Params.review_target) -}}
+{{- $targetName := or .Params.review_target .Title -}}
+{{- $ratingValue := 4.5 -}}
+{{- with .Params.rating -}}
+  {{- if not (reflect.IsMap .) -}}
+    {{- $ratingValue = . -}}
+  {{- end -}}
+{{- end -}}
+{{- $img := "" -}}
+{{- with .Params.cover -}}{{- with .image -}}{{- $img = . -}}{{- end -}}{{- end -}}
+{{- $absImg := "" -}}
+{{- if $img -}}
+  {{- if or (hasPrefix $img "http://") (hasPrefix $img "https://") -}}
+    {{- $absImg = $img -}}
+  {{- else -}}
+    {{- $absImg = printf "%s%s" (.Site.BaseURL | strings.TrimRight "/") (printf "/%s" ($img | strings.TrimLeft "/")) -}}
+  {{- end -}}
+{{- end -}}
+{{- $sku := .Params.sku | default .Params.product_code | default "" -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "CreativeWork",
+    "name": {{ $targetName | jsonify | safeJS }},
+    "url": {{ .Permalink | jsonify | safeJS }}{{ if $absImg }},
+    "image": {{ $absImg | jsonify | safeJS }}{{ end }}{{ if $sku }},
+    "sku": {{ $sku | jsonify | safeJS }}{{ end }}
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": {{ $ratingValue }},
+    "bestRating": 5,
+    "worstRating": 1
+  },
+  "author": {
+    "@type": "Organization",
+    "name": {{ .Site.Title | jsonify | safeJS }}
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ .Site.Title | jsonify | safeJS }},
+    "url": "{{ .Site.BaseURL }}"
+  },
+  "datePublished": "{{ .Date.Format "2006-01-02" }}"
+}
+</script>
+{{- end -}}
+{{- end -}}
