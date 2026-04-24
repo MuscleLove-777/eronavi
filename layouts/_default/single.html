@@ -1,5 +1,9 @@
 {{- define "main" }}
 
+{{/* __BLOGPOSTING_JSONLD__START__ */}}
+{{ partial "blogposting_jsonld.html" . }}
+{{/* __BLOGPOSTING_JSONLD__END__ */}}
+
 <article class="post-single">
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
