@@ -15,9 +15,18 @@
   {{- $desc = . -}}
 {{- else -}}
   {{- $desc = .Summary | plainify -}}
-  {{- if gt (len $desc) 160 -}}
-    {{- $desc = substr $desc 0 160 -}}
+{{- end -}}
+{{/* description が短すぎ (50 文字未満) ならリッチリザルト品質を担保するため
+     Summary 流用で 80～160 文字の本文に拡張する。Rich Results 監査
+     2026-04-25 で 12 URL 中 3 件が 48-49 文字判定。これを自動回避。 */}}
+{{- if lt (len $desc) 50 -}}
+  {{- $supplement := .Summary | plainify -}}
+  {{- if and $supplement (ne $supplement $desc) -}}
+    {{- $desc = printf "%s %s" $desc $supplement -}}
   {{- end -}}
+{{- end -}}
+{{- if gt (len $desc) 160 -}}
+  {{- $desc = substr $desc 0 160 -}}
 {{- end -}}
 {{- $img := "" -}}
 {{- with .Params.cover -}}{{- with .image -}}{{- $img = . -}}{{- end -}}{{- end -}}
