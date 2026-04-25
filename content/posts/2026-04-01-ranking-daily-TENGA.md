@@ -1,6 +1,7 @@
 ---
 title: "【2026-04-01】TENGA デイリーランキングTOP20"
 date: 2026-04-01T01:22:42+09:00
+lastmod: 2026-04-25T09:39:36+09:00
 tags: ["ランキング", "TENGA", "デイリー"]
 categories: ["Ranking"]
 draft: false

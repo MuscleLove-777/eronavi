@@ -1,6 +1,7 @@
 ---
 title: "【2026-04-01】NTRアニメ デイリーランキングTOP20"
 date: 2026-04-01T01:28:36+09:00
+lastmod: 2026-04-25T09:39:36+09:00
 tags: ["ランキング", "NTRアニメ", "デイリー"]
 categories: ["Ranking"]
 draft: false
