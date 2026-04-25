@@ -32,7 +32,7 @@ buildExpired = false
   canonicalURL = true
   description = "実写AV・エロアニメ・同人・ASMR・アダルトグッズ…全ジャンル網羅のアダルト総合レビューサイト。サンプル付きで毎日更新"
   author = "エロナビ編集部"
-  images = ["https://musclelove-777.github.io/eronavi/favicon.svg"]
+  images = ["og-default.png"]
   # NOTE: サイト全体のデフォルトキーワード。各記事のフロントマターで個別に3-5個に絞ることを推奨
   keywords = ["AV おすすめ", "アダルト動画 ランキング", "FANZA おすすめ", "エロ動画 レビュー", "AV 新作", "NTR AV", "熟女 AV", "VR AV", "巨乳 AV", "素人 AV", "痴女 AV", "中出し AV", "ギャル AV", "レズ AV", "痴漢 AV", "オナホ おすすめ", "TENGA ランキング", "アダルトグッズ レビュー", "同人 FANZA", "SM AV", "OL AV", "女子校生 AV", "母乳 AV", "マッサージ AV", "乱交 AV", "寝取らせ AV", "新人 AV デビュー", "受賞作 AV", "3P AV", "エロアニメ おすすめ", "同人CG FANZA", "ASMR おすすめ", "同人ゲーム エロ", "エロゲ おすすめ", "アダルトコミック", "NTR アニメ", "触手 同人", "異世界 エロ", "学園アニメ エロ", "BL 同人", "バイブ おすすめ", "ローション おすすめ", "写真集 グラビア", "官能小説", "TL おすすめ", "アダルトDVD", "フィギュア エロ"]
   defaultTheme = "dark"

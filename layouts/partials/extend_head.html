@@ -67,6 +67,31 @@
 {{ end }}{{ end }}
 {{ end }}
 
+{{/* __OG_IMAGE_FALLBACK__ START
+     OG/Twitter image dimensions hint (1200x630).
+     - 単体ページで cover.image があれば FANZA サムネ
+     - 無いページ(home/list/term)は site.Params.images[0] = og-default.png にフォールバック
+       (PaperMod 標準: opengraph.html / twitter_cards.html が site.Params.images を参照)
+     ここでは og:image:width / height のみ追加し、Twitter/Discord等のクロップ判定を安定化。 */}}
+{{- $hasCover := false -}}
+{{- with .Params.cover }}{{ if .image }}{{ $hasCover = true }}{{ end }}{{ end -}}
+{{- $ogw := "1200" -}}
+{{- $ogh := "630" -}}
+{{- if $hasCover -}}
+  {{/* FANZA pl サムネは 800x538 程度が多いが、cropは Twitter 側に任せて summary_large_image のままにする */}}
+  {{- $ogw = "800" -}}
+  {{- $ogh = "538" -}}
+{{- end }}
+<meta property="og:image:width" content="{{ $ogw }}" />
+<meta property="og:image:height" content="{{ $ogh }}" />
+{{- if not $hasCover }}
+{{/* PaperMod の twitter_cards.html は images[0] が外部URLでない場合 RelPermalink を使うため、
+     念のため明示的に absolute URL の twitter:image を補強(重複は許容、後者優先) */}}
+<meta name="twitter:image" content="{{ printf "%sog-default.png" .Site.BaseURL }}" />
+<meta property="og:image" content="{{ printf "%sog-default.png" .Site.BaseURL }}" />
+{{- end }}
+{{/* __OG_IMAGE_FALLBACK__ END */}}
+
 <!-- Review + Product 構造化データ (legacy: rating as map with .average/.count) -->
 {{ if .IsPage }}
 {{ with .Params.rating }}
