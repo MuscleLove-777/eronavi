@@ -4,7 +4,7 @@ date: 2026-04-05T03:32:03+09:00
 tags: ["ランキング", "痴女", "デイリー"]
 categories: ["Ranking"]
 draft: false
-description: "2026-04-05更新の痴女デイリーランキングTOP20。FANZAの売れ筋作品をサンプル画像付きで紹介。"
+description: "【2026-04-05】痴女 デイリーランキングTOP20の作品情報まとめ。ランキング・痴女・デイリーを軸に、価格・出演・シリーズ・配信形態などRankingを購入する前に知りたいポイントをサンプル付きで網羅しています。"
 cover:
   image: "https://pics.dmm.co.jp/digital/video/ipzz00722/ipzz00722pl.jpg"
   alt: "痴女デイリーランキング1位"

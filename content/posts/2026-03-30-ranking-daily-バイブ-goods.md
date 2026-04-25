@@ -5,7 +5,7 @@ lastmod: 2026-04-25T09:39:36+09:00
 tags: ["ランキング", "バイブ", "デイリー"]
 categories: ["vibrator"]
 draft: false
-description: "2026-03-30更新のバイブアダルトグッズデイリーランキングTOP20。FANZAの売れ筋商品を画像付きで紹介。"
+description: "【2026-03-30】バイブ デイリーランキングTOP20の作品情報まとめ。ランキング・バイブ・デイリーを軸に、価格・出演・シリーズ・配信形態などvibratorを購入する前に知りたいポイントをサンプル付きで網羅しています。"
 cover:
   image: "https://pics.dmm.co.jp/mono/goods/et8821/et8821ps.jpg"
   alt: "バイブデイリーランキング1位"

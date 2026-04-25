@@ -4,7 +4,7 @@ date: 2026-04-11T02:58:18+09:00
 tags: ["ランキング", "巨乳", "デイリー"]
 categories: ["Ranking"]
 draft: false
-description: "2026-04-11更新の巨乳デイリーランキングTOP20。FANZAの売れ筋作品をサンプル画像付きで紹介。"
+description: "【2026-04-11】巨乳 デイリーランキングTOP20を完全レビュー。ランキング・巨乳・デイリーなどRankingカテゴリの注目ポイントをサンプル画像と作品データで詳しく紹介し、購入前のチェックに役立つ情報をまとめました。"
 cover:
   image: "https://pics.dmm.co.jp/digital/video/mida00455/mida00455pl.jpg"
   alt: "巨乳デイリーランキング1位"

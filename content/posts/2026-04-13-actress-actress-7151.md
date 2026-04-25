@@ -4,7 +4,7 @@ date: 2026-04-13T05:16:48+09:00
 tags: ["伊藤舞雪", "AV女優", "おすすめ"]
 categories: ["Actress"]
 draft: false
-description: "伊藤舞雪出演のおすすめAV作品を厳選紹介。最新作からランキング上位作品まで、サンプル動画付きでチェック。"
+description: "ジャンル: ハイビジョン / 4K / 独占配信 / 中出し 価格: 2180~ <a href=\"https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=cawd00940/?afid=pinky2400-990\" target=\"blank\" rel=\"nofol…"
 cover:
   image: "https://pics.dmm.co.jp/digital/video/cawd00940/cawd00940pl.jpg"
   alt: "伊藤舞雪のおすすめAV作品"

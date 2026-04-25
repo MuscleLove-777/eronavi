@@ -4,7 +4,7 @@ date: 2026-04-08T03:27:18+09:00
 tags: ["ランキング", "総合", "デイリー"]
 categories: ["Ranking"]
 draft: false
-description: "2026-04-08更新の総合デイリーランキングTOP20。FANZAの売れ筋作品をサンプル画像付きで紹介。"
+description: "Rankingジャンルの注目作「【2026-04-08】総合 デイリーランキングTOP20」をレビュー。ランキング・総合・デイリーを含むタグ構成で、サンプル画像とアフィリエイト直リンクから作品ページへ即アクセス可能、価格や出演情報も掲載。"
 cover:
   image: "https://pics.dmm.co.jp/digital/video/mida00455/mida00455pl.jpg"
   alt: "総合デイリーランキング1位"

@@ -4,7 +4,7 @@ date: 2026-04-13T03:46:05+09:00
 tags: ["ランキング", "熟女", "デイリー"]
 categories: ["Ranking"]
 draft: false
-description: "2026-04-13更新の熟女デイリーランキングTOP20。FANZAの売れ筋作品をサンプル画像付きで紹介。"
+description: "「【2026-04-13】熟女 デイリーランキングTOP20」の見どころを徹底解説。ランキングや熟女が好きな方におすすめのRanking作品で、サンプル動画・画像付きで魅力をチェックでき、出演・シリーズ・価格まで網羅しています。"
 cover:
   image: "https://pics.dmm.co.jp/digital/video/gqhb00024/gqhb00024pl.jpg"
   alt: "熟女デイリーランキング1位"

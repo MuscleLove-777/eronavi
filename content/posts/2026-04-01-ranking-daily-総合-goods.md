@@ -5,7 +5,7 @@ lastmod: 2026-04-25T09:39:36+09:00
 tags: ["ランキング", "総合", "デイリー"]
 categories: ["goods"]
 draft: false
-description: "2026-04-01更新の総合アダルトグッズデイリーランキングTOP20。FANZAの売れ筋商品を画像付きで紹介。"
+description: "【2026-04-01】総合 デイリーランキングTOP20の作品情報まとめ。ランキング・総合・デイリーを軸に、価格・出演・シリーズ・配信形態などgoodsを購入する前に知りたいポイントをサンプル付きで網羅しています。"
 cover:
   image: "https://pics.dmm.co.jp/mono/goods/lo0744/lo0744ps.jpg"
   alt: "総合デイリーランキング1位"

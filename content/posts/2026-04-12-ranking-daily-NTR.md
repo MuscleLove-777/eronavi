@@ -4,7 +4,7 @@ date: 2026-04-12T03:38:36+09:00
 tags: ["ランキング", "NTR", "デイリー"]
 categories: ["Ranking"]
 draft: false
-description: "2026-04-12更新のNTRデイリーランキングTOP20。FANZAの売れ筋作品をサンプル画像付きで紹介。"
+description: "Rankingジャンルの注目作「【2026-04-12】NTR デイリーランキングTOP20」をレビュー。ランキング・NTR・デイリーを含むタグ構成で、サンプル画像とアフィリエイト直リンクから作品ページへ即アクセス可能、価格や出演情報も掲載。"
 cover:
   image: "https://pics.dmm.co.jp/digital/video/sorafk00006/sorafk00006pl.jpg"
   alt: "NTRデイリーランキング1位"

@@ -5,7 +5,7 @@ lastmod: 2026-04-25T09:39:36+09:00
 tags: ["ランキング", "ASMR", "デイリー"]
 categories: ["Ranking"]
 draft: false
-description: "2026-03-30更新のASMRデイリーランキングTOP20。FANZAの売れ筋作品をサンプル画像付きで紹介。"
+description: "【2026-03-30】ASMR デイリーランキングTOP20を完全レビュー。ランキング・ASMR・デイリーなどRankingカテゴリの注目ポイントをサンプル画像と作品データで詳しく紹介し、購入前のチェックに役立つ情報をまとめました。"
 cover:
   image: "https://doujin-assets.dmm.co.jp/digital/game/d_707051/d_707051pl.jpg"
   alt: "ASMRデイリーランキング1位"

@@ -4,7 +4,7 @@ date: 2026-04-04T02:54:45+09:00
 tags: ["ランキング", "VR", "デイリー"]
 categories: ["Ranking"]
 draft: false
-description: "2026-04-04更新のVRデイリーランキングTOP20。FANZAの売れ筋作品をサンプル画像付きで紹介。"
+description: "【2026-04-04】VR デイリーランキングTOP20の作品情報まとめ。ランキング・VR・デイリーを軸に、価格・出演・シリーズ・配信形態などRankingを購入する前に知りたいポイントをサンプル付きで網羅しています。"
 cover:
   image: "https://pics.dmm.co.jp/digital/video/mdvr00388/mdvr00388pl.jpg"
   alt: "VRデイリーランキング1位"

@@ -4,7 +4,7 @@ date: 2026-04-02T03:01:30+09:00
 tags: ["ランキング", "コスプレ", "デイリー"]
 categories: ["Ranking"]
 draft: false
-description: "2026-04-02更新のコスプレデイリーランキングTOP20。FANZAの売れ筋作品をサンプル画像付きで紹介。"
+description: "【2026-04-02】コスプレ デイリーランキングTOP20を完全レビュー。ランキング・コスプレ・デイリーなどRankingカテゴリの注目ポイントをサンプル画像と作品データで詳しく紹介し、購入前のチェックに役立つ情報をまとめました。"
 cover:
   image: "https://pics.dmm.co.jp/digital/video/1namh00019/1namh00019pl.jpg"
   alt: "コスプレデイリーランキング1位"

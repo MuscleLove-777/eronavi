@@ -4,7 +4,7 @@ date: 2026-04-13T05:16:22+09:00
 tags: ["河北彩花", "AV女優", "おすすめ"]
 categories: ["Actress"]
 draft: false
-description: "河北彩花出演のおすすめAV作品を厳選紹介。最新作からランキング上位作品まで、サンプル動画付きでチェック。"
+description: "ジャンル: ハイビジョン / 4K / 独占配信 / 制服 価格: 500~ <a href=\"https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=snos00003/?afid=pinky2400-990\" target=\"blank\" rel=\"nofollow\""
 cover:
   image: "https://pics.dmm.co.jp/digital/video/snos00003/snos00003pl.jpg"
   alt: "河北彩花のおすすめAV作品"

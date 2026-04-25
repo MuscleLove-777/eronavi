@@ -4,7 +4,7 @@ date: 2026-04-13T05:17:05+09:00
 tags: ["月乃さくら", "AV女優", "おすすめ"]
 categories: ["Actress"]
 draft: false
-description: "月乃さくら出演のおすすめAV作品を厳選紹介。最新作からランキング上位作品まで、サンプル動画付きでチェック。"
+description: "ジャンル: ハイビジョン / 独占配信 / 中出し / ドラマ 価格: 300~ <a href=\"https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=waaa00020/?afid=pinky2400-990\" target=\"blank\" rel=\"nofol…"
 cover:
   image: "https://pics.dmm.co.jp/digital/video/waaa00020/waaa00020pl.jpg"
   alt: "月乃さくらのおすすめAV作品"

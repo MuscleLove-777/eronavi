@@ -4,7 +4,7 @@ date: 2026-04-06T03:34:15+09:00
 tags: ["ランキング", "総合", "デイリー"]
 categories: ["Ranking"]
 draft: false
-description: "2026-04-06更新の総合デイリーランキングTOP20。FANZAの売れ筋作品をサンプル画像付きで紹介。"
+description: "【2026-04-06】総合 デイリーランキングTOP20を完全レビュー。ランキング・総合・デイリーなどRankingカテゴリの注目ポイントをサンプル画像と作品データで詳しく紹介し、購入前のチェックに役立つ情報をまとめました。"
 cover:
   image: "https://pics.dmm.co.jp/digital/video/sone00991/sone00991pl.jpg"
   alt: "総合デイリーランキング1位"

@@ -4,7 +4,7 @@ date: 2026-04-11T02:58:23+09:00
 tags: ["ランキング", "同人CG", "デイリー"]
 categories: ["Ranking"]
 draft: false
-description: "2026-04-11更新の同人CGデイリーランキングTOP20。FANZAの売れ筋作品をサンプル画像付きで紹介。"
+description: "「【2026-04-11】同人CG デイリーランキングTOP20」の見どころを徹底解説。ランキングや同人CGが好きな方におすすめのRanking作品で、サンプル動画・画像付きで魅力をチェックでき、出演・シリーズ・価格まで網羅しています。"
 cover:
   image: "https://doujin-assets.dmm.co.jp/digital/comic/d_740374/d_740374pl.jpg"
   alt: "同人CGデイリーランキング1位"

@@ -4,7 +4,7 @@ date: 2026-04-13T05:16:56+09:00
 tags: ["永瀬ゆい", "AV女優", "おすすめ"]
 categories: ["Actress"]
 draft: false
-description: "永瀬ゆい出演のおすすめAV作品を厳選紹介。最新作からランキング上位作品まで、サンプル動画付きでチェック。"
+description: "ジャンル: ハイビジョン / 独占配信 / ベスト・総集編 / 寝取り・寝取られ・NTR 価格: 500~ <a href=\"https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=dazd00272/?afid=pinky2400-990\" target=\"blan…"
 cover:
   image: "https://pics.dmm.co.jp/digital/video/dazd00272/dazd00272pl.jpg"
   alt: "永瀬ゆいのおすすめAV作品"

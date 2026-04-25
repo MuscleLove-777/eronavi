@@ -4,7 +4,7 @@ date: 2026-04-13T03:46:17+09:00
 tags: ["ランキング", "ASMR", "デイリー"]
 categories: ["Ranking"]
 draft: false
-description: "2026-04-13更新のASMRデイリーランキングTOP20。FANZAの売れ筋作品をサンプル画像付きで紹介。"
+description: "Rankingジャンルの注目作「【2026-04-13】ASMR デイリーランキングTOP20」をレビュー。ランキング・ASMR・デイリーを含むタグ構成で、サンプル画像とアフィリエイト直リンクから作品ページへ即アクセス可能、価格や出演情報も掲載。"
 cover:
   image: "https://doujin-assets.dmm.co.jp/digital/comic/d_708748/d_708748pl.jpg"
   alt: "ASMRデイリーランキング1位"

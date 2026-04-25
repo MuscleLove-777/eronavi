@@ -4,7 +4,7 @@ date: 2026-04-05T03:32:02+09:00
 tags: ["ランキング", "素人", "デイリー"]
 categories: ["Ranking"]
 draft: false
-description: "2026-04-05更新の素人デイリーランキングTOP20。FANZAの売れ筋作品をサンプル画像付きで紹介。"
+description: "Rankingジャンルの注目作「【2026-04-05】素人 デイリーランキングTOP20」をレビュー。ランキング・素人・デイリーを含むタグ構成で、サンプル画像とアフィリエイト直リンクから作品ページへ即アクセス可能、価格や出演情報も掲載。"
 cover:
   image: "https://pics.dmm.co.jp/digital/video/1svmgm00047/1svmgm00047pl.jpg"
   alt: "素人デイリーランキング1位"
