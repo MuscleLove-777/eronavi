@@ -1,0 +1,126 @@
+{{/*
+  article_next_nav.html
+  ----------------------
+  記事末尾の「次に読む」強化ナビ。
+  - 同カテゴリ前後（重複: 既存 single.html 上部の cat-prev-next と被るが、末尾CTAとして文脈再提示の意図で設置。色味/レイアウトを変えて視認差別化）
+  - 全体時系列前後（PaperMod 標準 ShowPostNavLinks の置換ではなく補完）
+  - 同タグ最人気3本（同タグかつ重複除外、Date降順を「人気代理」として採用：実PV連携は別タスク）
+  - 人気記事TOP3（固定リスト）
+  graceful degradation: カテゴリ/タグが無い場合は該当ブロック非表示。
+*/}}
+{{ if eq .Kind "page" }}
+{{ $ctx := . }}
+<nav class="article-next-nav" style="margin:48px 0 16px 0;padding:24px;background:#11151c;border:1px solid #2a2f3a;border-radius:10px;color:#e6edf3;">
+  <h3 style="margin:0 0 18px 0;font-size:1.15rem;color:#f0f0f0;">&#128214; 次に読む</h3>
+
+  {{/* === 同カテゴリ前後 === */}}
+  {{ $cats := .Params.categories }}
+  {{ if $cats }}
+    {{ $catName := index $cats 0 }}
+    {{ $catPages := where site.RegularPages "Params.categories" "intersect" (slice $catName) }}
+    {{ $catPages = sort $catPages "Date" "desc" }}
+    {{ $s := newScratch }}
+    {{ $s.Set "found" false }}
+    {{ range $p := $catPages }}
+      {{ if ($s.Get "found") }}
+        {{ if not ($s.Get "next") }}{{ $s.Set "next" $p }}{{ end }}
+      {{ end }}
+      {{ if eq $p.Permalink $ctx.Permalink }}
+        {{ $s.Set "found" true }}
+      {{ else }}
+        {{ if not ($s.Get "found") }}{{ $s.Set "prev" $p }}{{ end }}
+      {{ end }}
+    {{ end }}
+    {{ $prev := $s.Get "prev" }}
+    {{ $next := $s.Get "next" }}
+    {{ if or $prev $next }}
+    <div class="ann-cat-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-bottom:18px;">
+      {{ if $prev }}
+      <a href="{{ $prev.RelPermalink }}" style="display:block;padding:14px;background:#0d1117;border:1px solid #30363d;border-radius:6px;text-decoration:none;color:#c9d1d9;">
+        <small style="color:#8b949e;">&larr; 前の {{ $catName }}</small>
+        <strong style="display:block;color:#e63946;margin-top:6px;line-height:1.35;">{{ $prev.Title }}</strong>
+      </a>
+      {{ end }}
+      {{ if $next }}
+      <a href="{{ $next.RelPermalink }}" style="display:block;padding:14px;background:#0d1117;border:1px solid #30363d;border-radius:6px;text-decoration:none;color:#c9d1d9;text-align:right;">
+        <small style="color:#8b949e;">次の {{ $catName }} &rarr;</small>
+        <strong style="display:block;color:#e63946;margin-top:6px;line-height:1.35;">{{ $next.Title }}</strong>
+      </a>
+      {{ end }}
+    </div>
+    {{ end }}
+  {{ end }}
+
+  {{/* === 全体時系列前後 === */}}
+  {{ $allPages := where site.RegularPages "Section" "posts" }}
+  {{ $allPages = sort $allPages "Date" "desc" }}
+  {{ $sa := newScratch }}
+  {{ $sa.Set "found" false }}
+  {{ range $p := $allPages }}
+    {{ if ($sa.Get "found") }}
+      {{ if not ($sa.Get "next") }}{{ $sa.Set "next" $p }}{{ end }}
+    {{ end }}
+    {{ if eq $p.Permalink $ctx.Permalink }}
+      {{ $sa.Set "found" true }}
+    {{ else }}
+      {{ if not ($sa.Get "found") }}{{ $sa.Set "prev" $p }}{{ end }}
+    {{ end }}
+  {{ end }}
+  {{ $aprev := $sa.Get "prev" }}
+  {{ $anext := $sa.Get "next" }}
+  {{ if or $aprev $anext }}
+  <div class="ann-all-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-bottom:18px;">
+    {{ if $aprev }}
+    <a href="{{ $aprev.RelPermalink }}" style="display:block;padding:12px 14px;background:#0d1117;border:1px dashed #30363d;border-radius:6px;text-decoration:none;color:#c9d1d9;">
+      <small style="color:#8b949e;">&larr; 前の記事(全体)</small>
+      <span style="display:block;color:#f0f0f0;margin-top:4px;font-size:0.92rem;line-height:1.35;">{{ $aprev.Title }}</span>
+    </a>
+    {{ end }}
+    {{ if $anext }}
+    <a href="{{ $anext.RelPermalink }}" style="display:block;padding:12px 14px;background:#0d1117;border:1px dashed #30363d;border-radius:6px;text-decoration:none;color:#c9d1d9;text-align:right;">
+      <small style="color:#8b949e;">次の記事(全体) &rarr;</small>
+      <span style="display:block;color:#f0f0f0;margin-top:4px;font-size:0.92rem;line-height:1.35;">{{ $anext.Title }}</span>
+    </a>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{/* === 同タグ最人気(代理: 最新)3本 === */}}
+  {{ $tags := .Params.tags }}
+  {{ if $tags }}
+    {{ $tagName := index $tags 0 }}
+    {{ $tagPages := where site.RegularPages "Params.tags" "intersect" (slice $tagName) }}
+    {{ $tagPages = sort $tagPages "Date" "desc" }}
+    {{ $picked := slice }}
+    {{ range $tp := $tagPages }}
+      {{ if and (ne $tp.Permalink $ctx.Permalink) (lt (len $picked) 3) }}
+        {{ $picked = $picked | append $tp }}
+      {{ end }}
+    {{ end }}
+    {{ if $picked }}
+    <h4 style="margin:6px 0 8px 0;font-size:1rem;color:#f0f0f0;">&#127919; 同タグ「{{ $tagName }}」の注目作品</h4>
+    <ul style="list-style:none;padding:0;margin:0 0 18px 0;">
+      {{ range $picked }}
+      <li style="margin:6px 0;padding:8px 12px;background:#0d1117;border-left:3px solid #e63946;border-radius:4px;">
+        <a href="{{ .RelPermalink }}" style="color:#c9d1d9;text-decoration:none;font-size:0.92rem;">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+  {{ end }}
+
+  {{/* === 人気記事TOP3 (固定) === */}}
+  <h4 style="margin:6px 0 8px 0;font-size:1rem;color:#f0f0f0;">&#128293; 人気記事TOP3</h4>
+  <ul style="list-style:none;padding:0;margin:0;">
+    <li style="margin:6px 0;padding:8px 12px;background:#0d1117;border-left:3px solid #ffb703;border-radius:4px;">
+      <a href="/eronavi/posts/2026-04-11-setokanna-osusume/" style="color:#c9d1d9;text-decoration:none;font-size:0.92rem;">瀬戸環奈 おすすめ作品ランキングTOP10</a>
+    </li>
+    <li style="margin:6px 0;padding:8px 12px;background:#0d1117;border-left:3px solid #ffb703;border-radius:4px;">
+      <a href="/eronavi/posts/2026-04-11-mikami-yua-complete-guide/" style="color:#c9d1d9;text-decoration:none;font-size:0.92rem;">三上悠亜 全作品ガイド</a>
+    </li>
+    <li style="margin:6px 0;padding:8px 12px;background:#0d1117;border-left:3px solid #ffb703;border-radius:4px;">
+      <a href="/eronavi/posts/2026-04-11-matsumoto-ichika-shinsaku/" style="color:#c9d1d9;text-decoration:none;font-size:0.92rem;">松本いちか 新作ガイド</a>
+    </li>
+  </ul>
+</nav>
+{{ end }}
