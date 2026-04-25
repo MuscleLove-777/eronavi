@@ -1,0 +1,50 @@
+{{/* __AUTO_ALT__START__
+     Project-level override of PaperMod theme render-image.html.
+     - Resolves relative image destinations against page resources (same as theme).
+     - Fallback alt text when ![](src) has empty alt:
+         1) .Title (markdown title attribute) if present
+         2) "<page title> イメージ画像" otherwise (Japanese, SEO/a11y safe)
+     - Always emits loading="lazy" decoding="async".
+     Idempotent: re-running this hook produces identical output.
+*/}}
+{{- $u := urls.Parse .Destination -}}
+{{- $src := $u.String -}}
+{{- if not $u.IsAbs -}}
+  {{- $path := strings.TrimPrefix "./" $u.Path }}
+  {{- with or (.PageInner.Resources.Get $path) (resources.Get $path) -}}
+    {{- $src = .RelPermalink -}}
+    {{- with $u.RawQuery -}}
+      {{- $src = printf "%s?%s" $src . -}}
+    {{- end -}}
+    {{- with $u.Fragment -}}
+      {{- $src = printf "%s#%s" $src . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{/* __AUTO_ALT__FALLBACK__ */}}
+{{- $alt := .Text -}}
+{{- if not $alt -}}
+  {{- with .Title -}}
+    {{- $alt = . -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $alt -}}
+  {{- $pageTitle := "" -}}
+  {{- with .Page -}}
+    {{- $pageTitle = .Title -}}
+  {{- end -}}
+  {{- if $pageTitle -}}
+    {{- $alt = printf "%s イメージ画像" $pageTitle -}}
+  {{- else -}}
+    {{- $alt = "イメージ画像" -}}
+  {{- end -}}
+{{- end -}}
+{{- $attributes := merge .Attributes (dict "alt" $alt "src" $src "title" (.Title | transform.HTMLEscape) "loading" "lazy" "decoding" "async") -}}
+<img
+  {{- range $k, $v := $attributes -}}
+    {{- if $v -}}
+      {{- printf " %s=%q" $k $v | safeHTMLAttr -}}
+    {{- end -}}
+  {{- end -}}>
+{{- /**/ -}}
+{{/* __AUTO_ALT__END__ */}}

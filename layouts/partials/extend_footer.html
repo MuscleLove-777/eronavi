@@ -227,3 +227,28 @@ if ('serviceWorker' in navigator) {
   </div>
 </footer>
 <!-- ADULT_NETWORK_FOOTER_END -->
+
+{{/* __AUTO_ALT_JS__START__
+     Safety net: any raw <img> in markdown without alt= gets a derived alt
+     from its filename (slug → spaces). Render hook covers markdown ![]()
+     so this is mostly defensive against legacy/embedded HTML.
+*/}}
+<script>
+(function(){
+  var pageTitle = {{ .Title | jsonify }};
+  document.querySelectorAll('img:not([alt])').forEach(function(img){
+    var src = img.getAttribute('src') || '';
+    var fname = src.split('/').pop().split('?')[0].split('#')[0];
+    var base  = fname.replace(/\.[a-zA-Z0-9]+$/, '').replace(/[-_]+/g, ' ').trim();
+    img.alt = base ? (pageTitle + ' ' + base) : (pageTitle + ' イメージ画像');
+  });
+  // Also fix img[alt=""] which technically already has alt but is empty
+  document.querySelectorAll('img[alt=""]').forEach(function(img){
+    var src = img.getAttribute('src') || '';
+    var fname = src.split('/').pop().split('?')[0].split('#')[0];
+    var base  = fname.replace(/\.[a-zA-Z0-9]+$/, '').replace(/[-_]+/g, ' ').trim();
+    img.alt = base ? (pageTitle + ' ' + base) : (pageTitle + ' イメージ画像');
+  });
+})();
+</script>
+{{/* __AUTO_ALT_JS__END__ */}}
