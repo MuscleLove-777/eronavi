@@ -109,18 +109,23 @@
     {{ end }}
   {{ end }}
 
-  {{/* === 人気記事TOP3 (固定) === */}}
+  {{/* === 人気記事TOP3 (GA4 PV連動 / data driven) ===
+       data/popular_articles.json があればGA4過去30日PV順、なければ固定 fallback 3件 */}}
+  {{ $fallback := slice
+      (dict "url" "/eronavi/posts/2026-04-11-setokanna-osusume/" "title" "瀬戸環奈 おすすめ作品ランキングTOP10")
+      (dict "url" "/eronavi/posts/2026-04-11-mikami-yua-complete-guide/" "title" "三上悠亜 全作品ガイド")
+      (dict "url" "/eronavi/posts/2026-04-11-matsumoto-ichika-shinsaku/" "title" "松本いちか 新作ガイド")
+  }}
+  {{ $popular := site.Data.popular_articles | default $fallback }}
+  {{ if $popular }}
   <h4 style="margin:6px 0 8px 0;font-size:1rem;color:#f0f0f0;">&#128293; 人気記事TOP3</h4>
   <ul style="list-style:none;padding:0;margin:0;">
+    {{ range first 3 $popular }}
     <li style="margin:6px 0;padding:8px 12px;background:#0d1117;border-left:3px solid #ffb703;border-radius:4px;">
-      <a href="/eronavi/posts/2026-04-11-setokanna-osusume/" style="color:#c9d1d9;text-decoration:none;font-size:0.92rem;">瀬戸環奈 おすすめ作品ランキングTOP10</a>
+      <a href="{{ .url }}" style="color:#c9d1d9;text-decoration:none;font-size:0.92rem;">{{ .title }}</a>
     </li>
-    <li style="margin:6px 0;padding:8px 12px;background:#0d1117;border-left:3px solid #ffb703;border-radius:4px;">
-      <a href="/eronavi/posts/2026-04-11-mikami-yua-complete-guide/" style="color:#c9d1d9;text-decoration:none;font-size:0.92rem;">三上悠亜 全作品ガイド</a>
-    </li>
-    <li style="margin:6px 0;padding:8px 12px;background:#0d1117;border-left:3px solid #ffb703;border-radius:4px;">
-      <a href="/eronavi/posts/2026-04-11-matsumoto-ichika-shinsaku/" style="color:#c9d1d9;text-decoration:none;font-size:0.92rem;">松本いちか 新作ガイド</a>
-    </li>
+    {{ end }}
   </ul>
+  {{ end }}
 </nav>
 {{ end }}
