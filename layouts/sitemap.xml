@@ -1,0 +1,31 @@
+{{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  {{ range .Data.Pages }}
+    {{/* noindex: true の記事は sitemap から除外 (クロール予算最適化) */}}
+    {{ if not (eq .Params.noindex true) }}
+      {{/* タグページ (taxonomy term, singular=tag) は noindex なので除外 */}}
+      {{ if not (and (eq .Kind "term") (eq .Data.Singular "tag")) }}
+        {{/* taxonomy 一覧ページ (kind=taxonomy) も noindex なので除外 */}}
+        {{ if ne .Kind "taxonomy" }}
+  <url>
+    <loc>{{ .Permalink }}</loc>{{ if not .Lastmod.IsZero }}
+    <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>{{ end }}{{ with .Sitemap.ChangeFreq }}
+    <changefreq>{{ . }}</changefreq>{{ end }}{{ if ge .Sitemap.Priority 0.0 }}
+    <priority>{{ .Sitemap.Priority }}</priority>{{ end }}{{ if .IsTranslated }}{{ range .Translations }}
+    <xhtml:link
+                rel="alternate"
+                hreflang="{{ .Lang }}"
+                href="{{ .Permalink }}"
+                />{{ end }}
+    <xhtml:link
+                rel="alternate"
+                hreflang="{{ .Lang }}"
+                href="{{ .Permalink }}"
+                />{{ end }}
+  </url>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</urlset>
