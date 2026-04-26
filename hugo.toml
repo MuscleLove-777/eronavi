@@ -88,7 +88,42 @@ buildExpired = false
   keys = ["title", "permalink", "summary", "content"]
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON", "sitemap_posts", "sitemap_hubs", "sitemap_categories", "sitemap_pages"]
+
+# ----- Sitemap split (Wave10-C) -----
+# 単一sitemap.xml(702URL)をカテゴリ別に分割しクロール予算を最適化。
+# master sitemap.xml は sitemapindex として4つの子sitemapを参照する。
+[outputFormats.sitemap_posts]
+  mediaType = "application/xml"
+  baseName = "sitemap_posts"
+  isPlainText = true
+  isHTML = false
+  noUgly = true
+  rel = "sitemap"
+
+[outputFormats.sitemap_hubs]
+  mediaType = "application/xml"
+  baseName = "sitemap_hubs"
+  isPlainText = true
+  isHTML = false
+  noUgly = true
+  rel = "sitemap"
+
+[outputFormats.sitemap_categories]
+  mediaType = "application/xml"
+  baseName = "sitemap_categories"
+  isPlainText = true
+  isHTML = false
+  noUgly = true
+  rel = "sitemap"
+
+[outputFormats.sitemap_pages]
+  mediaType = "application/xml"
+  baseName = "sitemap_pages"
+  isPlainText = true
+  isHTML = false
+  noUgly = true
+  rel = "sitemap"
 
 [markup]
   [markup.goldmark]
