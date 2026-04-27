@@ -1,10 +1,12 @@
 ---
+featured: true
+keywords: ["ランキング", "ASMR", "デイリー", "ASMR デイリーランキングTOP20", "デイリーランキング"]
 title: "【2026-04-07】ASMR デイリーランキングTOP20"
 date: 2026-04-07T03:24:23+09:00
 tags: ["ランキング", "ASMR", "デイリー"]
 categories: ["Ranking"]
 draft: false
-description: "「【2026-04-07】ASMR デイリーランキングTOP20」の見どころを徹底解説。ランキングやASMRが好きな方におすすめのRanking作品で、サンプル動画・画像付きで魅力をチェックでき、出演・シリーズ・価格まで網羅しています。"
+description: "「【2026-04-07】ASMR デイリーランキングTOP20」の見どころを徹底解説。ランキングやASMRが好きな方におすすめのRanking作品で、サンプル動画・画像付きで魅力をチェックでき、出演・シリーズ・価格まで網羅しています。FANZAサンプル画像と直リンク付き。"
 cover:
   image: "https://doujin-assets.dmm.co.jp/digital/comic/d_708748/d_708748pl.jpg"
   alt: "ASMRデイリーランキング1位"
