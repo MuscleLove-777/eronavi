@@ -14,6 +14,10 @@
 {{ partial "product_jsonld.html" . }}
 {{/* __PRODUCT_BREADCRUMB_JSONLD__END__ */}}
 
+{{/* __ITEMLIST_JSONLD__START__ */}}
+{{ partial "itemlist_jsonld.html" . }}
+{{/* __ITEMLIST_JSONLD__END__ */}}
+
 {{/* __AUTO_INTERNAL_LINKS__START__ */}}
 {{ if eq .Kind "page" }}{{ partial "auto_internal_links.html" . }}{{ end }}
 {{/* __AUTO_INTERNAL_LINKS__END__ */}}
