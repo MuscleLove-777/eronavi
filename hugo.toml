@@ -149,261 +149,313 @@ buildExpired = false
     weight = 10
 
 [[menus.main]]
+  identifier = "new-arrivals"
   name = "🔥 新着"
   url = "/"
   weight = 1
 
 [[menus.main]]
+  identifier = "ranking"
   name = "🏆 ランキング"
   url = "/categories/ranking/"
   weight = 2
 
 [[menus.main]]
+  identifier = "女優"
   name = "👩 女優"
   url = "/categories/actress/"
   weight = 3
 
 [[menus.main]]
+  identifier = "ntr"
   name = "NTR"
   url = "/categories/ntr/"
   weight = 10
 
 [[menus.main]]
+  identifier = "熟女"
   name = "熟女"
   url = "/categories/jukujo/"
   weight = 20
 
 [[menus.main]]
+  identifier = "vr"
   name = "VR"
   url = "/categories/vr/"
   weight = 30
 
 [[menus.main]]
+  identifier = "巨乳"
   name = "巨乳"
   url = "/categories/oppai/"
   weight = 40
 
 [[menus.main]]
+  identifier = "素人"
   name = "素人"
   url = "/categories/shiroto/"
   weight = 50
 
 [[menus.main]]
+  identifier = "筋肉"
   name = "筋肉"
   url = "/categories/muscle/"
   weight = 60
 
 [[menus.main]]
+  identifier = "コスプレ"
   name = "コスプレ"
   url = "/categories/cosplay/"
   weight = 70
 
 [[menus.main]]
+  identifier = "フェチ"
   name = "フェチ"
   url = "/categories/fetish/"
   weight = 80
 
 [[menus.main]]
+  identifier = "痴女"
   name = "痴女"
   url = "/categories/chijo/"
   weight = 81
 
 [[menus.main]]
+  identifier = "中出し"
   name = "中出し"
   url = "/categories/nakadashi/"
   weight = 82
 
 [[menus.main]]
+  identifier = "ギャル"
   name = "ギャル"
   url = "/categories/gal/"
   weight = 83
 
 [[menus.main]]
+  identifier = "レズ"
   name = "レズ"
   url = "/categories/lesbian/"
   weight = 84
 
 [[menus.main]]
+  identifier = "企画"
   name = "企画"
   url = "/categories/kikaku/"
   weight = 85
 
 [[menus.main]]
+  identifier = "グッズ"
   name = "グッズ"
   url = "/categories/goods/"
   weight = 86
 
 [[menus.main]]
+  identifier = "同人"
   name = "同人"
   url = "/categories/doujin/"
   weight = 87
 
 [[menus.main]]
+  identifier = "人妻裏垢"
   name = "🔥 人妻裏垢"
   url = "/categories/hitozuma-uraaka/"
   weight = 88
 
 [[menus.main]]
+  identifier = "sm"
   name = "SM"
   url = "/categories/sm/"
   weight = 91
 
 [[menus.main]]
+  identifier = "ol"
   name = "OL"
   url = "/categories/ol/"
   weight = 92
 
 [[menus.main]]
+  identifier = "女子校生"
   name = "女子校生"
   url = "/categories/joshi/"
   weight = 93
 
 [[menus.main]]
+  identifier = "母乳"
   name = "母乳"
   url = "/categories/milf/"
   weight = 94
 
 [[menus.main]]
+  identifier = "マッサージ"
   name = "マッサージ"
   url = "/categories/massage/"
   weight = 95
 
 [[menus.main]]
+  identifier = "乱交"
   name = "乱交"
   url = "/categories/swapping/"
   weight = 96
 
 [[menus.main]]
+  identifier = "痴漢"
   name = "痴漢"
   url = "/categories/chikan/"
   weight = 97
 
 [[menus.main]]
+  identifier = "寝取らせ"
   name = "寝取らせ"
   url = "/categories/cuckold/"
   weight = 98
 
 [[menus.main]]
+  identifier = "新人"
   name = "新人"
   url = "/categories/debut/"
   weight = 99
 
 [[menus.main]]
+  identifier = "受賞作"
   name = "受賞作"
   url = "/categories/award/"
   weight = 100
 
 [[menus.main]]
+  identifier = "アニメ"
   name = "🎌 アニメ"
   url = "/categories/anime/"
   weight = 101
 
 [[menus.main]]
+  identifier = "同人cg"
   name = "同人CG"
   url = "/categories/doujincg/"
   weight = 102
 
 [[menus.main]]
+  identifier = "同人漫画"
   name = "同人漫画"
   url = "/categories/doujinmanga/"
   weight = 103
 
 [[menus.main]]
+  identifier = "asmr"
   name = "ASMR"
   url = "/categories/voice/"
   weight = 104
 
 [[menus.main]]
+  identifier = "同人ゲーム"
   name = "同人ゲーム"
   url = "/categories/doujingame/"
   weight = 105
 
 [[menus.main]]
+  identifier = "エロゲ"
   name = "エロゲ"
   url = "/categories/pcgame/"
   weight = 106
 
 [[menus.main]]
+  identifier = "コミック"
   name = "コミック"
   url = "/categories/comic/"
   weight = 107
 
 [[menus.main]]
+  identifier = "ntrアニメ"
   name = "NTRアニメ"
   url = "/categories/ntranime/"
   weight = 108
 
 [[menus.main]]
+  identifier = "触手"
   name = "触手"
   url = "/categories/tentacle/"
   weight = 109
 
 [[menus.main]]
+  identifier = "異世界"
   name = "異世界"
   url = "/categories/isekai/"
   weight = 110
 
 [[menus.main]]
+  identifier = "学園アニメ"
   name = "学園アニメ"
   url = "/categories/schoolanime/"
   weight = 111
 
 [[menus.main]]
+  identifier = "bl"
   name = "BL"
   url = "/categories/bl/"
   weight = 112
 
 [[menus.main]]
+  identifier = "onahole"
   name = "🛒 オナホ"
   url = "/categories/onahole/"
   weight = 113
 
 [[menus.main]]
+  identifier = "vibrator"
   name = "バイブ"
   url = "/categories/vibrator/"
   weight = 114
 
 [[menus.main]]
+  identifier = "tenga"
   name = "TENGA"
   url = "/categories/tenga/"
   weight = 115
 
 [[menus.main]]
+  identifier = "lotion"
   name = "ローション"
   url = "/categories/lotion/"
   weight = 116
 
 [[menus.main]]
+  identifier = "グッズ全般"
   name = "グッズ全般"
   url = "/categories/newgoods/"
   weight = 117
 
 [[menus.main]]
+  identifier = "写真集"
   name = "📸 写真集"
   url = "/categories/photobook/"
   weight = 118
 
 [[menus.main]]
+  identifier = "官能小説"
   name = "📖 官能小説"
   url = "/categories/novel/"
   weight = 119
 
 [[menus.main]]
+  identifier = "tl"
   name = "💕 TL"
   url = "/categories/tl/"
   weight = 120
 
 [[menus.main]]
+  identifier = "dvd"
   name = "🎬 DVD"
   url = "/categories/dvd/"
   weight = 121
 
 [[menus.main]]
+  identifier = "フィギュア"
   name = "🗿 フィギュア"
   url = "/categories/figure/"
   weight = 122
 
 [[menus.main]]
+  identifier = "all-categories"
   name = "全カテゴリ"
   url = "/categories/"
   weight = 130
@@ -412,11 +464,13 @@ buildExpired = false
     limit = 30
 
 [[menus.main]]
+  identifier = "search"
   name = "検索"
   url = "/search/"
   weight = 135
 
 [[menus.main]]
+  identifier = "問い合わせ"
   name = "問い合わせ"
   url = "/contact/"
   weight = 140
