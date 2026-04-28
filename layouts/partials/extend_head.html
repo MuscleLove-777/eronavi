@@ -175,3 +175,119 @@
 }
 </script>
 {{ end }}
+
+{{/* __CATEGORY_JSONLD__START__
+     カテゴリ(term)ページ専用: 動的description + CollectionPage JSON-LD + ItemList(上位10件)
+     - description: フロントマターにあれば優先、無ければ件数+主要タグから自動生成
+     - canonical/og:descriptionも上書きするため一段先んじて出力（後勝ち）
+     冪等マーカー: __CATEGORY_JSONLD__START__ / __CATEGORY_JSONLD__END__ */}}
+{{ if and (eq .Kind "term") (eq .Data.Singular "category") }}
+{{ $cat := .Title }}
+{{ $count := len .Pages }}
+{{/* 上位タグ抽出: 配下記事のtagsから頻度TOP3 */}}
+{{ $tagFreq := dict }}
+{{ range first 50 .Pages }}
+  {{ range .Params.tags }}
+    {{ $k := . }}
+    {{ if isset $tagFreq $k }}
+      {{ $tagFreq = merge $tagFreq (dict $k (add (index $tagFreq $k) 1)) }}
+    {{ else }}
+      {{ $tagFreq = merge $tagFreq (dict $k 1) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $topTags := slice }}
+{{ range $k, $v := $tagFreq }}
+  {{ $topTags = $topTags | append $k }}
+{{ end }}
+{{ $topTagStr := "" }}
+{{ if gt (len $topTags) 0 }}
+  {{ $topTagStr = delimit (first 3 $topTags) "・" }}
+{{ end }}
+{{ $autoDesc := "" }}
+{{ if .Description }}
+  {{ $autoDesc = .Description }}
+{{ else }}
+  {{ if $topTagStr }}
+    {{ $autoDesc = printf "%sジャンルの最新FANZA作品レビュー%d本掲載中。%sなど人気タグの注目作・サンプル動画・女優情報まで毎日更新。" $cat $count $topTagStr }}
+  {{ else }}
+    {{ $autoDesc = printf "%sジャンルの最新FANZA作品レビュー%d本掲載中。注目作・サンプル動画・女優情報まで毎日更新中。" $cat $count }}
+  {{ end }}
+{{ end }}
+<meta name="description" content="{{ $autoDesc }}" />
+<meta property="og:description" content="{{ $autoDesc }}" />
+<meta name="twitter:description" content="{{ $autoDesc }}" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "{{ $cat }}",
+  "description": "{{ $autoDesc }}",
+  "url": "{{ .Permalink }}",
+  "inLanguage": "ja",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "{{ .Site.Title }}",
+    "url": "{{ .Site.BaseURL }}"
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type":"ListItem","position":1,"name":"ホーム","item":"{{ .Site.BaseURL }}"},
+      {"@type":"ListItem","position":2,"name":"カテゴリ","item":"{{ .Site.BaseURL }}categories/"},
+      {"@type":"ListItem","position":3,"name":"{{ $cat }}","item":"{{ .Permalink }}"}
+    ]
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "name": "{{ $cat }}の記事一覧",
+    "numberOfItems": {{ $count }},
+    "itemListElement": [
+      {{- $items := first 10 .Pages -}}
+      {{- range $i, $p := $items -}}
+      {{- if $i }},{{ end }}
+      {"@type":"ListItem","position":{{ add $i 1 }},"url":"{{ $p.Permalink }}","name":{{ $p.Title | jsonify }}}
+      {{- end }}
+    ]
+  }
+}
+</script>
+{{ end }}
+{{/* __CATEGORY_JSONLD__END__ */}}
+
+{{/* compliance-block-v1: 景表法ステマ規制（消費者庁 2023-10-01）対応のPR表記＋18禁年齢確認 */}}
+<style>
+  #ml-compliance-bar{position:fixed;left:0;right:0;bottom:0;z-index:9998;background:#111;color:#eee;font-size:11px;line-height:1.4;padding:6px 12px;text-align:center;border-top:1px solid #333;font-family:system-ui,sans-serif}
+  #ml-compliance-bar a{color:#9ec5fe;text-decoration:underline}
+  #ml-age-gate{position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.92);color:#fff;display:flex;align-items:center;justify-content:center;font-family:system-ui,sans-serif}
+  #ml-age-gate .box{max-width:480px;padding:24px;background:#181818;border:1px solid #333;border-radius:8px;text-align:center}
+  #ml-age-gate h2{margin:0 0 12px;font-size:18px}
+  #ml-age-gate p{margin:8px 0;font-size:13px;line-height:1.6;color:#ccc}
+  #ml-age-gate .btns{display:flex;gap:10px;justify-content:center;margin-top:18px}
+  #ml-age-gate button{padding:10px 18px;border:none;border-radius:4px;cursor:pointer;font-size:14px;font-weight:600}
+  #ml-age-gate .yes{background:#dc3545;color:#fff}
+  #ml-age-gate .no{background:#444;color:#fff}
+</style>
+<div id="ml-compliance-bar">
+  本サイトには広告（FANZA／DMM等のアフィリエイトリンク）が含まれます。掲載商品はすべて18禁です。本サイトの利用は18歳以上の方に限ります。
+</div>
+<div id="ml-age-gate" style="display:none">
+  <div class="box">
+    <h2>18歳未満閲覧禁止</h2>
+    <p>このサイトには成人向けコンテンツへの広告リンクが含まれます。あなたは18歳以上ですか？</p>
+    <p style="font-size:11px;color:#888">本サイトには景品表示法に基づくアフィリエイト広告が含まれます。</p>
+    <div class="btns">
+      <button class="yes" onclick="(function(){try{localStorage.setItem('ml_age_ok','1')}catch(e){}document.getElementById('ml-age-gate').style.display='none'})()">はい（18歳以上）</button>
+      <button class="no" onclick="location.href='https://www.google.com/'">いいえ</button>
+    </div>
+  </div>
+</div>
+<script>
+(function(){
+  try{
+    if(localStorage.getItem('ml_age_ok')!=='1'){
+      var g=document.getElementById('ml-age-gate'); if(g) g.style.display='flex';
+    }
+  }catch(e){}
+})();
+</script>
