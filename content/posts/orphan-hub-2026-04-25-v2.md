@@ -175,3 +175,16 @@ noindex: false
   </ul>
 </aside>
 <!-- HUB_INTERLINK_END -->
+
+<!-- TOP6_BOOST_START -->
+
+## TOP6補強・直近デイリー本命
+
+TOP6記事のうち被リンクが薄かったRankingカテゴリを直リンクで補強。
+
+- [【2026-04-13】グッズ総合 デイリーランキングTOP20](/eronavi/posts/2026-04-13-ranking-daily-グッズ総合/) — *アダルトグッズ・オナホ・TENGA・ローション総合*
+- [【2026-04-13】素人 デイリーランキングTOP20](/eronavi/posts/2026-04-13-ranking-daily-素人/) — *素人AV・ハメ撮り・マジックミラー・ナンパ系*
+- [【2026-04-07】グッズ総合 デイリーランキングTOP20](/eronavi/posts/2026-04-07-ranking-daily-グッズ総合/) — *デイリー過去版・グッズ総合 04-07*
+- [【2026-04-07】素人 デイリーランキングTOP20](/eronavi/posts/2026-04-07-ranking-daily-素人/) — *デイリー過去版・素人 04-07*
+
+<!-- TOP6_BOOST_END -->
