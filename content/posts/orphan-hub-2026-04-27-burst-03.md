@@ -190,3 +190,22 @@ noindex: false
 自動投稿で日々追加される記事のうち、まだ内部リンクが集まっていない作品を横断的に紹介し、サイト全体の回遊性とインデックス性を高めることを目的にしています。今回は孤立記事を一気に救済するため、2026-04-27 中に複数のハブページを連続公開しています。
 
 カテゴリページに行けば、同じジャンルの最新作・ランキングも一覧で確認できます。
+
+<!-- HUB_INTERLINK_START -->
+<aside class="hub-interlink" style="margin-top:50px;padding:24px;background:#f0f0f0;border-left:4px solid #6c63ff;border-radius:6px;">
+  <h3 style="margin-top:0;">🌐 関連特集ハブ</h3>
+  <p style="margin:8px 0 12px;color:#444;font-size:14px;">同テーマ・関連女優・関連シリーズを横断チェック</p>
+  <ul style="margin:0;padding-left:20px;line-height:1.9;">
+    <li><a href="/posts/orphan-hub-2026-04-27-burst-08/">サイト内回遊強化・隠し名作1本 (2026-04-27 #8)</a> <span style="color:#888;font-size:12px;">[orphan]</span></li>
+    <li><a href="/posts/orphan-hub-2026-04-27-burst-07/">発掘ハブ・スポット未満の優良50選 (2026-04-27 #7)</a> <span style="color:#888;font-size:12px;">[orphan]</span></li>
+    <li><a href="/posts/orphan-hub-2026-04-27-burst-06/">深掘り派のための隠れた名品50本 (2026-04-27 #6)</a> <span style="color:#888;font-size:12px;">[orphan]</span></li>
+    <li><a href="/posts/orphan-hub-2026-04-27-burst-05/">玄人が選ぶ・回遊用ピックアップ50本 (2026-04-27 #5)</a> <span style="color:#888;font-size:12px;">[orphan]</span></li>
+    <li><a href="/posts/orphan-hub-2026-04-27-burst-04/">ニッチで光る個性派50作品ピックアップ (2026-04-27 #4)</a> <span style="color:#888;font-size:12px;">[orphan]</span></li>
+    <li><a href="/posts/orphan-hub-2026-04-27-burst-02/">今こそ再発見・スポットライト未満の50選 (2026-04-27 #2)</a> <span style="color:#888;font-size:12px;">[orphan]</span></li>
+    <li><a href="/posts/orphan-hub-2026-04-27-burst-01/">次に観るならコレ・通好みの50本 (2026-04-27 #1)</a> <span style="color:#888;font-size:12px;">[orphan]</span></li>
+    <li><a href="/posts/orphan-hub-2026-04-25-v2/">ジャンル横断・埋もれた逸品50選 (2026-04-25)</a> <span style="color:#888;font-size:12px;">[orphan]</span></li>
+    <li><a href="/posts/orphan-hub-2026-04-25/">知る人ぞ知る隠れた名作30選 (2026-04-25)</a> <span style="color:#888;font-size:12px;">[orphan]</span></li>
+    <li><a href="/posts/actress-hub-七沢みあ/">七沢みあ 全作品ガイド【出演AV網羅】</a> <span style="color:#888;font-size:12px;">[actress]</span></li>
+  </ul>
+</aside>
+<!-- HUB_INTERLINK_END -->

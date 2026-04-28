@@ -46,3 +46,22 @@ cover:
 ---
 
 *この記事は 2026-04-25 時点での自動集計です。新作追加時に随時更新。*
+
+<!-- HUB_INTERLINK_START -->
+<aside class="hub-interlink" style="margin-top:50px;padding:24px;background:#f0f0f0;border-left:4px solid #6c63ff;border-radius:6px;">
+  <h3 style="margin-top:0;">🌐 関連特集ハブ</h3>
+  <p style="margin:8px 0 12px;color:#444;font-size:14px;">同テーマ・関連女優・関連シリーズを横断チェック</p>
+  <ul style="margin:0;padding-left:20px;line-height:1.9;">
+    <li><a href="/posts/series-hub-adn/">ADN シリーズ作品ガイド【品番別】</a> <span style="color:#888;font-size:12px;">[series]</span></li>
+    <li><a href="/posts/series-hub-aitfn/">AITFN シリーズ作品ガイド【品番別】</a> <span style="color:#888;font-size:12px;">[series]</span></li>
+    <li><a href="/posts/series-hub-ang/">ANG シリーズ作品ガイド【品番別】</a> <span style="color:#888;font-size:12px;">[series]</span></li>
+    <li><a href="/posts/series-hub-bdmmg/">BDMMG シリーズ作品ガイド【品番別】</a> <span style="color:#888;font-size:12px;">[series]</span></li>
+    <li><a href="/posts/series-hub-btmep/">BTMEP シリーズ作品ガイド【品番別】</a> <span style="color:#888;font-size:12px;">[series]</span></li>
+    <li><a href="/posts/series-hub-doa/">DOA シリーズ作品ガイド【品番別】</a> <span style="color:#888;font-size:12px;">[series]</span></li>
+    <li><a href="/posts/series-hub-glod/">GLOD シリーズ作品ガイド【品番別】</a> <span style="color:#888;font-size:12px;">[series]</span></li>
+    <li><a href="/posts/series-hub-hez/">HEZ シリーズ作品ガイド【品番別】</a> <span style="color:#888;font-size:12px;">[series]</span></li>
+    <li><a href="/posts/series-hub-hole/">HOLE シリーズ作品ガイド【品番別】</a> <span style="color:#888;font-size:12px;">[series]</span></li>
+    <li><a href="/posts/series-hub-huntc/">HUNTC シリーズ作品ガイド【品番別】</a> <span style="color:#888;font-size:12px;">[series]</span></li>
+  </ul>
+</aside>
+<!-- HUB_INTERLINK_END -->
