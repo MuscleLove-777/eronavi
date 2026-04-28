@@ -3,6 +3,7 @@ featured: true
 keywords: ["ランキング", "ASMR", "デイリー", "ASMR デイリーランキングTOP20", "デイリーランキング"]
 title: "【2026-04-07】ASMR デイリーランキングTOP20"
 date: 2026-04-07T03:24:23+09:00
+lastmod: 2026-04-29T08:10:02+09:00
 tags: ["ランキング", "ASMR", "デイリー"]
 categories: ["Ranking"]
 draft: false

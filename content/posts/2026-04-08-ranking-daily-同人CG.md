@@ -1,6 +1,7 @@
 ---
 title: "【2026-04-08】同人CG デイリーランキングTOP20"
 date: 2026-04-08T03:27:33+09:00
+lastmod: 2026-04-29T08:10:02+09:00
 tags: ["ランキング", "同人CG", "デイリー"]
 categories: ["Ranking"]
 draft: false

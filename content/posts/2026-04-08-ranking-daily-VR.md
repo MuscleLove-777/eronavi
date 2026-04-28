@@ -1,6 +1,7 @@
 ---
 title: "【2026-04-08】VR デイリーランキングTOP20"
 date: 2026-04-08T03:27:23+09:00
+lastmod: 2026-04-29T08:10:02+09:00
 tags: ["ランキング", "VR", "デイリー"]
 categories: ["Ranking"]
 draft: false
