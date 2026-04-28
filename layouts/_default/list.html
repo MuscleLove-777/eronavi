@@ -55,6 +55,10 @@
 {{/* ===== HOME PAGE 1st PAGE ONLY ===== */}}
 {{- if and .IsHome (eq $paginator.PageNumber 1) }}
 
+<!-- __HOME_H1__START__ -->
+<h1 class="home-h1">エロナビ | AV総合レビュー</h1>
+<!-- __HOME_H1__END__ -->
+
 <!-- Mini Hero Banner (1行だけ) -->
 <div class="hero-mini">
   <span class="hero-mini-title">エロナビ</span>
@@ -63,6 +67,19 @@
 </div>
 
 <style>
+/* __HOME_H1_CSS__START__ */
+.home-h1 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+/* __HOME_H1_CSS__END__ */
 .hero-mini {
   grid-column: 1 / -1;
   display: flex;
