@@ -1,3 +1,8 @@
+{{- /* __RSS_WEBSUB_HUB__START__ MuscleLove WebSub-enabled RSS for Hugo PaperMod
+       Adds <atom:link rel="hub" href="https://pubsubhubbub.appspot.com/" />
+       to enable Google's public WebSub hub for push delivery.
+       Idempotent marker so future redeploys can detect existing override.
+       eronavi: deployed Wave25-C remediation 2026-04-28. */ -}}
 {{- $authorEmail := "" }}
 {{- with site.Params.author }}
   {{- if reflect.IsMap . }}
@@ -52,6 +57,7 @@
     {{- with .OutputFormats.Get "RSS" }}
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end }}
+    <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     {{- range $pages }}
     {{- if and (ne .Layout `search`) (ne .Layout `archives`) }}
     <item>
@@ -75,3 +81,4 @@
     {{- end }}
   </channel>
 </rss>
+{{- /* __RSS_WEBSUB_HUB__END__ */ -}}
