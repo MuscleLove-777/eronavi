@@ -89,6 +89,10 @@
      念のため明示的に absolute URL の twitter:image を補強(重複は許容、後者優先) */}}
 <meta name="twitter:image" content="{{ printf "%sog-default.png" .Site.BaseURL }}" />
 <meta property="og:image" content="{{ printf "%sog-default.png" .Site.BaseURL }}" />
+{{/* WebP alternate (LCP/転送量改善). PNGより小さい場合あり、対応UAのみ表示 */}}
+<meta property="og:image" content="{{ printf "%sog-default.webp" .Site.BaseURL }}" />
+<meta property="og:image:type" content="image/webp" />
+<link rel="preload" as="image" href="{{ printf "%sog-default.webp" .Site.BaseURL }}" type="image/webp" />
 {{- end }}
 {{/* __OG_IMAGE_FALLBACK__ END */}}
 
