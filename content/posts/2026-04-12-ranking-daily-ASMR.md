@@ -1,6 +1,7 @@
 ---
 title: "【2026-04-12】ASMR デイリーランキングTOP20"
 date: 2026-04-12T03:38:45+09:00
+lastmod: 2026-05-04T08:10:02+09:00
 tags: ["ランキング", "ASMR", "デイリー"]
 categories: ["Ranking"]
 draft: false
