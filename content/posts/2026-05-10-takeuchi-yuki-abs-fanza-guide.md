@@ -2,12 +2,12 @@
 featured: true
 title: "竹内有紀の腹筋・筋肉系FANZA作品まとめ【DMMアフィリ】"
 date: 2026-05-10T00:45:00+09:00
-lastmod: 2026-05-10T00:45:00+09:00
+lastmod: 2026-05-11T23:55:00+09:00
 draft: false
 categories: ["女優", "muscle"]
-tags: ["竹内有紀", "腹筋", "筋肉", "FANZA", "DMMアフィリ", "女優レビュー"]
+tags: ["竹内有紀", "腹筋", "筋肉", "マッスル", "トレーニング", "FANZA", "DMMアフィリ", "女優レビュー"]
 keywords: ["竹内有紀 腹筋", "竹内有紀 筋肉", "竹内有紀 マッスル", "竹内有紀 トレーニング", "腹筋バリキレ AV", "FANZA 筋肉美女"]
-description: "竹内有紀の腹筋・筋肉・マッスル系FANZA作品をDMM/FANZA API確認データで厳選。腹筋バリキレ、筋肉美ボディ、トレーニング、マッスルバー系の検索導線をDMMアフィリリンク付きでまとめた2026年版ガイド。"
+description: "竹内有紀の腹筋・筋肉・マッスル系FANZA作品をDMM/FANZA API確認データで厳選。2026年5月11日再集計の検索件数と、腹筋バリキレ・筋肉美ボディ・トレーニング・マッスルBAR系のDMMアフィリ導線をまとめたガイド。"
 cover:
   image: "https://pics.dmm.co.jp/digital/video/hmn00842/hmn00842pl.jpg"
   alt: "竹内有紀 腹筋・筋肉系FANZA作品まとめ"
@@ -18,7 +18,7 @@ cover:
 
 竹内有紀作品は、単に女優名で探すよりも **腹筋・筋肉・マッスル・トレーニング** の軸で絞ると強いです。FANZA内でも「腹筋バリキレ」「筋肉美ボディ」「トレーニング」「マッスルガールズバー」など、検索意図がかなり具体的なタイトルが拾えます。
 
-本記事では、2026年5月10日にDMM/FANZA APIで確認した作品データをもとに、竹内有紀の腹筋・筋肉系で狙いやすい作品をまとめます。
+本記事では、2026年5月11日にDMM/FANZA APIで再確認した作品データをもとに、竹内有紀の腹筋・筋肉系で狙いやすい作品をまとめます。
 
 <!--more-->
 
@@ -30,9 +30,11 @@ cover:
 | 竹内有紀 筋肉 | 20件 |
 | 竹内有紀 マッスル | 4件 |
 | 竹内有紀 トレーニング | 1件 |
-| 竹内有紀 | 305件 |
+| 竹内有紀 | 306件 |
 
-上記から重複を除いた63件をチェックし、タイトル・ジャンル・出演者に「腹筋」「筋肉」「マッスル」「トレーニング」「汗だく」「肉体美」などが入る作品を優先しました。
+上記から取得した候補を重複除外し、スコア対象113件をチェック。タイトル・ジャンル・出演者に「腹筋」「筋肉」「マッスル」「トレーニング」「汗だく」「肉体美」などが入る作品を優先しました。
+
+2026年5月11日の再集計では、スコア上位は **hmn00842 / jur00701 / cjod00506 / cjod00488 / pred00472 / hmn00737**。腹筋の一点突破は hmn00842 と pred00472、筋肉・トレーニング・マッスル文脈の広がりは jur00701・cjod00506・cjod00488 が強いです。
 
 <div style="display:flex;gap:12px;flex-wrap:wrap;margin:1.5em 0;">
   <a href="https://www.dmm.co.jp/digital/videoa/-/list/search/=/searchstr=%E7%AB%B9%E5%86%85%E6%9C%89%E7%B4%80+%E8%85%B9%E7%AD%8B/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored" style="display:inline-block;padding:10px 18px;background:#e63946;color:#fff;text-decoration:none;border-radius:6px;font-weight:bold;">FANZAで竹内有紀 腹筋を探す</a>
@@ -157,11 +159,12 @@ cover:
     <tr><th>品番</th><th>切り口</th><th>DMM/FANZA</th></tr>
   </thead>
   <tbody>
-    <tr><td>cjod00500</td><td>筋肉美ボディ女教師</td><td><a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=cjod00500/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored">見る</a></td></tr>
     <tr><td>hmn00799</td><td>筋肉トレーナーNTR</td><td><a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=hmn00799/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored">見る</a></td></tr>
+    <tr><td>cjod00500</td><td>筋肉美ボディ女教師</td><td><a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=cjod00500/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored">見る</a></td></tr>
+    <tr><td>cjod00392</td><td>汗だく痴女軸</td><td><a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=cjod00392/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored">見る</a></td></tr>
     <tr><td>pred00448</td><td>筋肉美ボディな陸上部顧問</td><td><a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=pred00448/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored">見る</a></td></tr>
+    <tr><td>pbd00366</td><td>初BEST8時間SPECIAL</td><td><a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=pbd00366/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored">見る</a></td></tr>
     <tr><td>pbd00385</td><td>キレッキレボディ系ベスト盤</td><td><a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=pbd00385/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored">見る</a></td></tr>
-    <tr><td>pbd00485</td><td>プレミアム全作品収録BEST</td><td><a href="https://www.dmm.co.jp/digital/videoa/-/detail/=/cid=pbd00485/?af_id=pinky2400-990" target="_blank" rel="nofollow sponsored">見る</a></td></tr>
   </tbody>
 </table>
 
@@ -181,15 +184,16 @@ cover:
 
 ## まとめ
 
-竹内有紀で腹筋・筋肉系を集めるなら、まずは **hmn00842 / pred00472 / jur00701 / cjod00488 / cjod00506 / hmn00737** を柱にするのがよさそうです。
+竹内有紀で腹筋・筋肉系を集めるなら、まずは **hmn00842 / jur00701 / cjod00506 / cjod00488 / pred00472 / hmn00737** を柱にするのがよさそうです。
 
-検索導線は次の3本に集約します。
+検索導線は次の4本に集約します。
 
 - 竹内有紀 腹筋
 - 竹内有紀 筋肉
 - 竹内有紀 マッスル
+- 竹内有紀 トレーニング
 
-この3語を記事タイトル、内部リンク、SNS投稿文に散らせば、単発作品レビューよりも「筋肉美女ブランドらしい入口」として育てやすいです。
+この4語を記事タイトル、内部リンク、SNS投稿文に散らせば、単発作品レビューよりも「筋肉美女ブランドらしい入口」として育てやすいです。
 
 ---
 
