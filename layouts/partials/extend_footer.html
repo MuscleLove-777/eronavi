@@ -212,6 +212,29 @@ if ('serviceWorker' in navigator) {
 {{ partial "engagement_tracking.html" . }}
 {{/* __ENGAGEMENT_TRACKING__CALL__END__ */}}
 
+<!-- ML_PROMO_CARD_START -->
+{{/* MuscleLove公式CTAカード(X+Patreon)。
+     憲法: 全フッター直前にX+Patreon広告カード必須。
+     標準記事(.IsPage)は本文に同カードを自動挿入済みのため、
+     ここではトップ/カテゴリ/タグ/検索等のリスト系ページのみに出す(二重掲載回避)。 */}}
+{{ if not .IsPage }}
+<div style="max-width:900px;margin:48px auto 0;padding:24px 20px;background:#181a1f;border:1px solid #33363f;border-top:3px solid #e63946;border-radius:10px;text-align:center;">
+  <h3 style="margin:0 0 6px;color:#fff;font-size:1.15rem;">💪 MuscleLove 公式</h3>
+  <p style="margin:0 0 16px;color:#c7ccd4;font-size:0.9rem;">筋肉美女の最新作・限定コンテンツはこちら。フォロー & 支援で応援お願いします。</p>
+  <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center;">
+    <a href="https://www.patreon.com/c/MuscleLove" rel="nofollow" target="_blank"
+       style="display:inline-block;padding:11px 26px;background:#FF424D;color:#fff;text-decoration:none;border-radius:6px;font-weight:bold;font-size:0.95rem;">
+      Patreonで応援
+    </a>
+    <a href="https://x.com/MuscleGirlLove7" rel="nofollow" target="_blank"
+       style="display:inline-block;padding:11px 26px;background:#000;color:#fff;text-decoration:none;border-radius:6px;font-weight:bold;font-size:0.95rem;border:1px solid #333;">
+      Xでフォロー
+    </a>
+  </div>
+</div>
+{{ end }}
+<!-- ML_PROMO_CARD_END -->
+
 <!-- ADULT_NETWORK_FOOTER_START -->
 <footer class="adult-network" style="margin-top:60px;padding:30px 20px;background:#fef2f2;border-top:2px solid #dc2626;font-size:0.9rem;">
   <div style="max-width:900px;margin:0 auto;">
