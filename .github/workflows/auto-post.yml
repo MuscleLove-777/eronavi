@@ -54,5 +54,5 @@ jobs:
           git add content/posts/
           git diff --staged --quiet || (git commit -m "auto: 全ジャンル記事自動生成 $(date +%Y-%m-%d)" && git push)
 
-      - name: Ping Google Sitemap
-        run: python scripts/ping_google.py
+      # NOTE: Google の sitemap ping API は 2023 年に廃止済み。旧 ping_google.py を撤去。
+      # インデックス通知は IndexNow(Bing/Yandex) = dashboard/indexnow_work/submit_indexnow.py で実施する。
