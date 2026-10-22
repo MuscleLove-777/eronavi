@@ -39,10 +39,13 @@
       for (var i=0; i<keys.length; i++){
         var kw = keys[i];
         var url = data[kw];
-        if (!url || currentPath.indexOf(url) !== -1) continue;
+        if (typeof url !== 'string' || !url || currentPath.indexOf(url) !== -1) continue;
+        var parsed;
+        try { parsed = new URL(url, window.location.href); } catch(e){ continue; }
+        if ((parsed.protocol !== 'http:' && parsed.protocol !== 'https:') || parsed.origin !== window.location.origin) continue;
         var idx = text.indexOf(kw);
         if (idx !== -1){
-          matched = { kw: kw, url: url, idx: idx };
+          matched = { kw: kw, url: parsed.href, idx: idx };
           break; // 1 keyword per text node to avoid over-linking
         }
       }
