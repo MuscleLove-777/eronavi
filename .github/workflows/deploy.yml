@@ -4,6 +4,12 @@ on:
   push:
     branches:
       - master
+  # Bot pushes do not start other workflows; run after article generation and daily
+  workflow_run:
+    workflows: ["Auto Post Articles", "Weekly Actress Pages"]
+    types: [completed]
+  schedule:
+    - cron: "30 1 * * *"
   workflow_dispatch:
 
 permissions:

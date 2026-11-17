@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """Generate a FANZA guide article for one actress and one narrow theme.
 
 Example:

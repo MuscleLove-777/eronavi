@@ -50,13 +50,13 @@ def post_to_x(tweet_text):
 
     try:
         import tweepy
-        auth = tweepy.OAuth1UserHandler(api_key, api_secret, access_token, access_secret)
-        api = tweepy.API(auth)
+        v1_handler = tweepy.OAuth1UserHandler(api_key, api_secret, access_token, access_secret)
+        api = tweepy.API(v1_handler)
         client = tweepy.Client(
             consumer_key=api_key,
-            consumer_secret=api_secret,
-            access_token=access_token,
-            access_token_secret=access_secret
+            consumer_secret=os.getenv("X_API_SECRET"),
+            access_token=os.getenv("X_ACCESS_TOKEN"),
+            access_token_secret=os.getenv("X_ACCESS_SECRET")
         )
         client.create_tweet(text=tweet_text)
         print(f"[投稿成功] {tweet_text[:50]}...")
