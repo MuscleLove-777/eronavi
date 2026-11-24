@@ -28,6 +28,8 @@ buildExpired = false
   filename = "sitemap.xml"
 
 [params]
+aiFaq = true
+aiFaqPlatform = "FANZA（DMM）"
   env = "production"
   canonicalURL = true
   description = "実写AV・エロアニメ・同人・ASMR・アダルトグッズ…全ジャンル網羅のアダルト総合レビューサイト。サンプル付きで毎日更新"
