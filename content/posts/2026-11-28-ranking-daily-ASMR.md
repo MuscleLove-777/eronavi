@@ -1,0 +1,555 @@
+---
+title: "【2026-11-28】ASMR デイリーランキングTOP20"
+date: 2026-11-28T01:02:50+09:00
+tags: ["ランキング", "ASMR", "デイリー"]
+categories: ["Ranking"]
+draft: false
+description: "2026-11-28更新のASMRデイリーランキングTOP20。FANZAの売れ筋作品をサンプル画像付きで紹介。"
+cover:
+  image: "https://doujin-assets.dmm.co.jp/digital/comic/d_778609/d_778609pl.jpg"
+  alt: "ASMRデイリーランキング1位"
+  hidden: false
+---
+
+## ASMR デイリーランキング TOP20
+
+**2026-11-28 更新** | FANZAの売れ筋データに基づくランキング
+
+### 🥇 人妻ゴロしの魔眼3 村で唯一の学校の先生:上杉凛（34）の場合─
+
+<div style="display: flex; gap: 16px; margin: 1em 0; flex-wrap: wrap;">
+  <div style="flex: 0 0 200px;">
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_778609%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow">
+      <img src="https://doujin-assets.dmm.co.jp/digital/comic/d_778609/d_778609pl.jpg" alt="ランキング1位" style="width: 200px; border-radius: 8px;" loading="lazy" />
+    </a>
+  </div>
+  <div style="flex: 1; min-width: 200px;">
+    <p><strong>ジャンル:</strong> 女教師 / 人妻・主婦 / SM</p>
+    <p><strong>価格:</strong> 1100</p>
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_778609%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow"
+       style="display: inline-block; padding: 8px 20px; background: #e63946; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 8px;">
+      詳細を見る
+    </a>
+  </div>
+</div>
+
+<div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_778609%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_778609/d_778609jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_778609%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_778609/d_778609jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_778609%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_778609/d_778609jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+</div>
+
+---
+
+### 🥈 【11/26日まで 早期限定340大特典】〜孕ませアトリエ〜 見習い錬金術師のボクと…ドスケベ爆乳女…
+
+<div style="display: flex; gap: 16px; margin: 1em 0; flex-wrap: wrap;">
+  <div style="flex: 0 0 200px;">
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_778498%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow">
+      <img src="https://doujin-assets.dmm.co.jp/digital/game/d_778498/d_778498pl.jpg" alt="ランキング2位" style="width: 200px; border-radius: 8px;" loading="lazy" />
+    </a>
+  </div>
+  <div style="flex: 1; min-width: 200px;">
+    <p><strong>ジャンル:</strong> 3DCG / 処女 / 巨乳</p>
+    <p><strong>価格:</strong> 5500</p>
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_778498%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow"
+       style="display: inline-block; padding: 8px 20px; background: #e63946; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 8px;">
+      詳細を見る
+    </a>
+  </div>
+</div>
+
+<div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_778498%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_778498/d_778498jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_778498%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_778498/d_778498jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_778498%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_778498/d_778498jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+</div>
+
+---
+
+### 🥉 【4本セット】ギャルサバッ！〜無人島でもクラフトしながらハーレムな笑〜
+
+<div style="display: flex; gap: 16px; margin: 1em 0; flex-wrap: wrap;">
+  <div style="flex: 0 0 200px;">
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_842930%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow">
+      <img src="https://doujin-assets.dmm.co.jp/digital/game/d_842930/d_842930pl.jpg" alt="ランキング3位" style="width: 200px; border-radius: 8px;" loading="lazy" />
+    </a>
+  </div>
+  <div style="flex: 1; min-width: 200px;">
+    <p><strong>ジャンル:</strong> 羞恥 / 巨乳 / 野外・露出</p>
+    <p><strong>価格:</strong> 5456</p>
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_842930%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow"
+       style="display: inline-block; padding: 8px 20px; background: #e63946; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 8px;">
+      詳細を見る
+    </a>
+  </div>
+</div>
+
+<div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_842930%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_842930/d_842930jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_842930%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_842930/d_842930jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_842930%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_842930/d_842930jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+</div>
+
+---
+
+### **4位** 同じグループの陽キャヤリチンに仲良い女たちを喰われる陰キャの僕3
+
+<div style="display: flex; gap: 16px; margin: 1em 0; flex-wrap: wrap;">
+  <div style="flex: 0 0 200px;">
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_813305%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow">
+      <img src="https://doujin-assets.dmm.co.jp/digital/comic/d_813305/d_813305pl.jpg" alt="ランキング4位" style="width: 200px; border-radius: 8px;" loading="lazy" />
+    </a>
+  </div>
+  <div style="flex: 1; min-width: 200px;">
+    <p><strong>ジャンル:</strong> 制服 / 学園もの / 恋愛</p>
+    <p><strong>価格:</strong> 693</p>
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_813305%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow"
+       style="display: inline-block; padding: 8px 20px; background: #e63946; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 8px;">
+      詳細を見る
+    </a>
+  </div>
+</div>
+
+<div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_813305%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_813305/d_813305jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_813305%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_813305/d_813305jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_813305%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_813305/d_813305jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+</div>
+
+---
+
+### **5位** 配達先の長乳お姉さんがエロすぎる
+
+<div style="display: flex; gap: 16px; margin: 1em 0; flex-wrap: wrap;">
+  <div style="flex: 0 0 200px;">
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_708748%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow">
+      <img src="https://doujin-assets.dmm.co.jp/digital/comic/d_708748/d_708748pl.jpg" alt="ランキング5位" style="width: 200px; border-radius: 8px;" loading="lazy" />
+    </a>
+  </div>
+  <div style="flex: 1; min-width: 200px;">
+    <p><strong>ジャンル:</strong> ギャル / 巨乳 / 中出し</p>
+    <p><strong>価格:</strong> 99</p>
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_708748%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow"
+       style="display: inline-block; padding: 8px 20px; background: #e63946; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 8px;">
+      詳細を見る
+    </a>
+  </div>
+</div>
+
+<div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_708748%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_708748/d_708748jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_708748%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_708748/d_708748jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_708748%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_708748/d_708748jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+</div>
+
+---
+
+### **6位** 【11/26日まで 早期限定335大特典】【3Dゲーム 音声化版 ×史上最大ボリューム】〜孕ませアト…
+
+<div style="display: flex; gap: 16px; margin: 1em 0; flex-wrap: wrap;">
+  <div style="flex: 0 0 200px;">
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_797525%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow">
+      <img src="https://doujin-assets.dmm.co.jp/digital/voice/d_797525/d_797525pl.jpg" alt="ランキング6位" style="width: 200px; border-radius: 8px;" loading="lazy" />
+    </a>
+  </div>
+  <div style="flex: 1; min-width: 200px;">
+    <p><strong>ジャンル:</strong> ファンタジー / 処女 / 巨乳</p>
+    <p><strong>価格:</strong> 3300</p>
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_797525%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow"
+       style="display: inline-block; padding: 8px 20px; background: #e63946; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 8px;">
+      詳細を見る
+    </a>
+  </div>
+</div>
+
+<div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_797525%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_797525/d_797525jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_797525%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_797525/d_797525jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_797525%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_797525/d_797525jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+</div>
+
+---
+
+### **7位** カノジョの雨音〜幼なじみナースとふたりきりの病室で〜
+
+<div style="display: flex; gap: 16px; margin: 1em 0; flex-wrap: wrap;">
+  <div style="flex: 0 0 200px;">
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_843318%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow">
+      <img src="https://doujin-assets.dmm.co.jp/digital/game/d_843318/d_843318pl.jpg" alt="ランキング7位" style="width: 200px; border-radius: 8px;" loading="lazy" />
+    </a>
+  </div>
+  <div style="flex: 1; min-width: 200px;">
+    <p><strong>ジャンル:</strong> 動画・アニメーション / 音声付き / デモ・体験版あり</p>
+    <p><strong>価格:</strong> 495</p>
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_843318%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow"
+       style="display: inline-block; padding: 8px 20px; background: #e63946; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 8px;">
+      詳細を見る
+    </a>
+  </div>
+</div>
+
+<div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_843318%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_843318/d_843318jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_843318%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_843318/d_843318jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_843318%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_843318/d_843318jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+</div>
+
+---
+
+### **8位** 推しグラドルのえっちな誘惑に1週間耐えられたらヤり放題ハメ放題！禁欲頑張って目指せ推しおまんこ孕ませ…
+
+<div style="display: flex; gap: 16px; margin: 1em 0; flex-wrap: wrap;">
+  <div style="flex: 0 0 200px;">
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_796630%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow">
+      <img src="https://doujin-assets.dmm.co.jp/digital/voice/d_796630/d_796630pl.jpg" alt="ランキング8位" style="width: 200px; border-radius: 8px;" loading="lazy" />
+    </a>
+  </div>
+  <div style="flex: 1; min-width: 200px;">
+    <p><strong>ジャンル:</strong> 巨乳 / アイドル・芸能人 / 中出し</p>
+    <p><strong>価格:</strong> 10</p>
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_796630%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow"
+       style="display: inline-block; padding: 8px 20px; background: #e63946; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 8px;">
+      詳細を見る
+    </a>
+  </div>
+</div>
+
+<div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_796630%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_796630/d_796630jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_796630%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_796630/d_796630jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_796630%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_796630/d_796630jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+</div>
+
+---
+
+### **9位** 【ゲーム】ギャルサバッ！〜無人島でもクラフトしながらハーレムな笑〜
+
+<div style="display: flex; gap: 16px; margin: 1em 0; flex-wrap: wrap;">
+  <div style="flex: 0 0 200px;">
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_726208%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow">
+      <img src="https://doujin-assets.dmm.co.jp/digital/game/d_726208/d_726208pl.jpg" alt="ランキング9位" style="width: 200px; border-radius: 8px;" loading="lazy" />
+    </a>
+  </div>
+  <div style="flex: 1; min-width: 200px;">
+    <p><strong>ジャンル:</strong> 野外・露出 / 中出し / アナル</p>
+    <p><strong>価格:</strong> 2970</p>
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_726208%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow"
+       style="display: inline-block; padding: 8px 20px; background: #e63946; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 8px;">
+      詳細を見る
+    </a>
+  </div>
+</div>
+
+<div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_726208%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_726208/d_726208jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_726208%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_726208/d_726208jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_726208%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_726208/d_726208jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+</div>
+
+---
+
+### **10位** 竿役募集してる推しの爆乳エロ配信者が妹になりました
+
+<div style="display: flex; gap: 16px; margin: 1em 0; flex-wrap: wrap;">
+  <div style="flex: 0 0 200px;">
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_768405%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow">
+      <img src="https://doujin-assets.dmm.co.jp/digital/comic/d_768405/d_768405pl.jpg" alt="ランキング10位" style="width: 200px; border-radius: 8px;" loading="lazy" />
+    </a>
+  </div>
+  <div style="flex: 1; min-width: 200px;">
+    <p><strong>ジャンル:</strong> 巨乳 / 中出し / パイズリ</p>
+    <p><strong>価格:</strong> 44</p>
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_768405%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow"
+       style="display: inline-block; padding: 8px 20px; background: #e63946; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 8px;">
+      詳細を見る
+    </a>
+  </div>
+</div>
+
+<div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_768405%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_768405/d_768405jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_768405%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_768405/d_768405jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_768405%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/comic/d_768405/d_768405jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+</div>
+
+---
+
+### **11位** 【長編】白と黒。二人の大年増エルフ女王の、ロイヤルちんぽねだり子孫繁栄計画♪【KU100】
+
+<div style="display: flex; gap: 16px; margin: 1em 0; flex-wrap: wrap;">
+  <div style="flex: 0 0 200px;">
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_759949%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow">
+      <img src="https://doujin-assets.dmm.co.jp/digital/voice/d_759949/d_759949pl.jpg" alt="ランキング11位" style="width: 200px; border-radius: 8px;" loading="lazy" />
+    </a>
+  </div>
+  <div style="flex: 1; min-width: 200px;">
+    <p><strong>ジャンル:</strong> 熟女 / 巨乳 / 中出し</p>
+    <p><strong>価格:</strong> 1320</p>
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_759949%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow"
+       style="display: inline-block; padding: 8px 20px; background: #e63946; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 8px;">
+      詳細を見る
+    </a>
+  </div>
+</div>
+
+<div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_759949%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_759949/d_759949jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_759949%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_759949/d_759949jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_759949%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_759949/d_759949jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+</div>
+
+---
+
+### **12位** 【Live2D×ASMR】キメセク！地雷ちゃん 〜 推し活しながらパパ活えっち！パキってキマっておー…
+
+<div style="display: flex; gap: 16px; margin: 1em 0; flex-wrap: wrap;">
+  <div style="flex: 0 0 200px;">
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_491022%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow">
+      <img src="https://doujin-assets.dmm.co.jp/digital/game/d_491022/d_491022pl.jpg" alt="ランキング12位" style="width: 200px; border-radius: 8px;" loading="lazy" />
+    </a>
+  </div>
+  <div style="flex: 1; min-width: 200px;">
+    <p><strong>ジャンル:</strong> 動画・アニメーション / 巨乳 / 中出し</p>
+    <p><strong>価格:</strong> 605</p>
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_491022%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow"
+       style="display: inline-block; padding: 8px 20px; background: #e63946; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 8px;">
+      詳細を見る
+    </a>
+  </div>
+</div>
+
+<div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_491022%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_491022/d_491022jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_491022%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_491022/d_491022jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_491022%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/game/d_491022/d_491022jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+</div>
+
+---
+
+### **13位** 【たっぷり長編】因習村の淫らな幼馴染巫女たちと、ミルク＆チン媚びたっぷり子作り神事♪【KU100】
+
+<div style="display: flex; gap: 16px; margin: 1em 0; flex-wrap: wrap;">
+  <div style="flex: 0 0 200px;">
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_710309%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow">
+      <img src="https://doujin-assets.dmm.co.jp/digital/voice/d_710309/d_710309pl.jpg" alt="ランキング13位" style="width: 200px; border-radius: 8px;" loading="lazy" />
+    </a>
+  </div>
+  <div style="flex: 1; min-width: 200px;">
+    <p><strong>ジャンル:</strong> 巫女 / 巨乳 / 中出し</p>
+    <p><strong>価格:</strong> 1320</p>
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_710309%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow"
+       style="display: inline-block; padding: 8px 20px; background: #e63946; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 8px;">
+      詳細を見る
+    </a>
+  </div>
+</div>
+
+<div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_710309%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_710309/d_710309jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_710309%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_710309/d_710309jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_710309%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_710309/d_710309jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+</div>
+
+---
+
+### **14位** 低音クールな暗黒騎士のくっせぇチンコキ穴に支配されて理性崩壊ドスケベ闇堕ち交尾
+
+<div style="display: flex; gap: 16px; margin: 1em 0; flex-wrap: wrap;">
+  <div style="flex: 0 0 200px;">
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_723226%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow">
+      <img src="https://doujin-assets.dmm.co.jp/digital/voice/d_723226/d_723226pl.jpg" alt="ランキング14位" style="width: 200px; border-radius: 8px;" loading="lazy" />
+    </a>
+  </div>
+  <div style="flex: 1; min-width: 200px;">
+    <p><strong>ジャンル:</strong> デモ・体験版あり / 処女 / 中出し</p>
+    <p><strong>価格:</strong> 10</p>
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_723226%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow"
+       style="display: inline-block; padding: 8px 20px; background: #e63946; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 8px;">
+      詳細を見る
+    </a>
+  </div>
+</div>
+
+<div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_723226%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_723226/d_723226jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_723226%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_723226/d_723226jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+</div>
+
+---
+
+### **15位** 無表情×淡々×シスター→なのに即イキ雑魚まんこ♪ 〜まんこイくときは「愛してる」って言えっ！！って調…
+
+<div style="display: flex; gap: 16px; margin: 1em 0; flex-wrap: wrap;">
+  <div style="flex: 0 0 200px;">
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_805271%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow">
+      <img src="https://doujin-assets.dmm.co.jp/digital/voice/d_805271/d_805271pl.jpg" alt="ランキング15位" style="width: 200px; border-radius: 8px;" loading="lazy" />
+    </a>
+  </div>
+  <div style="flex: 1; min-width: 200px;">
+    <p><strong>ジャンル:</strong> シスター / 巨乳 / 中出し</p>
+    <p><strong>価格:</strong> 770</p>
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_805271%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow"
+       style="display: inline-block; padding: 8px 20px; background: #e63946; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 8px;">
+      詳細を見る
+    </a>
+  </div>
+</div>
+
+<div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_805271%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_805271/d_805271jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_805271%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_805271/d_805271jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_805271%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_805271/d_805271jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+</div>
+
+---
+
+### **16位** 退魔剣士と鬼姫様は、ガチ恋嫁で駄々甘ママ♪〜喧嘩する嫁姑たちと仲良くチンハメ鬼ごっこ♪〜【KU100…
+
+<div style="display: flex; gap: 16px; margin: 1em 0; flex-wrap: wrap;">
+  <div style="flex: 0 0 200px;">
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_771358%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow">
+      <img src="https://doujin-assets.dmm.co.jp/digital/voice/d_771358/d_771358pl.jpg" alt="ランキング16位" style="width: 200px; border-radius: 8px;" loading="lazy" />
+    </a>
+  </div>
+  <div style="flex: 1; min-width: 200px;">
+    <p><strong>ジャンル:</strong> 巨乳 / 中出し / アナル</p>
+    <p><strong>価格:</strong> 1320</p>
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_771358%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow"
+       style="display: inline-block; padding: 8px 20px; background: #e63946; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 8px;">
+      詳細を見る
+    </a>
+  </div>
+</div>
+
+<div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_771358%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_771358/d_771358jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_771358%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_771358/d_771358jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_771358%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_771358/d_771358jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+</div>
+
+---
+
+### **17位** わがまま放題→絶対服従！？俺だけのW爆乳孕ませオナホメイド 〜ご主人様の言うことはぜった〜い！！どん…
+
+<div style="display: flex; gap: 16px; margin: 1em 0; flex-wrap: wrap;">
+  <div style="flex: 0 0 200px;">
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_822835%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow">
+      <img src="https://doujin-assets.dmm.co.jp/digital/voice/d_822835/d_822835pl.jpg" alt="ランキング17位" style="width: 200px; border-radius: 8px;" loading="lazy" />
+    </a>
+  </div>
+  <div style="flex: 1; min-width: 200px;">
+    <p><strong>ジャンル:</strong> メイド / 巨乳 / 中出し</p>
+    <p><strong>価格:</strong> 1540</p>
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_822835%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow"
+       style="display: inline-block; padding: 8px 20px; background: #e63946; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 8px;">
+      詳細を見る
+    </a>
+  </div>
+</div>
+
+<div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_822835%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_822835/d_822835jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_822835%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_822835/d_822835jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_822835%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_822835/d_822835jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+</div>
+
+---
+
+### **18位** 【メイド3P】’お屋敷メイドルール♪’発動！ 先輩後輩W母乳メイドはミルクを吸い合うのがお仕事です♪…
+
+<div style="display: flex; gap: 16px; margin: 1em 0; flex-wrap: wrap;">
+  <div style="flex: 0 0 200px;">
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_782868%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow">
+      <img src="https://doujin-assets.dmm.co.jp/digital/voice/d_782868/d_782868pl.jpg" alt="ランキング18位" style="width: 200px; border-radius: 8px;" loading="lazy" />
+    </a>
+  </div>
+  <div style="flex: 1; min-width: 200px;">
+    <p><strong>ジャンル:</strong> メイド / 巨乳 / 中出し</p>
+    <p><strong>価格:</strong> 1320</p>
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_782868%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow"
+       style="display: inline-block; padding: 8px 20px; background: #e63946; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 8px;">
+      詳細を見る
+    </a>
+  </div>
+</div>
+
+<div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_782868%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_782868/d_782868jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_782868%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_782868/d_782868jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_782868%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_782868/d_782868jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+</div>
+
+---
+
+### **19位** 兄貴の彼女になる女の子になっちゃった弟『夏のリゾート編』
+
+<div style="display: flex; gap: 16px; margin: 1em 0; flex-wrap: wrap;">
+  <div style="flex: 0 0 200px;">
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_851504%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow">
+      <img src="https://doujin-assets.dmm.co.jp/digital/voice/d_851504/d_851504pl.jpg" alt="ランキング19位" style="width: 200px; border-radius: 8px;" loading="lazy" />
+    </a>
+  </div>
+  <div style="flex: 1; min-width: 200px;">
+    <p><strong>ジャンル:</strong> デモ・体験版あり / 性転換・女体化 / ラブコメ</p>
+    <p><strong>価格:</strong> 1155</p>
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_851504%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow"
+       style="display: inline-block; padding: 8px 20px; background: #e63946; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 8px;">
+      詳細を見る
+    </a>
+  </div>
+</div>
+
+<div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_851504%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_851504/d_851504jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_851504%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_851504/d_851504jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_851504%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_851504/d_851504jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+</div>
+
+---
+
+### **20位** 【たっぷり長編】敬礼！オマンコ軍人サクラとカレンの誇りある慰安任務活動♪【KU100】
+
+<div style="display: flex; gap: 16px; margin: 1em 0; flex-wrap: wrap;">
+  <div style="flex: 0 0 200px;">
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_725640%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow">
+      <img src="https://doujin-assets.dmm.co.jp/digital/voice/d_725640/d_725640pl.jpg" alt="ランキング20位" style="width: 200px; border-radius: 8px;" loading="lazy" />
+    </a>
+  </div>
+  <div style="flex: 1; min-width: 200px;">
+    <p><strong>ジャンル:</strong> 巨乳 / 中出し / フェラ</p>
+    <p><strong>価格:</strong> 1320</p>
+    <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_725640%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow"
+       style="display: inline-block; padding: 8px 20px; background: #e63946; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 8px;">
+      詳細を見る
+    </a>
+  </div>
+</div>
+
+<div style="display: flex; gap: 8px; margin: 0.5em 0 1.5em;">
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_725640%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_725640/d_725640jp-001.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_725640%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_725640/d_725640jp-002.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+  <a href="https://al.fanza.co.jp/?lurl=https%3A%2F%2Fwww.dmm.co.jp%2Fdc%2Fdoujin%2F-%2Fdetail%2F%3D%2Fcid%3Dd_725640%2F&af_id=pinky2400-990&ch=api" target="_blank" rel="nofollow sponsored"><img src="https://doujin-assets.dmm.co.jp/digital/voice/d_725640/d_725640jp-003.jpg" style="width: 120px; border-radius: 4px;" loading="lazy" /></a>
+</div>
+
+---
+
+
+### MuscleLove
+
+<div style="display: flex; gap: 16px; flex-wrap: wrap; margin: 1.5em 0;">
+  <a href="https://www.patreon.com/c/MuscleLove" rel="nofollow" target="_blank"
+     style="display: inline-block; padding: 10px 24px; background: #FF424D; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold;">
+    MuscleLove on Patreon
+  </a>
+  <a href="https://x.com/MuscleGirlLove7" rel="nofollow" target="_blank"
+     style="display: inline-block; padding: 10px 24px; background: #000; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold;">
+    MuscleLove on X
+  </a>
+  <a href="https://linktr.ee/ILoveMyCats" rel="nofollow" target="_blank"
+     style="display: inline-block; padding: 10px 24px; background: #43e660; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold;">
+    MuscleLove Links
+  </a>
+</div>
+
+<p style="text-align: center; margin: 2em 0 0.5em; font-size: 0.9em; color: #888;">Presented by <strong>MuscleLove</strong></p>
